@@ -5,13 +5,13 @@ using UnityEngine;
 public class TestMath : MonoBehaviour {
     public double Sestoft(int i)
     {
-        double d = (double)(i & 0xFF);
+        double d = 1.1 * (double)(i & 0xFF);
         return d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d;
     }
 
     public double SestoftPow(int i)
     {
-        double d = (double)(i & 0xFF);
+        double d = 1.1 * (double)(i & 0xFF);
         return Mathf.Pow((float) d, 20);
     }
 
