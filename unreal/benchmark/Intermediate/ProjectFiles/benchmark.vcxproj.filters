@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\benchmark.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{61BEE560-1160-48BB-9D44-0D7928734F1B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\benchmark.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\benchmarkEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{75B4DB83-CB9E-473A-A902-935AAE473784}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\benchmark">
+			<UniqueIdentifier>{00CF4F9A-BD22-4451-A858-251C668FB56E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\benchmark\benchmark.Build.cs">
+			<Filter>Source\benchmark</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\benchmark\benchmark.cpp">
+			<Filter>Source\benchmark</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\benchmark\benchmark.h">
+			<Filter>Source\benchmark</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
