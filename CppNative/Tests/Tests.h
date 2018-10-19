@@ -102,7 +102,7 @@ static double lengthVector3D(int i){
 static double dotproduct2D(int i){
     vector<double> v1 = get2DVector(1);
     vector<double> v2 = get2DVector(i);
-    return ((v1[0] * v2[0]) + (v1[1] * v2[1]));
+    return boost::numeric::ublas::inner_prod(v1, v2);
 }
 
 static double dotproduct3D(int i){
