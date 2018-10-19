@@ -1,12 +1,28 @@
-﻿using System;
+using Godot;
+using System;
+using CSharpPerformanceBenchmark;
 
-namespace CSharpPerformanceBenchmark
+public class icon : Sprite
 {
-    class Program
+    // Member variables here, example:
+    // private int a = 2;
+    // private string b = "textvar";
+
+    public override void _Ready()
     {
-        static void Main(string[] args)
+        // Called every time the node is added to the scene.
+        // Initialization here
+        
+    }
+    
+    static double MsToNs(long ms) => ms * 1000000D;
+
+
+    public override void _Process(float delta)
+    {
+        if (Input.IsKeyPressed((int) KeyList.Space))
         {
-            //Benchmark.Mark8("Math test", DoMathStuff, 5, MsToNs(1000));
+            Console.WriteLine("TEST STARTED");
             Console.WriteLine($"{"name".PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
             
             Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
@@ -25,9 +41,6 @@ namespace CSharpPerformanceBenchmark
             Benchmark.Mark8("Prime", Tests.Primes, 5, MsToNs(250));
             Benchmark.Mark8("Sestoft", Tests.Sestoft, 5, MsToNs(250));
         }
-
-        static double MsToNs(long ms) => ms * 1000000D;
-
         
     }
 }
