@@ -31,7 +31,7 @@ namespace CSharpPerformanceBenchmark
 
             double mean = deltaTime / iterations,
                 standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-            Console.WriteLine($"{msg}:\tmean: {mean:F3}ns\tdeviation: {standardDeviation:F3}ns\tcount: {count}");
+            Console.WriteLine($"{msg.PadRight(30, ' ')}\t{mean:F3}ns\t{standardDeviation:F3}ns\t\t{count}");
             return dummy / totalCount;
         }
     }
