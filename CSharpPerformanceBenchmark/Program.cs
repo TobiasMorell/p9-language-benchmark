@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CSharpPerformanceBenchmark
 {
@@ -8,48 +7,27 @@ namespace CSharpPerformanceBenchmark
         static void Main(string[] args)
         {
             //Benchmark.Mark8("Math test", DoMathStuff, 5, MsToNs(1000));
-            Benchmark.Mark8("Prime", Primes, 5, MsToNs(1000));
+            Console.WriteLine($"{"name".PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
+            
+            Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
+            Benchmark.Mark8("ScaleVector3D", Tests.ScaleVector3D, 5, MsToNs(250));
+            Benchmark.Mark8("MultiplyVector2D", Tests.MultiplyVector2D, 5, MsToNs(250));
+            Benchmark.Mark8("MultiplyVector3D", Tests.MultiplyVector3D, 5, MsToNs(250));
+            Benchmark.Mark8("TranslateVector2D", Tests.TranslateVector2D, 5, MsToNs(250));
+            Benchmark.Mark8("TranslateVector3D", Tests.TranslateVector3D, 5, MsToNs(250));
+            Benchmark.Mark8("SubstractVector2D", Tests.SubstractVector2D, 5, MsToNs(250));
+            Benchmark.Mark8("SubstractVector3D", Tests.SubstractVector3D, 5, MsToNs(250));
+            Benchmark.Mark8("LengthVector2D", Tests.LengthVector2D, 5, MsToNs(250));
+            Benchmark.Mark8("LengthVector3D", Tests.LengthVector3D, 5, MsToNs(250));
+            Benchmark.Mark8("Dotproduct2D", Tests.Dotproduct2D, 5, MsToNs(250));
+            Benchmark.Mark8("Dotproduct3D", Tests.Dotproduct3D, 5, MsToNs(250));
+            Benchmark.Mark8("MemTest", Tests.MemTest, 5, MsToNs(250));
+            Benchmark.Mark8("Prime", Tests.Primes, 5, MsToNs(250));
+            Benchmark.Mark8("Sestoft", Tests.Sestoft, 5, MsToNs(250));
         }
 
         static double MsToNs(long ms) => ms * 1000000D;
 
-        static double DoMathStuff(int input)
-        {
-            var x = 1.1 * (input & 0xFF);
-            return x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x;
-        }
         
-        public static double Primes(int number)
-        {            
-            var A = new bool[number + 1];
-            for (int i = 2; i < number + 1; i++)
-            {
-                A[i] = true;
-            }
-
-            for (int i = 2; i < Math.Sqrt(number); i++)
-            {
-                if(A[i])
-                {
-                    var iPow = (int) Math.Pow(i, 2);
-                    var num = 0;
-
-                    for (int j = 0; j < number; j = iPow + num * i)
-                    {
-                        A[i] = false;
-                        num++;
-                    }
-                }
-            }
-
-            var primes = new List<int>();
-            for (int i = 2; i < A.Length; i++)
-            {
-                if (A[i])
-                    primes.Add(i);
-            }
-
-            return primes.Count;
-        }
     }
 }
