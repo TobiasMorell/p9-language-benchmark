@@ -3,38 +3,48 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Test2D {
-    public float Scale(Vector2 v, float scale)
+    public static double Scale(int input)
     {
-        var vScaled = v * scale;
+        var v = new Vector2();
+        var vScaled = v * input;
         return vScaled.x;
     }
 
-    public float Multiply(Vector2 v1, Vector2 v2)
+    public static double Multiply(int input)
     {
-        var vMult = v1 * v2;
+        var v = new Vector2();
+        var v2 = new Vector2(input, input);
+        var vMult = new Vector3(v.x * v2.x, v.y * v2.y);
         return vMult.x;
     }
 
-    public float Translate(Vector2 v1, Vector2 trans)
+    public static double Translate(int input)
     {
-        var vTranslated = v1 + trans;
+        var v = new Vector2();
+        var v2 = new Vector2(input, input);
+        var vTranslated = v + v2;
         return vTranslated.x;
     }
 
-    public float Subtract(Vector2 v1, Vector2 sub)
+    public static double Subtract(int input)
     {
-        var vSub = v1 - sub;
+        var v = new Vector2();
+        var v2 = new Vector2(input, input);
+        var vSub = v2 - v;
         return vSub.x;
     }
 
-    public float Length(Vector2 v)
+    public static double Length(int input)
     {
+        var v = new Vector2(input, input);
         return v.magnitude;
     }
 
-    public float Dot(Vector2 v1, Vector2 v2)
+    public static double Dot(int input)
     {
-        var dot = Vector2.Dot(v1, v2);
+        var v = new Vector2();
+        var v2 = new Vector2(input, input);
+        var dot = Vector2.Dot(v, v2);
         return dot;
     }
 

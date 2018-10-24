@@ -2,33 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestMath : MonoBehaviour {
-    public double Sestoft(int i)
+public class TestMath {
+    public static double Sestoft(int i)
     {
         double d = 1.1 * (double)(i & 0xFF);
         return d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d * d;
     }
 
-    public double SestoftPow(int i)
+    public static double SestoftPow(int i)
     {
         double d = 1.1 * (double)(i & 0xFF);
         return Mathf.Pow((float) d, 20);
     }
 
-    public List<int> Primes(int number)
+    public static double Primes(int number)
     {
-        //Create an array of all true
-        var A = new bool[number + 1];
-        A.SetValue(true, 2, number + 1);
+        var realNumber = 100;
 
-        for (int i = 2; i < Mathf.Sqrt(number); i++)
+        var A = new bool[realNumber + 1];
+        for (int i = 2; i < realNumber + 1; i++)
         {
-            if(A[i])
+            A[i] = true;
+        }
+
+        for (int i = 2; i < Mathf.Sqrt(realNumber); i++)
+        {
+            if (A[i])
             {
-                var iPow = (int) Mathf.Pow(i, 2);
+                var iPow = (int)Mathf.Pow(i, 2);
                 var num = 0;
 
-                for (int j = 0; j < number; j = iPow + num * i)
+                for (int j = 0; j < realNumber; j = iPow + num * i)
                 {
                     A[i] = false;
                     num++;
@@ -37,12 +41,18 @@ public class TestMath : MonoBehaviour {
         }
 
         var primes = new List<int>();
-        for (int i = 0; i < A.Length; i++)
+        for (int i = 2; i < A.Length; i++)
         {
             if (A[i])
                 primes.Add(i);
         }
 
-        return primes;
+        return primes.Count & number;
+    }
+
+    public static double MemTest(int i)
+    {
+        var array = new double[100000];
+        return array.Length + i;
     }
 }
