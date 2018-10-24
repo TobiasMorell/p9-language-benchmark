@@ -9,7 +9,7 @@
 #include <iostream>
 #include <math.h>
 #include <functional>
-#include "Out.hpp"
+#include "../Out.hpp"
 #include "Timer.hpp"
 
 static double Benchmark8(std::string msg, std::function<double (int)> &&fun, int iterations, double minTimeMs){
