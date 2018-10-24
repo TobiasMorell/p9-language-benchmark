@@ -9,7 +9,7 @@
 #include <iostream>
 #include <math.h>
 #include <functional>
-#include <boost/format.hpp>
+#include "Out.hpp"
 #include "Timer.hpp"
 
 static double Benchmark8(std::string msg, std::function<double (int)> &&fun, int iterations, double minTimeMs){
@@ -31,7 +31,7 @@ static double Benchmark8(std::string msg, std::function<double (int)> &&fun, int
         }
     } while (runningTime < minTimeNs && count < INT32_MAX / 2);
     double mean = deltaTime/iterations, standardDeviation = sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-    std::cout << boost::format("%-20s \t\t %-15.3lf ns\t\t %-10.3lf ns\t\t %-10d\n") %msg %mean %standardDeviation %count;
+    printResults(msg, mean, standardDeviation, count);
     return dummy / totalCount;
 }
 
