@@ -1,6 +1,3 @@
-
-/libs/
-.idea/ 
 # Created by https://www.gitignore.io/api/rider
 
 ### Rider ###
@@ -251,3 +248,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+=======
+
+# Created by https://www.gitignore.io/api/c++,unity,godot,rider,visualstudio,unrealengine
+# Edit at https://www.gitignore.io/?templates=c++,unity,godot,rider,visualstudio,unrealengine
