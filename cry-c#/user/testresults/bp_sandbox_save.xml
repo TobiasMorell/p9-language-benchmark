@@ -1,0 +1,136 @@
+<root>
+	<thread name="Main" totalTimeMS="141.214081" startTime="170765073239" stopTime="170765375929" totalBlocks="195"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.364827" startTime="170765073305" stopTime="170765074087" args=""> 
+			<block name="CLog::LogV" totalTimeMS="0.152555" startTime="170765073591" stopTime="170765073918" args=""> 
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="138.290817" startTime="170765074088" stopTime="170765370512" args=""> 
+			<block name="CCryPak::OpenArchive" totalTimeMS="0.268722" startTime="170765074698" stopTime="170765075274" args="assets/main/TerrainTexture.pak"> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.104036" startTime="170765074879" stopTime="170765075102" args=""> 
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="132.963501" startTime="170765085500" stopTime="170765370505" args=""> 
+				<block name="CLog::LogV" totalTimeMS="0.224401" startTime="170765087085" stopTime="170765087566" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="41.737209" startTime="170765094494" stopTime="170765183957" args=""> 
+					<block name="CLog::LogV" totalTimeMS="0.315375" startTime="170765094580" stopTime="170765095256" args=""> 
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.166551" startTime="170765095304" stopTime="170765095661" args=""> 
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.142758" startTime="170765095699" stopTime="170765096005" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Mission.cpp" totalTimeMS="29.134357" startTime="170765096012" stopTime="170765158461" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.819694" startTime="170765103696" stopTime="170765105453" args="assets\libs\environmentpresets\main.xml"> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.606956" startTime="170765104150" stopTime="170765105451" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.846286" startTime="170765130278" stopTime="170765132092" args="assets/main/Layers/Terrain.lyr"> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.625151" startTime="170765130750" stopTime="170765132090" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="1.052959" startTime="170765142585" stopTime="170765144842" args="assets/main/Layers/Main.lyr"> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.828092" startTime="170765143065" stopTime="170765144840" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="1.198517" startTime="170765159022" stopTime="170765161591" args="assets/main/LevelData/TimeOfDay.tmp"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.877544" startTime="170765159706" stopTime="170765161587" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.264056" startTime="170765165734" stopTime="170765166300" args="assets/main/LevelData/TimeOfDay.tmp"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.103570" startTime="170765166049" stopTime="170765166271" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.189878" startTime="170765166319" stopTime="170765166726" args="assets/main/LevelData/TimeOfDay.xml"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="1.130403" startTime="170765168444" stopTime="170765170867" args="assets/main/LevelData/Environment.tmp"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.621885" startTime="170765169532" stopTime="170765170865" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.169817" startTime="170765173690" stopTime="170765174054" args="assets/main/LevelData/Environment.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.117099" startTime="170765174058" stopTime="170765174309" args="assets/main/LevelData/Environment.xml"> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/Log.cpp" totalTimeMS="0.250527" startTime="170765175616" stopTime="170765176153" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameTokens/GameTokenManager.cpp" totalTimeMS="3.349222" startTime="170765176215" stopTime="170765183394" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="1.160728" startTime="170765176428" stopTime="170765178916" args="assets/main/LevelData/GameTokens.tmp"> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.684867" startTime="170765177446" stopTime="170765178914" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.143225" startTime="170765181696" stopTime="170765182003" args="assets/main/LevelData/GameTokens.tmp"> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.117566" startTime="170765182005" stopTime="170765182257" args="assets/main/LevelData/GameTokens.xml"> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.249594" startTime="170765183420" stopTime="170765183955" args=""> 
+						<block name="CLog::LogV" totalTimeMS="0.242129" startTime="170765183432" stopTime="170765183951" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/Plugins/EditorCommon/Util/XmlArchive.cpp" totalTimeMS="5.819967" startTime="170765183960" stopTime="170765196435" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.742716" startTime="170765183968" stopTime="170765185560" args="assets/main/main.level"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.588761" startTime="170765184296" stopTime="170765185558" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/TerrainManager.cpp" totalTimeMS="66.542168" startTime="170765196503" stopTime="170765339135" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/Heightmap.cpp" totalTimeMS="15.916618" startTime="170765232990" stopTime="170765267107" args=""> 
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.275719" startTime="170765267116" stopTime="170765267707" args=""> 
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.122697" startTime="170765267773" stopTime="170765268036" args=""> 
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/TerrainManager.cpp" totalTimeMS="10.927075" startTime="170765339139" stopTime="170765362561" args=""> 
+					<block name="CCryPak::OpenArchive" totalTimeMS="0.201075" startTime="170765339363" stopTime="170765339794" args="assets/main/TerrainTexture.pak"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.787037" startTime="170765339922" stopTime="170765341609" args="assets/main/LevelData/TerrainTexture.tmp"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.588761" startTime="170765340345" stopTime="170765341607" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Vegetation/VegetationMap.cpp" totalTimeMS="3.434130" startTime="170765362566" stopTime="170765369927" args=""> 
+					<block name="CLog::LogV" totalTimeMS="0.249594" startTime="170765362743" stopTime="170765363278" args=""> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.148357" startTime="170765368205" stopTime="170765368523" args="assets/main/LevelData/VegetationMap.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.118965" startTime="170765368527" stopTime="170765368782" args="assets/main/LevelData/VegetationMap.dat"> 
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="2.454883" startTime="170765370514" stopTime="170765375776" args=""> 
+			<block name="CLog::LogV" totalTimeMS="0.250060" startTime="170765370691" stopTime="170765371227" args=""> 
+			</block>
+			<block name="CCryPak::FOpen" totalTimeMS="1.063689" startTime="170765371279" stopTime="170765373559" args="c:\users\tobia\documents\github\language-benchmark\cry-c#\user\sandbox\lastLoadPath.preset"> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.464664" startTime="170765372562" stopTime="170765373558" args=""> 
+				</block>
+			</block>
+		</block>
+	</thread>
+	<thread name="AudioMainThread" totalTimeMS="141.214081" startTime="170765073239" stopTime="170765375929" totalBlocks="12"> 
+		<block name="Audio: Internal Update" totalTimeMS="30.940763" startTime="170765122402" stopTime="170765188723" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.939363" startTime="170765122403" stopTime="170765188721" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.975754" startTime="170765188739" stopTime="170765255135" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.974354" startTime="170765188740" stopTime="170765255133" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.969221" startTime="170765255160" stopTime="170765321542" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.967821" startTime="170765255161" stopTime="170765321540" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="25.365259" startTime="170765321559" stopTime="170765375929" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="25.365259" startTime="170765321559" stopTime="170765375929" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="RenderThread" totalTimeMS="141.214081" startTime="170765073239" stopTime="170765375929" totalBlocks="8"> 
+		<block name="Loop: RenderThread" totalTimeMS="106.983818" startTime="170765146611" stopTime="170765375929" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="106.979614" startTime="170765146620" stopTime="170765375929" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>

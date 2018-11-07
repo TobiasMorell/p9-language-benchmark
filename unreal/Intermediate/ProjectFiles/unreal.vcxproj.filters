@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\unreal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9D972528-8E07-45B0-817B-5AFAE078F2B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\unreal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\unrealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D4B7BC68-9B88-411B-AE78-CA95A3500A05}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\unreal">
+      <UniqueIdentifier>{497A0777-F118-45F1-AA5E-F8552AEC0CDB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\unreal\unreal.Build.cs">
+      <Filter>Source\unreal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\unreal\unreal.cpp">
+      <Filter>Source\unreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\unreal\unreal.h">
+      <Filter>Source\unreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\unreal\unrealGameModeBase.cpp">
+      <Filter>Source\unreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\unreal\unrealGameModeBase.h">
+      <Filter>Source\unreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\unreal\Benchmark.h">
+      <Filter>Source\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\unreal\Timer.h">
+      <Filter>Source\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\unreal\Tests.h">
+      <Filter>Source\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\unreal\BenchmarkPC.h">
+      <Filter>Source\unreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\unreal\Benchmark.cpp">
+      <Filter>Source\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\unreal\Timer.cpp">
+      <Filter>Source\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\unreal\Tests.cpp">
+      <Filter>Source\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\unreal\BenchmarkPC.cpp">
+      <Filter>Source\unreal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="6fb17374-73c5-dfe7-574c-76b9f60fc2c5" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Camera" Layer="Main" LayerGUID="6fb17374-73c5-dfe7-574c-76b9f60fc2c5" Id="1ed2d386-d91c-eba8-f2e4-6c90f747b731" Name="Camera-1" Pos="513,516,32" Rotate="1,0,0,0" ColorRGB="16776960" FOV="1.0472" NearZ="0.25" FarZ="1024" OmniCamera="0" EntityClass="CameraSource" HasEntity="1">
+    <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" CameraShakeSeed="0"/>
+    <Properties />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

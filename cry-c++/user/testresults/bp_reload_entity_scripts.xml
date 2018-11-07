@@ -1,0 +1,6 @@
+<root>
+	<thread name="Main" totalTimeMS="8.343896" startTime="1232172942210" stopTime="1232172960095" totalBlocks="7"> 
+		<block name="CCryPak::IsFileExist" totalTimeMS="0.161886" startTime="1232172942311" stopTime="1232172942658" args=""> 
+		</block>
+	</thread>
+</root>

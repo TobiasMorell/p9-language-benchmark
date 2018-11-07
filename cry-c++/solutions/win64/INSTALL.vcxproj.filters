@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tobia\Documents\GitHub\language-benchmark\cry-c++\solutions\win64\CMakeFiles\a529c1a8fa8e5a3f2387a17dd06f5713\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CE948A2D-5E71-3050-A661-848E475BBE2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

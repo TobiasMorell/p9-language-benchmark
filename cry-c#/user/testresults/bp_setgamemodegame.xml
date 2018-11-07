@@ -1,0 +1,118 @@
+<root>
+	<thread name="Main" totalTimeMS="16.381283" startTime="173426364750" stopTime="173426399863" totalBlocks="47"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="16.352823" startTime="173426364809" stopTime="173426399861" args=""> 
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="0.074645" startTime="173426364950" stopTime="173426365110" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.025659" startTime="173426364953" stopTime="173426365008" args=""> 
+					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.001400" startTime="173426364999" stopTime="173426365002" args=""> 
+					</block>
+				</block>
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.047120" startTime="173426365009" stopTime="173426365110" args=""> 
+					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.000467" startTime="173426365107" stopTime="173426365108" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.003732" startTime="173426365195" stopTime="173426365203" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000933" startTime="173426365220" stopTime="173426365222" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000933" startTime="173426365454" stopTime="173426365456" args=""> 
+			</block>
+			<block name="CLog::LogV" totalTimeMS="0.511317" startTime="173426369646" stopTime="173426370742" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="0.001866" startTime="173426370777" stopTime="173426370781" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.678335" startTime="173426370784" stopTime="173426372238" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="0.627017" startTime="173426370786" stopTime="173426372130" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.402149" startTime="173426371226" stopTime="173426372088" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000467" startTime="173426371296" stopTime="173426371297" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/MaterialEffects/MaterialEffects.cpp" totalTimeMS="0.000933" startTime="173426372133" stopTime="173426372135" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000000" startTime="173426372232" stopTime="173426372232" args=""> 
+				</block>
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001866" startTime="173426372883" stopTime="173426372887" args=""> 
+			</block>
+			<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001866" startTime="173426372989" stopTime="173426372993" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002799" startTime="173426372994" stopTime="173426373000" args=""> 
+			</block>
+			<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.005598" startTime="173426373087" stopTime="173426373099" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000933" startTime="173426373099" stopTime="173426373101" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000933" startTime="173426373181" stopTime="173426373183" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001400" startTime="173426373234" stopTime="173426373237" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000933" startTime="173426373797" stopTime="173426373799" args=""> 
+			</block>
+			<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000933" startTime="173426373856" stopTime="173426373858" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001400" startTime="173426373859" stopTime="173426373862" args=""> 
+			</block>
+			<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001400" startTime="173426373925" stopTime="173426373928" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000933" startTime="173426373928" stopTime="173426373930" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000467" startTime="173426373988" stopTime="173426373989" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001400" startTime="173426374037" stopTime="173426374040" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.000467" startTime="173426377299" stopTime="173426377300" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAISystem/CAISystem.cpp" totalTimeMS="0.264989" startTime="173426377364" stopTime="173426377932" args=""> 
+				<block name="CTargetTrackManager::Reset" totalTimeMS="0.000000" startTime="173426377380" stopTime="173426377380" args=""> 
+				</block>
+				<block name="CSmartObjectManager::OnSpawn" totalTimeMS="0.000933" startTime="173426377449" stopTime="173426377451" args=""> 
+				</block>
+				<block name="CSmartObjectManager::OnSpawn" totalTimeMS="0.000467" startTime="173426377451" stopTime="173426377452" args=""> 
+				</block>
+				<block name="CMNMPathfinder::WaitForJobsToFinish" totalTimeMS="0.002333" startTime="173426377858" stopTime="173426377863" args=""> 
+				</block>
+			</block>
+			<block name="CEntitiesComponentPropertyCache::StoreEntities" totalTimeMS="0.154888" startTime="173426377946" stopTime="173426378278" args=""> 
+				<block name="CEntitiesComponentPropertyCache::StoreComponent" totalTimeMS="0.004665" startTime="173426377952" stopTime="173426377962" args=""> 
+				</block>
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="173426378382" stopTime="173426378382" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="173426378382" stopTime="173426378382" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="173426378483" stopTime="173426378483" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.085842" startTime="173426378483" stopTime="173426378667" args=""> 
+			</block>
+			<block name="CKeyboard::Update" totalTimeMS="0.000933" startTime="173426399316" stopTime="173426399318" args=""> 
+			</block>
+			<block name="CMouse::Update" totalTimeMS="0.001400" startTime="173426399726" stopTime="173426399729" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000000" startTime="173426399827" stopTime="173426399827" args=""> 
+			</block>
+			<block name="CObjManager::ClearStatObjGarbage" totalTimeMS="0.000933" startTime="173426399859" stopTime="173426399861" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="RenderThread" totalTimeMS="16.381283" startTime="173426364750" stopTime="173426399863" totalBlocks="5"> 
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.017262" startTime="173426365047" stopTime="173426365084" args=""> 
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.011197" startTime="173426365085" stopTime="173426365109" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.010730" startTime="173426365086" stopTime="173426365109" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="16.213799" startTime="173426365109" stopTime="173426399863" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="16.213331" startTime="173426365110" stopTime="173426399863" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="AudioMainThread" totalTimeMS="16.381283" startTime="173426364750" stopTime="173426399863" totalBlocks="3"> 
+		<block name="Audio: Internal Update" totalTimeMS="0.006998" startTime="173426396394" stopTime="173426396409" args=""> 
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="1.610929" startTime="173426396410" stopTime="173426399863" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="1.610463" startTime="173426396411" stopTime="173426399863" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>
