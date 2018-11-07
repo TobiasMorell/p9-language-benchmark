@@ -146,8 +146,7 @@ static double prime100Test(int number){
             primes.push_back(i);
     }
 
-<<<<<<< Updated upstream
-    return primes[realNumber - 1] & number;
+    return primes[primes.size() - 1] & number;
 }
 
 static double memTest(int i){
@@ -156,14 +155,3 @@ static double memTest(int i){
 }
 
 #endif //NATIVE_TESTS_H
-=======
-    return primes.size() & number;
-}
-
-static double memTest(int i){
-    std::array<double, 100000> arry;
-    return arry.size() + i;
-}
-
-#endif //NATIVE_TESTS_H
->>>>>>> Stashed changes
