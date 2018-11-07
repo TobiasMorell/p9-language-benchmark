@@ -24,6 +24,9 @@ namespace CSharpPerformanceBenchmark
             Benchmark.Mark8("MemTest", Tests.MemTest, 5, MsToNs(250));
             Benchmark.Mark8("Prime", Tests.Primes, 5, MsToNs(250));
             Benchmark.Mark8("Sestoft", Tests.Sestoft, 5, MsToNs(250));
+
+            Console.WriteLine("Done! Press 'Enter' to exit");
+            Console.ReadLine();
         }
 
         static double MsToNs(long ms) => ms * 1000000D;

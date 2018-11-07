@@ -1,7 +1,10 @@
+<<<<<<< Updated upstream
+=======
 //
 // Created by tgm on 18/10/18.
 //
 
+>>>>>>> Stashed changes
 #include <cmath>
 #include <boost/numeric/ublas/vector.hpp>
 #include <boost/numeric/ublas/io.hpp>
@@ -112,7 +115,7 @@ static double dotproduct3D(int i){
 }
 
 static double prime100Test(int number){
-    auto realNumber = 100;
+    const int realNumber = 100;
     bool A[realNumber + 1];
 
 
@@ -143,12 +146,24 @@ static double prime100Test(int number){
             primes.push_back(i);
     }
 
+<<<<<<< Updated upstream
     return primes[realNumber - 1] & number;
 }
 
 static double memTest(int i){
-    std::array<double, 100000> arry{};
+    std::array<double, 100000> arry{0};
     return arry.size() + i;
 }
 
 #endif //NATIVE_TESTS_H
+=======
+    return primes.size() & number;
+}
+
+static double memTest(int i){
+    std::array<double, 100000> arry;
+    return arry.size() + i;
+}
+
+#endif //NATIVE_TESTS_H
+>>>>>>> Stashed changes

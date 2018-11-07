@@ -1,9 +1,32 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Benchmark : MonoBehaviour {
+
+    string fileName = "MyFile.txt";
+    static StreamWriter benchLog;
+
+    void Start()
+    {
+        if (File.Exists(fileName))
+        {
+            Debug.Log(fileName + " already exists.");
+            return;
+        }
+        benchLog = File.CreateText(fileName);
+    }
+
+    private void OnDestroy()
+    {
+        benchLog.Flush();
+        benchLog.Close();
+    }
+
+
     public static double Mark8(string msg, Func<int, double> fun,
             int iterations, double minTime)
     {
@@ -31,7 +54,7 @@ public class Benchmark : MonoBehaviour {
 
         double mean = deltaTime / iterations,
             standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-        Console.WriteLine($"{msg.PadRight(30, ' ')}\t{mean}ns\t{standardDeviation}ns\t\t{count}");
+        benchLog.WriteLine($"{msg.PadRight(30, ' ')}\t{mean}ns\t{standardDeviation}ns\t\t{count}");
         return dummy / totalCount;
     }
 
@@ -42,7 +65,7 @@ public class Benchmark : MonoBehaviour {
         {
             testRun = true;
             //Benchmark.Mark8("Math test", DoMathStuff, 5, MsToNs(1000));
-            Debug.Log($"{name.PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
+            benchLog.WriteLine($"{name.PadRight(30, ' ')}\tmean\t\tdeviation\tcount\n");
 
             Benchmark.Mark8("ScaleVector2D", Test2D.Scale, 5, MsToNs(250));
             Benchmark.Mark8("ScaleVector3D", Test3D.Scale, 5, MsToNs(250));
