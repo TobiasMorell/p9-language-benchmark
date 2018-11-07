@@ -143,11 +143,11 @@ static double prime100Test(int number){
             primes.push_back(i);
     }
 
-    return primes.size() & number;
+    return primes[realNumber - 1] & number;
 }
 
 static double memTest(int i){
-    std::array<double, 100000> arry;
+    std::array<double, 100000> arry{};
     return arry.size() + i;
 }
 
