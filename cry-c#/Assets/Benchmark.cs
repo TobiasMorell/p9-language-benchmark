@@ -53,7 +53,7 @@ namespace CryEngine.Game
 
             double mean = deltaTime / iterations,
                 standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-            CryEngine.Log.ToFile<Benchmark>($"{msg.PadRight(30, ' ')}\t{mean:F3}ns\t{standardDeviation:F3}ns\t\t{count}");
+            CryEngine.Log.ToFile<Benchmark>($"{msg},{mean},{standardDeviation},{count}");
             return dummy / totalCount;
         }
 
@@ -67,17 +67,23 @@ namespace CryEngine.Game
 
         private bool IsTestsStarted = false;
 
-		/// <summary>
-		/// Called once every frame when the game is running.
-		/// </summary>
-		/// <param name="frameTime">The time difference between this and the previous frame.</param>
-		protected override void OnUpdate(float frameTime)
+#if DEBUG
+        private string mode = "debug";
+#else
+        private string mode = "release";
+#endif
+
+        /// <summary>
+        /// Called once every frame when the game is running.
+        /// </summary>
+        /// <param name="frameTime">The time difference between this and the previous frame.</param>
+        protected override void OnUpdate(float frameTime)
 		{
 			if(Input.KeyDown(KeyId.Space) && !IsTestsStarted)
             {
                 IsTestsStarted = true;
-                CryEngine.Log.FileName = "benchmark.log";
-                CryEngine.Log.ToFile<Benchmark>($"{"name".PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
+                CryEngine.Log.FileName = "Cry C# .csv";
+                CryEngine.Log.ToFile<Benchmark>($"Test,Mean,Deviation,Count");
 
                 Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
                 Benchmark.Mark8("ScaleVector3D", Tests.ScaleVector3D, 5, MsToNs(250));

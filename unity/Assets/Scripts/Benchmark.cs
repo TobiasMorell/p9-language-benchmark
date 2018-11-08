@@ -11,16 +11,15 @@ public class Benchmark : MonoBehaviour {
 
     public static void OpenLogFile(string filename)
     {
-        if (Application.isEditor)
-            mode = "editor";
-        else
-            mode = "release";
-
         var curDir = Directory.GetCurrentDirectory();
         Debug.Log(curDir);
-        var fullPath = $"{curDir}/../results/{filename}";
+        string fullPath;
+        if(Application.isEditor)
+            fullPath = $"{curDir}/../results/{filename}";
+        else
+            fullPath = $"{curDir}/../../results/{filename}";
 
-        if(File.Exists(fullPath))
+        if (File.Exists(fullPath))
         {
             Debug.Log("Deleting old result file");
             File.Delete(fullPath);
@@ -28,7 +27,7 @@ public class Benchmark : MonoBehaviour {
 
         LogFile = new StreamWriter(fullPath);
 
-        LogFile.WriteLine("Test,Message,Mean,Deviation,Count");
+        LogFile.WriteLine("Test,Mean,Deviation,Count");
     }
 
     public static void CloseLogFile()
@@ -39,6 +38,10 @@ public class Benchmark : MonoBehaviour {
 
     void Start()
     {
+        if (Application.isEditor)
+            mode = "editor";
+        else
+            mode = "release";
         OpenLogFile($"Unity C# ({mode}).csv");
     }
 
@@ -75,7 +78,7 @@ public class Benchmark : MonoBehaviour {
 
         double mean = deltaTime / iterations,
             standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-        LogFile.WriteLine($"{msg.PadRight(30, ' ')}\t{mean}ns\t{standardDeviation}ns\t\t{count}");
+        LogFile.WriteLine($"{msg},{mean},{standardDeviation},{count}");
         return dummy / totalCount;
     }
 
