@@ -47,12 +47,12 @@ public class TestMath {
                 primes.Add(i);
         }
 
-        return primes.Count & number;
+        return primes[primes.Count - 1] & number;
     }
 
     public static double MemTest(int i)
     {
         var array = new double[100000];
-        return array.Length + i;
+        return array.Length & i;
     }
 }

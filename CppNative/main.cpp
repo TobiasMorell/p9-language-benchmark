@@ -3,10 +3,18 @@
 #include "Benchmark8/Benchmark8.hpp"
 #include "Tests/Tests.h"
 #include <boost/format.hpp>
+#include "Out.hpp"
+
+#ifndef NDEBUG
+std::string compile_mode = "debug";
+#else
+std::string compile_mode = "release";
+#endif
 
 int main() {
-    std::cout << boost::format("%-20s \t\t %-15.3lf  \t\t %-10.3lf  \t\t %-10d\n") %"Message" %"Mean" %"Deviation" %"Count";
-    std::cout << "\n";
+    std::string filename = "WSL C++ (" + compile_mode + ").csv";
+    open_file(&filename);
+    print_header();
 
     Benchmark8("Scale2D", scaleVector2D, 5, 250);
     Benchmark8("Scale3D", scaleVector3D, 5, 250);
@@ -23,6 +31,8 @@ int main() {
     Benchmark8("Primes100", prime100Test, 5, 250);
     Benchmark8("Memory", memTest, 5, 250);
     Benchmark8("Sestoft", sestoft, 5, 250);
+
+    close_file();
 
     return 0;
 }

@@ -23,7 +23,7 @@ public class icon : Sprite
         if (Input.IsKeyPressed((int) KeyList.Space))
         {
             Console.WriteLine("TEST STARTED");
-            Console.WriteLine($"{"name".PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
+            Benchmark.OpenLogFile("Godot C# (release).csv");
             
             Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
             Benchmark.Mark8("ScaleVector3D", Tests.ScaleVector3D, 5, MsToNs(250));
@@ -40,6 +40,8 @@ public class icon : Sprite
             Benchmark.Mark8("MemTest", Tests.MemTest, 5, MsToNs(250));
             Benchmark.Mark8("Prime", Tests.Primes, 5, MsToNs(250));
             Benchmark.Mark8("Sestoft", Tests.Sestoft, 5, MsToNs(250));
+			
+			Benchmark.CloseLogFile();
         }
         
     }

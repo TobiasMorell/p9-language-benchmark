@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 include_directories(Benchmark8)
 include_directories(Tests)
-#include_directories(libs/boost_1_68_0)
+include_directories(libs/boost_1_68_0)
 
 add_executable(CppNative
         Benchmark8/Benchmark8.hpp

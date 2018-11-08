@@ -4,10 +4,14 @@ namespace CSharpPerformanceBenchmark
 {
     class Program
     {
+#if DEBUG
+        private static string mode = "debug";
+#else
+        private static string mode = "release"; 
+#endif
         static void Main(string[] args)
         {
-            //Benchmark.Mark8("Math test", DoMathStuff, 5, MsToNs(1000));
-            Console.WriteLine($"{"name".PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
+            Benchmark.OpenLogFile($"Dotnet C# ({mode}).csv");
             
             Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
             Benchmark.Mark8("ScaleVector3D", Tests.ScaleVector3D, 5, MsToNs(250));
@@ -25,6 +29,7 @@ namespace CSharpPerformanceBenchmark
             Benchmark.Mark8("Prime", Tests.Primes, 5, MsToNs(250));
             Benchmark.Mark8("Sestoft", Tests.Sestoft, 5, MsToNs(250));
 
+            Benchmark.CloseLogFile();
             Console.WriteLine("Done! Press 'Enter' to exit");
             Console.ReadLine();
         }

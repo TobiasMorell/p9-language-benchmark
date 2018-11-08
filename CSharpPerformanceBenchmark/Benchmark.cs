@@ -1,9 +1,27 @@
 ﻿using System;
+using System.IO;
 
 namespace CSharpPerformanceBenchmark
 {
     public static class Benchmark
     {
+        private static StreamWriter LogFile;
+
+        public static void OpenLogFile(string filename)
+        {
+            var curDir = Directory.GetCurrentDirectory();
+            var fullPath = $"{curDir}/../../../../results/{filename}";
+            LogFile = new StreamWriter(fullPath);
+
+            LogFile.WriteLine("Test,Message,Mean,Deviation,Count");
+        }
+
+        public static void CloseLogFile()
+        {
+            LogFile.Flush();
+            LogFile.Close();
+        }
+
         public static double Mark8(string msg, Func<int, double> fun,
             int iterations, double minTime)
         {
@@ -31,7 +49,8 @@ namespace CSharpPerformanceBenchmark
 
             double mean = deltaTime / iterations,
                 standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-            Console.WriteLine($"{msg.PadRight(30, ' ')}\t{mean:F3}ns\t{standardDeviation:F3}ns\t\t{count}");
+            LogFile.WriteLine($"{msg},{mean},{standardDeviation},{count}");
+            Console.WriteLine($"{msg} done");
             return dummy / totalCount;
         }
     }

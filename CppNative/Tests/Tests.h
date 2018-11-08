@@ -1,10 +1,3 @@
-<<<<<<< Updated upstream
-=======
-//
-// Created by tgm on 18/10/18.
-//
-
->>>>>>> Stashed changes
 #include <cmath>
 #include <boost/numeric/ublas/vector.hpp>
 #include <boost/numeric/ublas/io.hpp>
@@ -149,9 +142,11 @@ static double prime100Test(int number){
     return primes[primes.size() - 1] & number;
 }
 
+
+int rand_num = rand() % 100;
 static double memTest(int i){
     std::array<double, 100000> arry{0};
-    return arry.size() + i;
+    return arry[(i & 0xFF) + rand_num];
 }
 
 #endif //NATIVE_TESTS_H

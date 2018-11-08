@@ -53,7 +53,7 @@ namespace CryEngine.Game
 
             double mean = deltaTime / iterations,
                 standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-            CryEngine.Log.Always<Benchmark>($"{msg.PadRight(30, ' ')}\t{mean:F3}ns\t{standardDeviation:F3}ns\t\t{count}");
+            CryEngine.Log.ToFile<Benchmark>($"{msg.PadRight(30, ' ')}\t{mean:F3}ns\t{standardDeviation:F3}ns\t\t{count}");
             return dummy / totalCount;
         }
 
@@ -76,7 +76,8 @@ namespace CryEngine.Game
 			if(Input.KeyDown(KeyId.Space) && !IsTestsStarted)
             {
                 IsTestsStarted = true;
-                CryEngine.Log.Always<Benchmark>($"{"name".PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
+                CryEngine.Log.FileName = "benchmark.log";
+                CryEngine.Log.ToFile<Benchmark>($"{"name".PadRight(30, ' ')}\tmean\t\tdeviation\tcount");
 
                 Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
                 Benchmark.Mark8("ScaleVector3D", Tests.ScaleVector3D, 5, MsToNs(250));
@@ -94,7 +95,7 @@ namespace CryEngine.Game
                 Benchmark.Mark8("Prime", Tests.Primes, 5, MsToNs(250));
                 Benchmark.Mark8("Sestoft", Tests.Sestoft, 5, MsToNs(250));
 
-                CryEngine.Log.Always<Benchmark>("Done! Press 'Enter' to exit");
+                CryEngine.Log.ToFile<Benchmark>("Done! Press 'Enter' to exit");
                 Console.ReadLine();
             }
 		}

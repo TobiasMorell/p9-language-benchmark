@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-unreal-638.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-unreal-7925.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-unreal-638.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-unreal-7925.pdb",
 			"Type": "SymbolFile"
 		},
 		{

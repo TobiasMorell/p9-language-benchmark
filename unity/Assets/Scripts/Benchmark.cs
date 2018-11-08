@@ -6,24 +6,45 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Benchmark : MonoBehaviour {
+    private static StreamWriter LogFile;
+    private static string mode;
 
-    string fileName = "MyFile.txt";
-    static StreamWriter benchLog;
+    public static void OpenLogFile(string filename)
+    {
+        if (Application.isEditor)
+            mode = "editor";
+        else
+            mode = "release";
+
+        var curDir = Directory.GetCurrentDirectory();
+        Debug.Log(curDir);
+        var fullPath = $"{curDir}/../results/{filename}";
+
+        if(File.Exists(fullPath))
+        {
+            Debug.Log("Deleting old result file");
+            File.Delete(fullPath);
+        }
+
+        LogFile = new StreamWriter(fullPath);
+
+        LogFile.WriteLine("Test,Message,Mean,Deviation,Count");
+    }
+
+    public static void CloseLogFile()
+    {
+        LogFile.Flush();
+        LogFile.Close();
+    }
 
     void Start()
     {
-        if (File.Exists(fileName))
-        {
-            Debug.Log(fileName + " already exists.");
-            return;
-        }
-        benchLog = File.CreateText(fileName);
+        OpenLogFile($"Unity C# ({mode}).csv");
     }
 
     private void OnDestroy()
     {
-        benchLog.Flush();
-        benchLog.Close();
+        CloseLogFile();
     }
 
 
@@ -54,7 +75,7 @@ public class Benchmark : MonoBehaviour {
 
         double mean = deltaTime / iterations,
             standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-        benchLog.WriteLine($"{msg.PadRight(30, ' ')}\t{mean}ns\t{standardDeviation}ns\t\t{count}");
+        LogFile.WriteLine($"{msg.PadRight(30, ' ')}\t{mean}ns\t{standardDeviation}ns\t\t{count}");
         return dummy / totalCount;
     }
 
@@ -64,8 +85,6 @@ public class Benchmark : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space) && !testRun)
         {
             testRun = true;
-            //Benchmark.Mark8("Math test", DoMathStuff, 5, MsToNs(1000));
-            benchLog.WriteLine($"{name.PadRight(30, ' ')}\tmean\t\tdeviation\tcount\n");
 
             Benchmark.Mark8("ScaleVector2D", Test2D.Scale, 5, MsToNs(250));
             Benchmark.Mark8("ScaleVector3D", Test3D.Scale, 5, MsToNs(250));
@@ -83,6 +102,8 @@ public class Benchmark : MonoBehaviour {
             Benchmark.Mark8("Prime", TestMath.Primes, 5, MsToNs(250));
             Benchmark.Mark8("Sestoft", TestMath.Sestoft, 5, MsToNs(250));
             Benchmark.Mark8("SestoftPow", TestMath.SestoftPow, 5, MsToNs(250));
+
+            Debug.Log("Tests done");
         }
     }
 

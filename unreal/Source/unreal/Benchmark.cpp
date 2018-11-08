@@ -8,6 +8,8 @@
 #include <fstream>
 #include <iostream>
 #include <FileHelper.h>
+#include <PlatformFilemanager.h>
+#include <PlatformFile.h>
 
 // Sets default values
 ABenchmark::ABenchmark()
@@ -16,19 +18,57 @@ ABenchmark::ABenchmark()
 	PrimaryActorTick.bCanEverTick = true;
 }
 
+FString SaveDirectory = FString("C:/Users/tobia/Documents/GitHub/language-benchmark/results");
+FString FileName = FString("Unreal C++ (release).csv");
+bool AllowOverwriting = true;
+
+IPlatformFile& PlatformFile = FPlatformFileManager::Get().GetPlatformFile();
+
+std::string test_results = "";
+
+static void write_to_log_file() {
+	// CreateDirectoryTree returns true if the destination
+	// directory existed prior to call or has been created
+	// during the call.
+	if (PlatformFile.CreateDirectoryTree(*SaveDirectory)) {
+		// Get absolute file path
+		FString AbsoluteFilePath = SaveDirectory + "/" + FileName;
+
+		// Allow overwriting or file doesn't already exist
+		if (AllowOverwriting || !PlatformFile.FileExists(*AbsoluteFilePath)) {
+			FFileHelper::SaveStringToFile(FString(test_results.c_str()), *AbsoluteFilePath);
+		}
+	}
+}
+
+static void open_file() {
+	test_results += "Test,Message,Mean,Deviation,Count\n";
+}
+
 // Called when the game starts or when spawned
 void ABenchmark::BeginPlay()
 {
 	Super::BeginPlay();
 	EnableInput(this);
+	open_file();
 	
-	UE_LOG(LogTemp, Warning, TEXT("BeginPlay"));
+	UE_LOG(LogTemp, Warning, TEXT("BeginPlay 2"));
 }
 
 static void printResults(std::string msg, double mean, double standardDeviation, int count) {
-	FString* message = new FString(msg.c_str());
+	test_results += msg + "," + std::to_string(mean) + "," + std::to_string(standardDeviation) + "," + std::to_string(count) + "\n";
+
+	//FString* message = new FString(msg.c_str());
 	//UE_LOG(LogTemp, Warning, TEXT("%s\t%lf\t%lf\t%d"), message, mean, standardDeviation, count);
-	FFileHelper::SaveStringToFile(FString::Printf("%s\t%lf\t%lf\t%d", message, mean, standardDeviation, count), TEXT("benchmark.log"));
+	/*
+	FString* message = new FString(msg.c_str());
+
+	FString log_msg = FString::Printf(UTF8_TO_TCHAR("%s\t%lf\t%lf\t%d"), message, mean, standardDeviation, count);
+	const TCHAR* out_msg = *log_msg;
+	const TCHAR* filename = *FString(UTF8_TO_TCHAR("benchmark.log"));
+
+	FFileHelper::SaveStringToFile(out_msg, filename);
+	*/
 }
 
 static double Benchmark8(std::string msg, std::function<double(int)> &&fun, int iterations, double minTimeMs) {
@@ -74,6 +114,7 @@ void run_benchmark() {
 	Benchmark8("Sestoft", Tests::sestoft, 5, 250);
 
 	UE_LOG(LogTemp, Warning, TEXT("Done with benchmark"));
+	write_to_log_file();
 }
 
 bool is_test_run = false;

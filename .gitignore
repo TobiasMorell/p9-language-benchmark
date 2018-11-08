@@ -298,3 +298,9 @@ DerivedDataCache/*
 
 # Created by https://www.gitignore.io/api/c++,unity,godot,rider,visualstudio,unrealengine
 # Edit at https://www.gitignore.io/?templates=c++,unity,godot,rider,visualstudio,unrealengine
+
+
+WSL-build-debug/
+WSL-build-release/
+*.dll
+*/Binaries/**

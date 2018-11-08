@@ -145,10 +145,10 @@ double Tests::prime100Test(int number) {
 			primes.push_back(i);
 	}
 
-	return primes.size() & number;
+	return primes[primes.size() - 1] & number;
 }
 
 double Tests::memTest(int i) {
-	std::array<double, 100000> arry;
-	return arry.size() + i;
+	std::array<double, 100000> arry{ 0 };
+	return arry.size() & i;
 }
