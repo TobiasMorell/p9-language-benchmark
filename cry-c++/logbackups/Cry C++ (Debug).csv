@@ -1,0 +1,196 @@
+<12:14:59> Loading missions...
+<12:14:59> ---- Start: Load Terrain
+<12:14:59> CRGBLayer::AllocateTiles 2x2 tiles 512 => 1024x1024 texture
+<12:14:59> allocating editor height map (256x256)*4
+<12:14:59> ---- Start: Loading Surface Types
+<12:14:59> ---- End: Loading Surface Types (0 seconds)
+<12:14:59> ---- Start: Loading Terrain Layers Info
+<12:14:59> Loading layer settings...
+<12:14:59> Loading layer texture (engineassets/textures/grey.dds)...
+<12:14:59>   loaded editor layer 0  name='Default' LayerID=0
+<12:14:59> ---- End: Loading Terrain Layers Info (0 seconds)
+<12:14:59> ---- Start: Load Terrain
+<12:14:59> ---- End: Load Terrain (0 seconds)
+<12:14:59> ---- Start: Process RGB Terrain Layers
+<12:14:59> ---- End: Process RGB Terrain Layers (0 seconds)
+<12:14:59> CRGBLayer::AllocateTiles 1x1 tiles 256 => 256x256 texture
+<12:14:59> Loading terrain layers ...
+<12:14:59> Constructing 85 terrain nodes (0.0 MB) <12:14:59>  done in 0.00 sec
+<12:14:59> Loading terrain layers ...
+<12:14:59> ---- End: Load Terrain (0 seconds)
+<12:14:59> ---- Start: Game Engine level load
+<12:14:59> Loading map 'assets/levels/example' into engine...
+<12:14:59> ===== Loading Particle Effects =====
+<12:14:59> ---- End: Game Engine level load (0 seconds)
+<12:14:59> ---- Start: Load MaterialManager
+<12:14:59> ---- End: Load MaterialManager (0 seconds)
+<12:14:59> ---- Start: Load Particles
+<12:14:59> ---- End: Load Particles (0 seconds)
+<12:14:59> ---- Start: Load Flares
+<12:14:59> ---- End: Load Flares (0 seconds)
+<12:14:59> ---- Start: Load GameTokens
+<12:14:59> ---- End: Load GameTokens (0 seconds)
+<12:14:59> Loading View settings...
+<12:14:59> ---- Start: Load Vegetation
+<12:14:59> Loading Vegetation Map...
+<12:14:59> ---- End: Load Vegetation (0 seconds)
+<12:14:59> ---- Start: Updating Surface Types
+<12:14:59> Loading terrain layers ...
+<12:14:59> ---- End: Updating Surface Types (0 seconds)
+<12:14:59> Loading Fog settings...
+<12:14:59> ---- Start: Load Entity Archetypes Database
+<12:14:59> ---- End: Load Entity Archetypes Database (0 seconds)
+<12:14:59> ---- Start: Load Prefabs Database
+<12:14:59> ---- End: Load Prefabs Database (0 seconds)
+<12:14:59> ---- Start: Activating Mission Mission0
+<12:14:59> Loading AI data assets/levels/example, Mission0
+<12:14:59> Finished Loading AI data in  0.001 secs
+<12:14:59> ---- End: Activating Mission Mission0 (0 seconds)
+<12:14:59> ---- Start: Load Level Shader Cache
+<12:14:59> ---- End: Load Level Shader Cache (0 seconds)
+<12:14:59> [LevelLoadTime] Level assets/levels/example loaded in 0 seconds
+<12:14:59> SetGlobalState 1->9 'LEVEL_LOAD_PREPARE'->'LEVEL_LOAD_TEXTURES' 0.6 seconds
+<12:14:59> -- Render thread was idle during level loading: 0.441 secs
+<12:14:59> -- Render thread was busy during level loading: 0.138 secs
+<12:14:59> -- Presort shaders by states...
+<12:14:59> --- 17 Resources, 1 Resource groups.
+<12:14:59> Requesting textures precache ...
+<12:14:59> Textures precache done.
+<12:14:59> SetGlobalState 9->10 'LEVEL_LOAD_TEXTURES'->'LEVEL_LOAD_END' 0.0 seconds
+<12:14:59> File access time during level loading: 0.09 seconds
+<12:14:59> Opening terrain\cover.ctc ...
+<12:14:59>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<12:14:59>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<12:14:59>   RGB multiplier: 1, Texture indices: 5
+<12:14:59> CAIManager: navigation world monitor state: StartedAndPaused -> StartedPausedAndResumePending
+<12:14:59> SetGlobalState 10->13 'LEVEL_LOAD_END'->'RUNNING' 0.1 seconds
+<12:14:59> -----------------------------------------------------------
+<12:14:59> Successfully opened document assets/levels/example/
+<12:14:59> Level loading time: 0.70 seconds
+<12:14:59> -----------------------------------------------------------
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/FogVolume@FogVolumeEllipsoidVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/FogVolume@FogVolumeEllipsoidVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/FogVolume@FogVolumeEllipsoidPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/FogVolume@FogVolumeEllipsoidPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/FogVolume@FogVolumeBoxVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/FogVolume@FogVolumeBoxVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/FogVolume@FogVolumeBoxPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/FogVolume@FogVolumeBoxPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/Water@WaterVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/Water@WaterVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/Water@WaterPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/Water@WaterPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/Water@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/Water@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/WaterOceanBottom@OceanBottomVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/WaterOceanBottom@OceanBottomVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/WaterOceanBottom@OceanBottomPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/WaterOceanBottom@OceanBottomPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/WaterOceanBottom@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/WaterOceanBottom@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/WaterOceanBottom@OceanBottomZpassVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/WaterOceanBottom@OceanBottomZpassVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/WaterOceanBottom@OceanBottomZpassPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/WaterOceanBottom@OceanBottomZpassPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/WaterOceanBottom@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/WaterOceanBottom@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@WaterVolumeIntoVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@WaterVolumeIntoVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@WaterVolumeIntoPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@WaterVolumeIntoPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@WaterVolumeOutofVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@WaterVolumeOutofVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@WaterVolumeOutofPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@WaterVolumeOutofPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@OceanIntoVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@OceanIntoVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@OceanIntoPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@OceanIntoPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@OceanOutofPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@OceanOutofPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/SkyHDR@SkyHDRVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/SkyHDR@SkyHDRVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/SkyHDR@SkyHDRPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/SkyHDR@SkyHDRPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/SkyHDR@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/SkyHDR@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGVShaders/SkyHDR@SkyZVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGVShaders/SkyHDR@SkyZVS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGPShaders/SkyHDR@SkyZPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGPShaders/SkyHDR@SkyZPS
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %USER%/Shaders/Cache/D3D11/CGGShaders/SkyHDR@$AutoGS_MultiRes
+<12:14:59> ---Shader Cache: mfPrecacheAllCombinations() %ENGINE%/Shaders/Cache/D3D11/CGGShaders/SkyHDR@$AutoGS_MultiRes
+<12:14:59> -- Precaching textures...
+<12:14:59> Precaching progress: 10.0% (2 of 13)
+<12:14:59> Precaching progress: 20.0% (3 of 13)
+<12:14:59> Precaching progress: 30.0% (4 of 13)
+<12:14:59> Precaching progress: 40.0% (6 of 13)
+<12:14:59> Precaching progress: 50.0% (7 of 13)
+<12:14:59> Precaching progress: 60.0% (8 of 13)
+<12:14:59> Precaching progress: 70.0% (10 of 13)
+<12:14:59> Precaching progress: 80.0% (11 of 13)
+<12:14:59> Precaching progress: 90.0% (12 of 13)
+<12:14:59> Precaching progress: 100.0% (13 of 13)
+<12:14:59> Precaching textures done in 0.02 seconds
+<12:15:00> CAIManager: navigation world monitor state: StartedPausedAndResumePending -> Stopped
+<12:15:00> CAIManager: navigation world monitor state: Stopped -> Started
+<12:15:01> ui_action.actionSwitch_to_Game
+<12:15:01> general.enter_game_mode
+<12:15:01> Returned: 
+<12:15:01> Returned: 
+<12:15:01> CAIManager: navigation world monitor state: Started -> Stopped
+<12:15:06> Starting benchmark
+<12:15:06> Message,Mean,Deviation,Count
+
+<12:15:09> Scale2D,922.627258,79.522986,262144
+
+<12:15:11> Scale3D,1041.582718,92.726047,262144
+
+<12:15:16> Multiply2D,935.058670,11.151623,524288
+
+<12:15:20> Multiply3D,1309.001999,93.009286,262144
+
+<12:15:22> Translate2D,942.490540,111.121400,262144
+
+<12:15:25> Translate3D,1155.339355,74.729080,262144
+
+<12:15:28> Substract2D,1136.281204,147.618786,262144
+
+<12:15:32> Substract3D,1413.033066,56.332766,262144
+
+<12:15:35> Length2D,544.215050,14.110623,524288
+
+<12:15:38> Length3D,695.128288,28.901361,524288
+
+<12:15:43> DotProduct2D,946.058502,46.323739,524288
+
+<12:15:47> DotProduct3D,1293.168564,123.582518,262144
+
+<12:15:51> Primes100,50299.619141,1842.070050,8192
+
+<12:15:53> Memory,62886.337891,1290.722002,4096
+
+<12:15:56> Sestoft,124.649944,8.116817,2097152
+
+<12:15:56> Benchmark done
+<12:16:00> general.exit_game_mode
+<12:16:00> Returned: 
+<12:16:00> CAIManager: navigation world monitor state: Stopped -> Started
+<12:17:02> Changing resolution...
+<12:17:03> Changing resolution...
+<12:17:03> *** Start clearing render resources ***
+<12:17:03> *** Clearing render resources took 0.2 msec ***
+<12:17:03> Ending game context...
+<12:17:03> Destroying CActionGame instance 00000216D8AA4360 (level="")
+<12:17:04> CSystem::Quit invoked from thread 960 (main is 960)
+<12:17:04> BaseInput - Shutting down all force feedback
+<12:17:04> ActionGame - Shutting down all force feedback
+<12:17:04> System:Quit

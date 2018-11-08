@@ -1,0 +1,1862 @@
+<root>
+	<thread name="Main" totalTimeMS="1235.731323" startTime="1623328474807" stopTime="1623331123576" totalBlocks="3358"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/QT/QtMainFrame.cpp" totalTimeMS="1235.702881" startTime="1623328474852" stopTime="1623331123560" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/QT/QtMainFrame.cpp" totalTimeMS="34.918400" startTime="1623328474886" stopTime="1623328549733" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/QT/QToolTabManager.cpp" totalTimeMS="1188.927490" startTime="1623328550665" stopTime="1623331099111" args=""> 
+				<block name="System: Update" totalTimeMS="0.329370" startTime="1623328843032" stopTime="1623328843738" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.328437" startTime="1623328843034" stopTime="1623328843738" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.130162" startTime="1623328843438" stopTime="1623328843717" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.129229" startTime="1623328843440" stopTime="1623328843717" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.123631" startTime="1623328843450" stopTime="1623328843715" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.120365" startTime="1623328843457" stopTime="1623328843715" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.111967" startTime="1623328843460" stopTime="1623328843700" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.166551" startTime="1623328843885" stopTime="1623328844242" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.164685" startTime="1623328843889" stopTime="1623328844242" args=""> 
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="50.940922" startTime="1623328909768" stopTime="1623329018959" args=""> 
+					<block name="CSystem::RenderEnd" totalTimeMS="50.794430" startTime="1623328910036" stopTime="1623329018913" args=""> 
+						<block name="CD3D9Renderer::EndFrame" totalTimeMS="50.774837" startTime="1623328910075" stopTime="1623329018910" args=""> 
+							<block name="Wait - SyncMainWithRender" totalTimeMS="50.753841" startTime="1623328910119" stopTime="1623329018909" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="0.162819" startTime="1623329138295" stopTime="1623329138644" args=""> 
+				</block>
+				<block name="System: Update" totalTimeMS="0.876144" startTime="1623329149652" stopTime="1623329151530" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.875211" startTime="1623329149653" stopTime="1623329151529" args=""> 
+						<block name="CLog::Update" totalTimeMS="0.515983" startTime="1623329149688" stopTime="1623329150794" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.200142" startTime="1623329151059" stopTime="1623329151488" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.199208" startTime="1623329151061" stopTime="1623329151488" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.193144" startTime="1623329151072" stopTime="1623329151486" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.187545" startTime="1623329151084" stopTime="1623329151486" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.176348" startTime="1623329151090" stopTime="1623329151468" args=""> 
+											<block name="Network Tick Channels" totalTimeMS="0.121298" startTime="1623329151109" stopTime="1623329151369" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.209472" startTime="1623329151780" stopTime="1623329152229" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.205740" startTime="1623329151787" stopTime="1623329152228" args=""> 
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="2.551921" startTime="1623329154367" stopTime="1623329159837" args=""> 
+					<block name="CSystem::RenderEnd" totalTimeMS="2.450684" startTime="1623329154563" stopTime="1623329159816" args=""> 
+						<block name="CD3D9Renderer::EndFrame" totalTimeMS="2.440887" startTime="1623329154581" stopTime="1623329159813" args=""> 
+							<block name="Wait - SyncMainWithRender" totalTimeMS="2.423625" startTime="1623329154617" stopTime="1623329159812" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.567768" startTime="1623329174004" stopTime="1623329175221" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.566368" startTime="1623329174006" stopTime="1623329175220" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.174016" startTime="1623329174075" stopTime="1623329174448" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.227200" startTime="1623329174699" stopTime="1623329175186" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.224868" startTime="1623329174703" stopTime="1623329175185" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.218803" startTime="1623329174714" stopTime="1623329175183" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.212738" startTime="1623329174727" stopTime="1623329175183" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.201075" startTime="1623329174731" stopTime="1623329175162" args=""> 
+											<block name="Network Tick Channels" totalTimeMS="0.131095" startTime="1623329174735" stopTime="1623329175016" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.194543" startTime="1623329175429" stopTime="1623329175846" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.191744" startTime="1623329175435" stopTime="1623329175846" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.303711" startTime="1623329203084" stopTime="1623329203735" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.302312" startTime="1623329203086" stopTime="1623329203734" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.158620" startTime="1623329203372" stopTime="1623329203712" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.157221" startTime="1623329203375" stopTime="1623329203712" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.150689" startTime="1623329203387" stopTime="1623329203710" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.146024" startTime="1623329203396" stopTime="1623329203709" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.138093" startTime="1623329203400" stopTime="1623329203696" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.143691" startTime="1623329203901" stopTime="1623329204209" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.141359" startTime="1623329203906" stopTime="1623329204209" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.263590" startTime="1623329215563" stopTime="1623329216128" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.262657" startTime="1623329215565" stopTime="1623329216128" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.127829" startTime="1623329215833" stopTime="1623329216107" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.126896" startTime="1623329215835" stopTime="1623329216107" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.122697" startTime="1623329215842" stopTime="1623329216105" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.116633" startTime="1623329215855" stopTime="1623329216105" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.108235" startTime="1623329215859" stopTime="1623329216091" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.145557" startTime="1623329216277" stopTime="1623329216589" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.143691" startTime="1623329216281" stopTime="1623329216589" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.183346" startTime="1623329236454" stopTime="1623329236847" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.182880" startTime="1623329236455" stopTime="1623329236847" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.577565" startTime="1623329254314" stopTime="1623329255552" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.576632" startTime="1623329254316" stopTime="1623329255552" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.212271" startTime="1623329254445" stopTime="1623329254900" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.171217" startTime="1623329255163" stopTime="1623329255530" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.169351" startTime="1623329255167" stopTime="1623329255530" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.161420" startTime="1623329255182" stopTime="1623329255528" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.154888" startTime="1623329255196" stopTime="1623329255528" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.147424" startTime="1623329255200" stopTime="1623329255516" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.174016" startTime="1623329268464" stopTime="1623329268837" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.173083" startTime="1623329268465" stopTime="1623329268836" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.821560" startTime="1623329281402" stopTime="1623329283163" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.820160" startTime="1623329281404" stopTime="1623329283162" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.240730" startTime="1623329281548" stopTime="1623329282064" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.334969" startTime="1623329282400" stopTime="1623329283118" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.333103" startTime="1623329282403" stopTime="1623329283117" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.324705" startTime="1623329282418" stopTime="1623329283114" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.319107" startTime="1623329282429" stopTime="1623329283113" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.302312" startTime="1623329282435" stopTime="1623329283083" args=""> 
+											<block name="Network Tick Channels" totalTimeMS="0.217403" startTime="1623329282437" stopTime="1623329282903" args=""> 
+												<block name="CCTPEndpoint:Update" totalTimeMS="0.107302" startTime="1623329282591" stopTime="1623329282821" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.180547" startTime="1623329283421" stopTime="1623329283808" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.175882" startTime="1623329283431" stopTime="1623329283808" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.430141" startTime="1623329304180" stopTime="1623329305102" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.428741" startTime="1623329304182" stopTime="1623329305101" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.216470" startTime="1623329304595" stopTime="1623329305059" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.215537" startTime="1623329304597" stopTime="1623329305059" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.208539" startTime="1623329304609" stopTime="1623329305056" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.202941" startTime="1623329304621" stopTime="1623329305056" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.187079" startTime="1623329304625" stopTime="1623329305026" args=""> 
+											<block name="Network Tick Channels" totalTimeMS="0.112900" startTime="1623329304628" stopTime="1623329304870" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.233732" startTime="1623329305345" stopTime="1623329305846" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.229999" startTime="1623329305353" stopTime="1623329305846" args=""> 
+						<block name="CSystem::RenderEnd" totalTimeMS="0.113367" startTime="1623329305592" stopTime="1623329305835" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.443670" startTime="1623329320905" stopTime="1623329321856" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.442737" startTime="1623329320906" stopTime="1623329321855" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.126896" startTime="1623329320983" stopTime="1623329321255" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.190811" startTime="1623329321416" stopTime="1623329321825" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.189411" startTime="1623329321418" stopTime="1623329321824" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.184746" startTime="1623329321424" stopTime="1623329321820" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.181480" startTime="1623329321431" stopTime="1623329321820" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.168884" startTime="1623329321436" stopTime="1623329321798" args=""> 
+											<block name="Network Tick Channels" totalTimeMS="0.114300" startTime="1623329321438" stopTime="1623329321683" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.211338" startTime="1623329322063" stopTime="1623329322516" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.209006" startTime="1623329322067" stopTime="1623329322515" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.182413" startTime="1623329343431" stopTime="1623329343822" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.181014" startTime="1623329343433" stopTime="1623329343821" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.393752" startTime="1623329377847" stopTime="1623329378691" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.392352" startTime="1623329377849" stopTime="1623329378690" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.106369" startTime="1623329377922" stopTime="1623329378150" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.162819" startTime="1623329378318" stopTime="1623329378667" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.160953" startTime="1623329378322" stopTime="1623329378667" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.153955" startTime="1623329378335" stopTime="1623329378665" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.147424" startTime="1623329378348" stopTime="1623329378664" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.137160" startTime="1623329378353" stopTime="1623329378647" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.142292" startTime="1623329378826" stopTime="1623329379131" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.139959" startTime="1623329378830" stopTime="1623329379130" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.184280" startTime="1623329403379" stopTime="1623329403774" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.183813" startTime="1623329403380" stopTime="1623329403774" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.385821" startTime="1623329436791" stopTime="1623329437618" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.384421" startTime="1623329436792" stopTime="1623329437616" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.144624" startTime="1623329437282" stopTime="1623329437592" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.143691" startTime="1623329437284" stopTime="1623329437592" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.136693" startTime="1623329437297" stopTime="1623329437590" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.132028" startTime="1623329437307" stopTime="1623329437590" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.122697" startTime="1623329437312" stopTime="1623329437575" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.142758" startTime="1623329437754" stopTime="1623329438060" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.140426" startTime="1623329437759" stopTime="1623329438060" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.257058" startTime="1623329542854" stopTime="1623329543405" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.256125" startTime="1623329542856" stopTime="1623329543405" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.123631" startTime="1623329543120" stopTime="1623329543385" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.122697" startTime="1623329543122" stopTime="1623329543385" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.118032" startTime="1623329543131" stopTime="1623329543384" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.114766" startTime="1623329543138" stopTime="1623329543384" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.106369" startTime="1623329543141" stopTime="1623329543369" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.124564" startTime="1623329543545" stopTime="1623329543812" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.121298" startTime="1623329543551" stopTime="1623329543811" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.317707" startTime="1623329588487" stopTime="1623329589168" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.316308" startTime="1623329588489" stopTime="1623329589167" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.116166" startTime="1623329588555" stopTime="1623329588804" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.101237" startTime="1623329588934" stopTime="1623329589151" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.118499" startTime="1623329589268" stopTime="1623329589522" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.117099" startTime="1623329589271" stopTime="1623329589522" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.241196" startTime="1623329625990" stopTime="1623329626507" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.240263" startTime="1623329625992" stopTime="1623329626507" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.128296" startTime="1623329626213" stopTime="1623329626488" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.126896" startTime="1623329626215" stopTime="1623329626487" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.122231" startTime="1623329626224" stopTime="1623329626486" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.118499" startTime="1623329626231" stopTime="1623329626485" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.110568" startTime="1623329626234" stopTime="1623329626471" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.110101" startTime="1623329626637" stopTime="1623329626873" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.108702" startTime="1623329626640" stopTime="1623329626873" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.344299" startTime="1623329664864" stopTime="1623329665602" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.343366" startTime="1623329664866" stopTime="1623329665602" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.121298" startTime="1623329664932" stopTime="1623329665192" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.125497" startTime="1623329665313" stopTime="1623329665582" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.124564" startTime="1623329665315" stopTime="1623329665582" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.120365" startTime="1623329665323" stopTime="1623329665581" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.116633" startTime="1623329665330" stopTime="1623329665580" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.109635" startTime="1623329665332" stopTime="1623329665567" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.100771" startTime="1623329665705" stopTime="1623329665921" args=""> 
+				</block>
+				<block name="System: Update" totalTimeMS="0.291115" startTime="1623329710179" stopTime="1623329710803" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.289715" startTime="1623329710181" stopTime="1623329710802" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.160953" startTime="1623329710421" stopTime="1623329710766" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.159553" startTime="1623329710424" stopTime="1623329710766" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.151156" startTime="1623329710440" stopTime="1623329710764" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.147424" startTime="1623329710448" stopTime="1623329710764" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.138093" startTime="1623329710452" stopTime="1623329710748" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.181480" startTime="1623329711021" stopTime="1623329711410" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.178215" startTime="1623329711027" stopTime="1623329711409" args=""> 
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.406815" startTime="1623329867957" stopTime="1623329868829" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.405415" startTime="1623329867959" stopTime="1623329868828" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.132961" startTime="1623329868031" stopTime="1623329868316" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.134361" startTime="1623329868521" stopTime="1623329868809" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.133428" startTime="1623329868523" stopTime="1623329868809" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.128296" startTime="1623329868533" stopTime="1623329868808" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.124564" startTime="1623329868541" stopTime="1623329868808" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.114766" startTime="1623329868545" stopTime="1623329868791" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.132028" startTime="1623329868985" stopTime="1623329869268" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.129695" startTime="1623329868990" stopTime="1623329869268" args=""> 
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="0.245395" startTime="1623329941084" stopTime="1623329941610" args=""> 
+					<block name="CSystem::RenderEnd" totalTimeMS="0.105902" startTime="1623329941368" stopTime="1623329941595" args=""> 
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="0.156754" startTime="1623329983275" stopTime="1623329983611" args=""> 
+				</block>
+				<block name="System: Update" totalTimeMS="0.179148" startTime="1623330052242" stopTime="1623330052626" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.178681" startTime="1623330052243" stopTime="1623330052626" args=""> 
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="0.387220" startTime="1623330053872" stopTime="1623330054702" args=""> 
+					<block name="CSystem::RenderEnd" totalTimeMS="0.362494" startTime="1623330053918" stopTime="1623330054695" args=""> 
+						<block name="CD3D9Renderer::EndFrame" totalTimeMS="0.359695" startTime="1623330053924" stopTime="1623330054695" args=""> 
+							<block name="Wait - SyncMainWithRender" totalTimeMS="0.353630" startTime="1623330053936" stopTime="1623330054694" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.291115" startTime="1623330135370" stopTime="1623330135994" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.290648" startTime="1623330135371" stopTime="1623330135994" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.111967" startTime="1623330135739" stopTime="1623330135979" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.111034" startTime="1623330135741" stopTime="1623330135979" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.107302" startTime="1623330135748" stopTime="1623330135978" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.104503" startTime="1623330135754" stopTime="1623330135978" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.106835" startTime="1623330136088" stopTime="1623330136317" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.104969" startTime="1623330136092" stopTime="1623330136317" args=""> 
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="42.805099" startTime="1623330190572" stopTime="1623330282324" args=""> 
+					<block name="CSystem::RenderEnd" totalTimeMS="42.747250" startTime="1623330190675" stopTime="1623330282303" args=""> 
+						<block name="CD3D9Renderer::EndFrame" totalTimeMS="42.739319" startTime="1623330190690" stopTime="1623330282301" args=""> 
+							<block name="Wait - SyncMainWithRender" totalTimeMS="42.729053" startTime="1623330190711" stopTime="1623330282300" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="0.267788" startTime="1623330318549" stopTime="1623330319123" args=""> 
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="0.113833" startTime="1623330350392" stopTime="1623330350636" args=""> 
+				</block>
+				<block name="System: Update" totalTimeMS="1.085616" startTime="1623330359148" stopTime="1623330361475" args=""> 
+					<block name="CSystem::Update" totalTimeMS="1.084217" startTime="1623330359151" stopTime="1623330361475" args=""> 
+						<block name="CLog::Update" totalTimeMS="0.694664" startTime="1623330359222" stopTime="1623330360711" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.221602" startTime="1623330360972" stopTime="1623330361447" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.220202" startTime="1623330360975" stopTime="1623330361447" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.214604" startTime="1623330360985" stopTime="1623330361445" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.210405" startTime="1623330360994" stopTime="1623330361445" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.201075" startTime="1623330360998" stopTime="1623330361429" args=""> 
+											<block name="Network Tick Channels" totalTimeMS="0.131562" startTime="1623330361009" stopTime="1623330361291" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.181014" startTime="1623330361647" stopTime="1623330362035" args=""> 
+					<block name="CRenderViewport::Update" totalTimeMS="0.178215" startTime="1623330361652" stopTime="1623330362034" args=""> 
+					</block>
+				</block>
+				<block name="CRenderViewport::Update" totalTimeMS="8.019191" startTime="1623330363831" stopTime="1623330381020" args=""> 
+					<block name="CSystem::RenderEnd" totalTimeMS="7.952011" startTime="1623330363951" stopTime="1623330380996" args=""> 
+						<block name="CD3D9Renderer::EndFrame" totalTimeMS="7.943147" startTime="1623330363967" stopTime="1623330380993" args=""> 
+							<block name="Wait - SyncMainWithRender" totalTimeMS="7.930551" startTime="1623330363993" stopTime="1623330380992" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.425009" startTime="1623330486673" stopTime="1623330487584" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.423143" startTime="1623330486676" stopTime="1623330487583" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.130162" startTime="1623330486755" stopTime="1623330487034" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.166551" startTime="1623330487206" stopTime="1623330487563" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.165152" startTime="1623330487209" stopTime="1623330487563" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.158154" startTime="1623330487222" stopTime="1623330487561" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.153489" startTime="1623330487231" stopTime="1623330487560" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.143225" startTime="1623330487236" stopTime="1623330487543" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.222535" startTime="1623330599626" stopTime="1623330600103" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.221602" startTime="1623330599627" stopTime="1623330600102" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.116633" startTime="1623330599836" stopTime="1623330600086" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.115700" startTime="1623330599838" stopTime="1623330600086" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.111501" startTime="1623330599846" stopTime="1623330600085" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.108235" startTime="1623330599853" stopTime="1623330600085" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.100771" startTime="1623330599856" stopTime="1623330600072" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.298113" startTime="1623330743466" stopTime="1623330744105" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.297180" startTime="1623330743467" stopTime="1623330744104" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.110568" startTime="1623330743848" stopTime="1623330744085" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.109635" startTime="1623330743850" stopTime="1623330744085" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.105902" startTime="1623330743856" stopTime="1623330744083" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.103570" startTime="1623330743861" stopTime="1623330744083" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.223468" startTime="1623330880293" stopTime="1623330880772" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.223002" startTime="1623330880294" stopTime="1623330880772" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.117099" startTime="1623330880504" stopTime="1623330880755" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.115700" startTime="1623330880507" stopTime="1623330880755" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.111034" startTime="1623330880516" stopTime="1623330880754" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.108235" startTime="1623330880522" stopTime="1623330880754" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.100771" startTime="1623330880525" stopTime="1623330880741" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.772574" startTime="1623330962361" stopTime="1623330964017" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.769309" startTime="1623330962367" stopTime="1623330964016" args=""> 
+						<block name="SysUpdate:PeekMessageW" totalTimeMS="0.283184" startTime="1623330962877" stopTime="1623330963484" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.156288" startTime="1623330963661" stopTime="1623330963996" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.154422" startTime="1623330963665" stopTime="1623330963996" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.147890" startTime="1623330963677" stopTime="1623330963994" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.144158" startTime="1623330963685" stopTime="1623330963994" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.135760" startTime="1623330963689" stopTime="1623330963980" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.313975" startTime="1623331035982" stopTime="1623331036655" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.311642" startTime="1623331035986" stopTime="1623331036654" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.166551" startTime="1623331036275" stopTime="1623331036632" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.165152" startTime="1623331036278" stopTime="1623331036632" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="0.158620" startTime="1623331036290" stopTime="1623331036630" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="0.153955" startTime="1623331036300" stopTime="1623331036630" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="0.143691" startTime="1623331036305" stopTime="1623331036613" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="System: Update" totalTimeMS="0.167484" startTime="1623331076461" stopTime="1623331076820" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.166085" startTime="1623331076463" stopTime="1623331076819" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/IEditorImpl.cpp" totalTimeMS="11.400603" startTime="1623331099122" stopTime="1623331123559" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="11.298900" startTime="1623331099228" stopTime="1623331123447" args=""> 
+					<block name="Notify Clear Level Contents" totalTimeMS="0.103103" startTime="1623331099228" stopTime="1623331099449" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="11.076832" startTime="1623331099557" stopTime="1623331123300" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryEntitySystem/EntitySystem.cpp" totalTimeMS="0.461399" startTime="1623331099570" stopTime="1623331100559" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/Cry3DEngine/3dEngineLoad.cpp" totalTimeMS="10.016408" startTime="1623331100592" stopTime="1623331122062" args=""> 
+							<block name="CLog::LogV" totalTimeMS="0.108235" startTime="1623331120823" stopTime="1623331121055" args=""> 
+							</block>
+							<block name="SRenderThread::FlushAndWait" totalTimeMS="0.130162" startTime="1623331121292" stopTime="1623331121571" args=""> 
+								<block name="Wait - SyncMainWithRender" totalTimeMS="0.108702" startTime="1623331121338" stopTime="1623331121571" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.504786" startTime="1623331122217" stopTime="1623331123299" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+	<thread name="AudioMainThread" totalTimeMS="1235.731323" startTime="1623328474807" stopTime="1623331123576" totalBlocks="129"> 
+		<block name="Audio: Internal Update" totalTimeMS="30.958492" startTime="1623328516175" stopTime="1623328582534" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.957558" startTime="1623328516176" stopTime="1623328582533" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.988815" startTime="1623328582552" stopTime="1623328648976" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.987417" startTime="1623328582553" stopTime="1623328648974" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.966888" startTime="1623328648999" stopTime="1623328715376" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.964556" startTime="1623328649001" stopTime="1623328715373" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="31.258938" startTime="1623328715402" stopTime="1623328782405" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="31.167030" startTime="1623328715402" stopTime="1623328782208" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.722893" startTime="1623328782427" stopTime="1623328848281" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.720095" startTime="1623328782428" stopTime="1623328848276" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.935165" startTime="1623328848336" stopTime="1623328914645" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.933298" startTime="1623328848337" stopTime="1623328914642" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.924902" startTime="1623328914699" stopTime="1623328980986" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.923967" startTime="1623328914700" stopTime="1623328980985" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.986950" startTime="1623328981004" stopTime="1623329047424" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.985550" startTime="1623328981005" stopTime="1623329047422" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.969221" startTime="1623329047444" stopTime="1623329113826" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.968288" startTime="1623329047444" stopTime="1623329113824" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.975754" startTime="1623329113854" stopTime="1623329180250" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.973886" startTime="1623329113855" stopTime="1623329180247" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.957092" startTime="1623329180331" stopTime="1623329246687" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.953827" startTime="1623329180334" stopTime="1623329246683" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.963623" startTime="1623329246733" stopTime="1623329313103" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.962690" startTime="1623329246733" stopTime="1623329313101" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.937498" startTime="1623329313145" stopTime="1623329379459" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.937031" startTime="1623329313145" stopTime="1623329379458" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="31.005611" startTime="1623329379476" stopTime="1623329445936" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="31.003279" startTime="1623329379477" stopTime="1623329445932" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.961758" startTime="1623329445997" stopTime="1623329512363" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.958025" startTime="1623329445999" stopTime="1623329512357" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.926300" startTime="1623329512382" stopTime="1623329578672" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.925367" startTime="1623329512383" stopTime="1623329578671" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.984150" startTime="1623329578693" stopTime="1623329645107" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.982752" startTime="1623329578694" stopTime="1623329645105" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.969221" startTime="1623329645132" stopTime="1623329711514" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.967356" startTime="1623329645134" stopTime="1623329711512" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.965023" startTime="1623329711545" stopTime="1623329777918" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.964090" startTime="1623329711545" stopTime="1623329777916" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.979952" startTime="1623329777938" stopTime="1623329844343" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.978086" startTime="1623329777939" stopTime="1623329844340" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="31.032669" startTime="1623329844373" stopTime="1623329910891" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="31.031736" startTime="1623329844373" stopTime="1623329910889" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.935165" startTime="1623329910911" stopTime="1623329977220" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.932365" startTime="1623329910911" stopTime="1623329977214" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.913239" startTime="1623329977290" stopTime="1623330043552" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.912306" startTime="1623329977291" stopTime="1623330043551" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.976686" startTime="1623330043575" stopTime="1623330109973" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.975754" startTime="1623330043576" stopTime="1623330109972" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="31.085388" startTime="1623330109995" stopTime="1623330176626" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="31.084455" startTime="1623330109996" stopTime="1623330176625" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.848391" startTime="1623330176664" stopTime="1623330242787" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.846991" startTime="1623330176666" stopTime="1623330242786" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.984150" startTime="1623330242807" stopTime="1623330309221" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.983217" startTime="1623330242807" stopTime="1623330309219" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.969221" startTime="1623330309254" stopTime="1623330375636" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.967356" startTime="1623330309255" stopTime="1623330375633" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.940296" startTime="1623330375696" stopTime="1623330442016" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.939363" startTime="1623330375697" stopTime="1623330442015" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.975754" startTime="1623330442034" stopTime="1623330508430" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.974354" startTime="1623330442035" stopTime="1623330508428" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.976686" startTime="1623330508447" stopTime="1623330574845" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.973886" startTime="1623330508447" stopTime="1623330574839" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="31.037334" startTime="1623330574863" stopTime="1623330641391" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="31.034069" startTime="1623330574864" stopTime="1623330641385" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.881048" startTime="1623330641479" stopTime="1623330707672" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.879181" startTime="1623330641481" stopTime="1623330707670" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.964556" startTime="1623330707690" stopTime="1623330774062" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.963623" startTime="1623330707691" stopTime="1623330774061" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.998613" startTime="1623330774080" stopTime="1623330840525" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.994881" startTime="1623330774081" stopTime="1623330840518" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.928167" startTime="1623330840587" stopTime="1623330906881" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.926300" startTime="1623330840589" stopTime="1623330906879" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.976686" startTime="1623330906897" stopTime="1623330973295" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.975286" startTime="1623330906898" stopTime="1623330973293" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.976686" startTime="1623330973316" stopTime="1623331039714" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.974819" startTime="1623330973317" stopTime="1623331039711" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="0.198275" startTime="1623331039716" stopTime="1623331040141" args=""> 
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="28.353386" startTime="1623331040141" stopTime="1623331100916" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="28.352453" startTime="1623331040142" stopTime="1623331100915" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="10.442817" startTime="1623331100949" stopTime="1623331123333" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="10.442350" startTime="1623331100949" stopTime="1623331123332" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="RenderThread" totalTimeMS="1235.731323" startTime="1623328474807" stopTime="1623331123576" totalBlocks="2296"> 
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="5.866153" startTime="1623328848896" stopTime="1623328861470" args=""> 
+			<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="3.083299" startTime="1623328849103" stopTime="1623328855712" args=""> 
+				<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="3.081433" startTime="1623328849106" stopTime="1623328855711" args=""> 
+					<block name="Renderer:CTexture_ReleaseDeviceTexture" totalTimeMS="0.347565" startTime="1623328849119" stopTime="1623328849864" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="4.475426" startTime="1623328861515" stopTime="1623328871108" args=""> 
+			<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.077219" startTime="1623328861678" stopTime="1623328863987" args=""> 
+				<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.073486" startTime="1623328861684" stopTime="1623328863985" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="3.052508" startTime="1623328871118" stopTime="1623328877661" args=""> 
+			<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.514117" startTime="1623328871161" stopTime="1623328872263" args=""> 
+				<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.513650" startTime="1623328871162" stopTime="1623328872263" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="3.644069" startTime="1623328877670" stopTime="1623328885481" args=""> 
+			<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.500587" startTime="1623328877712" stopTime="1623328878785" args=""> 
+				<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.500121" startTime="1623328877713" stopTime="1623328878785" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="2.440421" startTime="1623328885492" stopTime="1623328890723" args=""> 
+		</block>
+		<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="47.655148" startTime="1623328890763" stopTime="1623328992911" args=""> 
+			<block name="Renderer:RT_BeginFrame" totalTimeMS="47.651882" startTime="1623328890768" stopTime="1623328992909" args=""> 
+				<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.263123" startTime="1623328894553" stopTime="1623328895117" args=""> 
+				</block>
+				<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.153955" startTime="1623328895175" stopTime="1623328895505" args=""> 
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.331703" startTime="1623328895580" stopTime="1623328896291" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.331237" startTime="1623328895581" stopTime="1623328896291" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.323772" startTime="1623328896318" stopTime="1623328897012" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.322839" startTime="1623328896319" stopTime="1623328897011" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.872412" startTime="1623328897041" stopTime="1623328898911" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.871945" startTime="1623328897041" stopTime="1623328898910" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.579431" startTime="1623328898924" stopTime="1623328900166" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.579431" startTime="1623328898924" stopTime="1623328900166" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.772108" startTime="1623328900184" stopTime="1623328901839" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.772108" startTime="1623328900184" stopTime="1623328901839" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.979714" startTime="1623328901842" stopTime="1623328903942" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.978314" startTime="1623328901843" stopTime="1623328903940" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.861215" startTime="1623328903952" stopTime="1623328905798" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.860282" startTime="1623328903953" stopTime="1623328905797" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.180322" startTime="1623328905814" stopTime="1623328908344" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.177523" startTime="1623328905817" stopTime="1623328908341" args=""> 
+					</block>
+				</block>
+				<block name="CTexture::GetOrCreate2DTexture" totalTimeMS="0.263123" startTime="1623328908520" stopTime="1623328909084" args=""> 
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.246795" startTime="1623328908553" stopTime="1623328909082" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.245395" startTime="1623328908556" stopTime="1623328909082" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.010971" startTime="1623328909798" stopTime="1623328911965" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.009572" startTime="1623328909799" stopTime="1623328911963" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.281093" startTime="1623328911994" stopTime="1623328914740" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.279226" startTime="1623328911996" stopTime="1623328914738" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.830424" startTime="1623328914783" stopTime="1623328916563" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.829025" startTime="1623328914784" stopTime="1623328916561" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.120139" startTime="1623328916583" stopTime="1623328918984" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.119206" startTime="1623328916584" stopTime="1623328918983" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.420344" startTime="1623328918997" stopTime="1623328919898" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.419411" startTime="1623328918999" stopTime="1623328919898" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.411946" startTime="1623328919904" stopTime="1623328920787" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.411946" startTime="1623328919904" stopTime="1623328920787" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.408681" startTime="1623328920792" stopTime="1623328921668" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.408681" startTime="1623328920792" stopTime="1623328921668" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.414746" startTime="1623328921674" stopTime="1623328922563" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.414746" startTime="1623328921674" stopTime="1623328922563" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.434806" startTime="1623328922570" stopTime="1623328923502" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.434340" startTime="1623328922570" stopTime="1623328923501" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.411946" startTime="1623328923509" stopTime="1623328924392" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.411946" startTime="1623328923509" stopTime="1623328924392" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.413812" startTime="1623328924398" stopTime="1623328925285" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.413812" startTime="1623328924398" stopTime="1623328925285" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.368559" startTime="1623328925292" stopTime="1623328926082" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.368093" startTime="1623328925293" stopTime="1623328926082" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.386287" startTime="1623328926087" stopTime="1623328926915" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.385821" startTime="1623328926087" stopTime="1623328926914" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.278519" startTime="1623328926920" stopTime="1623328927517" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.278519" startTime="1623328926920" stopTime="1623328927517" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.281318" startTime="1623328927521" stopTime="1623328928124" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.280851" startTime="1623328927522" stopTime="1623328928124" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.422210" startTime="1623328928129" stopTime="1623328929034" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.421743" startTime="1623328928129" stopTime="1623328929033" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.403549" startTime="1623328929040" stopTime="1623328929905" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.403549" startTime="1623328929040" stopTime="1623328929905" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.371825" startTime="1623328929911" stopTime="1623328930708" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.371825" startTime="1623328929911" stopTime="1623328930708" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.313508" startTime="1623328930713" stopTime="1623328931385" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.313508" startTime="1623328930713" stopTime="1623328931385" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.302778" startTime="1623328931390" stopTime="1623328932039" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.301845" startTime="1623328931391" stopTime="1623328932038" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.292981" startTime="1623328932043" stopTime="1623328932671" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.292981" startTime="1623328932043" stopTime="1623328932671" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.523914" startTime="1623328932676" stopTime="1623328933799" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.523914" startTime="1623328932676" stopTime="1623328933799" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.432940" startTime="1623328933805" stopTime="1623328934733" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.432940" startTime="1623328933805" stopTime="1623328934733" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.391419" startTime="1623328934740" stopTime="1623328935579" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.391419" startTime="1623328934740" stopTime="1623328935579" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.108702" startTime="1623328935585" stopTime="1623328935818" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.108235" startTime="1623328935585" stopTime="1623328935817" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.297180" startTime="1623328935822" stopTime="1623328936459" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.296247" startTime="1623328935823" stopTime="1623328936458" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.329837" startTime="1623328936464" stopTime="1623328937171" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.329837" startTime="1623328936464" stopTime="1623328937171" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.328437" startTime="1623328937176" stopTime="1623328937880" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.328437" startTime="1623328937176" stopTime="1623328937880" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.323772" startTime="1623328937886" stopTime="1623328938580" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.323772" startTime="1623328937886" stopTime="1623328938580" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.121764" startTime="1623328938694" stopTime="1623328938955" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.121764" startTime="1623328938694" stopTime="1623328938955" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.293448" startTime="1623328938961" stopTime="1623328939590" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.293448" startTime="1623328938961" stopTime="1623328939590" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.102637" startTime="1623328939595" stopTime="1623328939815" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.102637" startTime="1623328939595" stopTime="1623328939815" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.121764" startTime="1623328939916" stopTime="1623328940177" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.121764" startTime="1623328939916" stopTime="1623328940177" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.537910" startTime="1623328940823" stopTime="1623328941976" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.536977" startTime="1623328940824" stopTime="1623328941975" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="2.911616" startTime="1623328942231" stopTime="1623328948472" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="2.911150" startTime="1623328942232" stopTime="1623328948472" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.004440" startTime="1623328948476" stopTime="1623328950629" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.004440" startTime="1623328948476" stopTime="1623328950629" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.343608" startTime="1623328950632" stopTime="1623328953512" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.343608" startTime="1623328950632" stopTime="1623328953512" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.547481" startTime="1623328953515" stopTime="1623328956832" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.547015" startTime="1623328953516" stopTime="1623328956832" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.364827" startTime="1623328956836" stopTime="1623328957618" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.364827" startTime="1623328956836" stopTime="1623328957618" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.413812" startTime="1623328957621" stopTime="1623328958508" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.413346" startTime="1623328957622" stopTime="1623328958508" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.686266" startTime="1623328958511" stopTime="1623328959982" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.686266" startTime="1623328958511" stopTime="1623328959982" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.599025" startTime="1623328959986" stopTime="1623328961270" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.599025" startTime="1623328959986" stopTime="1623328961270" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.764643" startTime="1623328961273" stopTime="1623328962912" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.764177" startTime="1623328961274" stopTime="1623328962912" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.388153" startTime="1623328962915" stopTime="1623328963747" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.387687" startTime="1623328962916" stopTime="1623328963747" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.333569" startTime="1623328963751" stopTime="1623328964466" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.333103" startTime="1623328963751" stopTime="1623328964465" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.311176" startTime="1623328964469" stopTime="1623328965136" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.310709" startTime="1623328964470" stopTime="1623328965136" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.346632" startTime="1623328965140" stopTime="1623328965883" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.346632" startTime="1623328965140" stopTime="1623328965883" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.353164" startTime="1623328965886" stopTime="1623328966643" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.352230" startTime="1623328965887" stopTime="1623328966642" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.127363" startTime="1623328966655" stopTime="1623328966928" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.126430" startTime="1623328966656" stopTime="1623328966927" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.111501" startTime="1623328966934" stopTime="1623328967173" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.111501" startTime="1623328966934" stopTime="1623328967173" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="4.460964" startTime="1623328967720" stopTime="1623328977282" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="4.460031" startTime="1623328967721" stopTime="1623328977281" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.100771" startTime="1623328977291" stopTime="1623328977507" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.100304" startTime="1623328977292" stopTime="1623328977507" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.379756" startTime="1623328977510" stopTime="1623328978324" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.378823" startTime="1623328977511" stopTime="1623328978323" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.538843" startTime="1623328978329" stopTime="1623328979484" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.538843" startTime="1623328978329" stopTime="1623328979484" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.494522" startTime="1623328979487" stopTime="1623328980547" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.494522" startTime="1623328979487" stopTime="1623328980547" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.488924" startTime="1623328980554" stopTime="1623328981602" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.488457" startTime="1623328980554" stopTime="1623328981601" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.530445" startTime="1623328981605" stopTime="1623328982742" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.530445" startTime="1623328981605" stopTime="1623328982742" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.804765" startTime="1623328982745" stopTime="1623328984470" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.803832" startTime="1623328982746" stopTime="1623328984469" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.358762" startTime="1623328984474" stopTime="1623328985243" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.358295" startTime="1623328984475" stopTime="1623328985243" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.361095" startTime="1623328985247" stopTime="1623328986021" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.360161" startTime="1623328985248" stopTime="1623328986020" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.285517" startTime="1623328986024" stopTime="1623328986636" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.285517" startTime="1623328986024" stopTime="1623328986636" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.375090" startTime="1623328986639" stopTime="1623328987443" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.374624" startTime="1623328986640" stopTime="1623328987443" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.403082" startTime="1623328987446" stopTime="1623328988310" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.402149" startTime="1623328987447" stopTime="1623328988309" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.339634" startTime="1623328988313" stopTime="1623328989041" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.339168" startTime="1623328988313" stopTime="1623328989040" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.983446" startTime="1623328989080" stopTime="1623328991188" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.982980" startTime="1623328989080" stopTime="1623328991187" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.336368" startTime="1623328991347" stopTime="1623328992068" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.335902" startTime="1623328991348" stopTime="1623328992068" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.318174" startTime="1623328992119" stopTime="1623328992801" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.317241" startTime="1623328992120" stopTime="1623328992800" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.129695" startTime="1623328992938" stopTime="1623328993216" args=""> 
+			<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.126430" startTime="1623328992941" stopTime="1623328993212" args=""> 
+			</block>
+		</block>
+		<block name="SRenderThread: eRC_EndFrame" totalTimeMS="11.903057" startTime="1623328993217" stopTime="1623329018731" args=""> 
+			<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="11.901657" startTime="1623328993219" stopTime="1623329018730" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="20.923889" startTime="1623329018735" stopTime="1623329063585" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="1.685574" startTime="1623329018737" stopTime="1623329022350" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="0.101237" startTime="1623329022402" stopTime="1623329022619" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.146491" startTime="1623329022644" stopTime="1623329022958" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.142758" startTime="1623329022647" stopTime="1623329022953" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="18.951864" startTime="1623329022959" stopTime="1623329063582" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="18.949999" startTime="1623329022962" stopTime="1623329063581" args=""> 
+					<block name="FLUSH GPU HEAPS" totalTimeMS="0.425009" startTime="1623329023673" stopTime="1623329024584" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="40.060966" startTime="1623329063586" stopTime="1623329149456" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="35.008442" startTime="1623329063588" stopTime="1623329138628" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="4.899036" startTime="1623329138951" stopTime="1623329149452" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="4.897636" startTime="1623329138952" stopTime="1623329149450" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="4.788002" startTime="1623329149457" stopTime="1623329159720" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="1.282492" startTime="1623329149460" stopTime="1623329152209" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="0.132495" startTime="1623329152250" stopTime="1623329152534" args=""> 
+				<block name="Renderer:RT_BeginFrame" totalTimeMS="0.128296" startTime="1623329152256" stopTime="1623329152531" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.249127" startTime="1623329152616" stopTime="1623329153150" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.245862" startTime="1623329152619" stopTime="1623329153146" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="3.062772" startTime="1623329153151" stopTime="1623329159716" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="3.060440" startTime="1623329153154" stopTime="1623329159714" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="2.409630" startTime="1623329159725" stopTime="1623329164890" args=""> 
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.229999" startTime="1623329160039" stopTime="1623329160532" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.227200" startTime="1623329160041" stopTime="1623329160528" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="2.031740" startTime="1623329160533" stopTime="1623329164888" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="2.028008" startTime="1623329160539" stopTime="1623329164886" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.284888" startTime="1623329164891" stopTime="1623329184793" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="5.104309" startTime="1623329164892" stopTime="1623329175833" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.151622" startTime="1623329176061" stopTime="1623329176386" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.149290" startTime="1623329176063" stopTime="1623329176383" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="3.920255" startTime="1623329176387" stopTime="1623329184790" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="3.918389" startTime="1623329176390" stopTime="1623329184789" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.931033" startTime="1623329184793" stopTime="1623329206080" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="9.051156" startTime="1623329184798" stopTime="1623329204199" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.711459" startTime="1623329204553" stopTime="1623329206078" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.710526" startTime="1623329204554" stopTime="1623329206077" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="7.021283" startTime="1623329206080" stopTime="1623329221130" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="4.896703" startTime="1623329206082" stopTime="1623329216578" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.131562" startTime="1623329216800" stopTime="1623329217082" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.129229" startTime="1623329216802" stopTime="1623329217079" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="1.886182" startTime="1623329217083" stopTime="1623329221126" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="1.884316" startTime="1623329217085" stopTime="1623329221124" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="10.136306" startTime="1623329221130" stopTime="1623329242857" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="7.456555" startTime="1623329221136" stopTime="1623329237119" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="2.510400" startTime="1623329237472" stopTime="1623329242853" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="2.508534" startTime="1623329237474" stopTime="1623329242851" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="6.993757" startTime="1623329242857" stopTime="1623329257848" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="6.062096" startTime="1623329242861" stopTime="1623329255855" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.758578" startTime="1623329256220" stopTime="1623329257846" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.757179" startTime="1623329256222" stopTime="1623329257845" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.455638" startTime="1623329257848" stopTime="1623329278116" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="5.257331" startTime="1623329257850" stopTime="1623329269119" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="4.064413" startTime="1623329269402" stopTime="1623329278114" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="4.063480" startTime="1623329269403" stopTime="1623329278113" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="3.903926" startTime="1623329278117" stopTime="1623329286485" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="2.645227" startTime="1623329278119" stopTime="1623329283789" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="0.128296" startTime="1623329283820" stopTime="1623329284095" args=""> 
+				<block name="Renderer:RT_BeginFrame" totalTimeMS="0.124564" startTime="1623329283827" stopTime="1623329284094" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.139493" startTime="1623329284115" stopTime="1623329284414" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.134361" startTime="1623329284121" stopTime="1623329284409" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.963385" startTime="1623329284415" stopTime="1623329286480" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.960586" startTime="1623329284419" stopTime="1623329286478" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.964156" startTime="1623329286486" stopTime="1623329307844" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="9.024564" startTime="1623329286490" stopTime="1623329305834" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.753447" startTime="1623329306227" stopTime="1623329307842" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.752514" startTime="1623329306228" stopTime="1623329307841" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="8.269252" startTime="1623329307845" stopTime="1623329325570" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="6.835604" startTime="1623329307847" stopTime="1623329322499" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.143225" startTime="1623329322721" stopTime="1623329323028" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.141825" startTime="1623329322722" stopTime="1623329323026" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="1.181722" startTime="1623329323029" stopTime="1623329325562" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="1.178922" startTime="1623329323032" stopTime="1623329325559" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.498559" startTime="1623329325571" stopTime="1623329345931" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="8.647608" startTime="1623329325578" stopTime="1623329344114" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.686266" startTime="1623329344459" stopTime="1623329345930" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.684867" startTime="1623329344461" stopTime="1623329345929" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="16.539902" startTime="1623329345931" stopTime="1623329381384" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="15.482744" startTime="1623329345933" stopTime="1623329379120" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.112900" startTime="1623329379263" stopTime="1623329379505" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.110101" startTime="1623329379264" stopTime="1623329379500" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.875211" startTime="1623329379506" stopTime="1623329381382" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.873811" startTime="1623329379508" stopTime="1623329381381" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="11.482246" startTime="1623329381385" stopTime="1623329405997" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="10.576711" startTime="1623329381387" stopTime="1623329404058" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.761844" startTime="1623329404363" stopTime="1623329405996" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.760911" startTime="1623329404364" stopTime="1623329405995" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="16.323898" startTime="1623329405997" stopTime="1623329440987" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="14.953233" startTime="1623329405998" stopTime="1623329438050" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.127829" startTime="1623329438253" stopTime="1623329438527" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.125963" startTime="1623329438255" stopTime="1623329438525" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="1.146265" startTime="1623329438527" stopTime="1623329440984" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="1.144399" startTime="1623329438530" stopTime="1623329440983" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="49.442894" startTime="1623329440987" stopTime="1623329546967" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="47.965389" startTime="1623329440989" stopTime="1623329543802" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.149290" startTime="1623329544025" stopTime="1623329544345" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.147424" startTime="1623329544027" stopTime="1623329544343" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="1.219977" startTime="1623329544346" stopTime="1623329546961" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="1.217644" startTime="1623329544348" stopTime="1623329546958" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="20.977074" startTime="1623329546968" stopTime="1623329591932" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="19.846203" startTime="1623329546972" stopTime="1623329589512" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.123164" startTime="1623329589695" stopTime="1623329589959" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.120365" startTime="1623329589697" stopTime="1623329589955" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.918598" startTime="1623329589960" stopTime="1623329591929" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.917199" startTime="1623329589962" stopTime="1623329591928" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="17.381058" startTime="1623329591932" stopTime="1623329629188" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="16.296373" startTime="1623329591934" stopTime="1623329626865" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.122697" startTime="1623329627055" stopTime="1623329627318" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.120365" startTime="1623329627057" stopTime="1623329627315" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.871479" startTime="1623329627318" stopTime="1623329629186" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.870079" startTime="1623329627320" stopTime="1623329629185" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="18.181156" startTime="1623329629188" stopTime="1623329668159" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="17.132397" startTime="1623329629189" stopTime="1623329665912" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.879876" startTime="1623329666271" stopTime="1623329668157" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.878943" startTime="1623329666272" stopTime="1623329668156" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="21.488857" startTime="1623329668159" stopTime="1623329714220" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="20.170908" startTime="1623329668161" stopTime="1623329711397" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="0.118965" startTime="1623329711434" stopTime="1623329711689" args=""> 
+				<block name="Renderer:RT_BeginFrame" totalTimeMS="0.114300" startTime="1623329711441" stopTime="1623329711686" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.192211" startTime="1623329711718" stopTime="1623329712130" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.189411" startTime="1623329711721" stopTime="1623329712127" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.972716" startTime="1623329712131" stopTime="1623329714216" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.970383" startTime="1623329712134" stopTime="1623329714214" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="90.024979" startTime="1623329714221" stopTime="1623329907188" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="72.328072" startTime="1623329714222" stopTime="1623329869256" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="2.065797" startTime="1623329869260" stopTime="1623329873688" args=""> 
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.562636" startTime="1623329869312" stopTime="1623329870518" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.561703" startTime="1623329869314" stopTime="1623329870518" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="3.613278" startTime="1623329873736" stopTime="1623329881481" args=""> 
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.831357" startTime="1623329873924" stopTime="1623329875706" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.828558" startTime="1623329873930" stopTime="1623329875706" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="2.364843" startTime="1623329881496" stopTime="1623329886565" args=""> 
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.392819" startTime="1623329881554" stopTime="1623329882396" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.392352" startTime="1623329881555" stopTime="1623329882396" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.448336" startTime="1623329886580" stopTime="1623329887541" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.213204" startTime="1623329887796" stopTime="1623329888253" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.209939" startTime="1623329887800" stopTime="1623329888250" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="8.831887" startTime="1623329888254" stopTime="1623329907185" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="8.829555" startTime="1623329888257" stopTime="1623329907183" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="27.279900" startTime="1623329907188" stopTime="1623329965662" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="16.049112" startTime="1623329907191" stopTime="1623329941592" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="0.106835" startTime="1623329941622" stopTime="1623329941851" args=""> 
+				<block name="Renderer:RT_BeginFrame" totalTimeMS="0.104503" startTime="1623329941626" stopTime="1623329941850" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.339168" startTime="1623329941894" stopTime="1623329942621" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.334969" startTime="1623329941896" stopTime="1623329942614" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="10.745129" startTime="1623329942624" stopTime="1623329965656" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="10.740463" startTime="1623329942631" stopTime="1623329965653" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.158459" startTime="1623329965663" stopTime="1623329985294" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="8.363024" startTime="1623329965668" stopTime="1623329983594" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.656408" startTime="1623329983885" stopTime="1623329985292" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.655009" startTime="1623329983887" stopTime="1623329985291" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="17.563936" startTime="1623329985295" stopTime="1623330022943" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="16.581890" startTime="1623329985296" stopTime="1623330020839" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.816895" startTime="1623330021190" stopTime="1623330022941" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.815495" startTime="1623330021192" stopTime="1623330022940" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="14.797412" startTime="1623330022944" stopTime="1623330054662" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="13.977251" startTime="1623330022946" stopTime="1623330052906" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.680201" startTime="1623330053203" stopTime="1623330054661" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.679268" startTime="1623330053204" stopTime="1623330054660" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="3.954312" startTime="1623330054663" stopTime="1623330063139" args=""> 
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.106369" startTime="1623330054761" stopTime="1623330054989" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.104969" startTime="1623330054762" stopTime="1623330054987" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="3.799424" startTime="1623330054989" stopTime="1623330063133" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="3.798024" startTime="1623330054990" stopTime="1623330063131" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="102.209351" startTime="1623330063140" stopTime="1623330282224" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="34.133232" startTime="1623330063142" stopTime="1623330136306" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="1.555879" startTime="1623330136310" stopTime="1623330139645" args=""> 
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.520181" startTime="1623330136356" stopTime="1623330137471" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.519715" startTime="1623330136357" stopTime="1623330137471" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="4.867778" startTime="1623330139668" stopTime="1623330150102" args=""> 
+				<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.624684" startTime="1623330139773" stopTime="1623330141112" args=""> 
+					<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.623285" startTime="1623330139776" stopTime="1623330141112" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="52.436619" startTime="1623330150133" stopTime="1623330262530" args=""> 
+				<block name="Renderer:RT_BeginFrame" totalTimeMS="52.434284" startTime="1623330150136" stopTime="1623330262528" args=""> 
+					<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.364827" startTime="1623330158766" stopTime="1623330159548" args=""> 
+					</block>
+					<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.295780" startTime="1623330159698" stopTime="1623330160332" args=""> 
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.569634" startTime="1623330160546" stopTime="1623330161767" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.568701" startTime="1623330160548" stopTime="1623330161767" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.508985" startTime="1623330161811" stopTime="1623330162902" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.508052" startTime="1623330161813" stopTime="1623330162902" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.662940" startTime="1623330162983" stopTime="1623330164404" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.662940" startTime="1623330162983" stopTime="1623330164404" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.843953" startTime="1623330164415" stopTime="1623330166224" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.843487" startTime="1623330164415" stopTime="1623330166223" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.494522" startTime="1623330166286" stopTime="1623330167346" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.494056" startTime="1623330166287" stopTime="1623330167346" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.871945" startTime="1623330167349" stopTime="1623330169218" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.871479" startTime="1623330167349" stopTime="1623330169217" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.457200" startTime="1623330169220" stopTime="1623330170200" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.457200" startTime="1623330169220" stopTime="1623330170200" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.448336" startTime="1623330170204" stopTime="1623330171165" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.448336" startTime="1623330170204" stopTime="1623330171165" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.644278" startTime="1623330171548" stopTime="1623330172929" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.643812" startTime="1623330171548" stopTime="1623330172928" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.535110" startTime="1623330172954" stopTime="1623330174101" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.534644" startTime="1623330172954" stopTime="1623330174100" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.487991" startTime="1623330174110" stopTime="1623330175156" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.487991" startTime="1623330174110" stopTime="1623330175156" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.710992" startTime="1623330175161" stopTime="1623330176685" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.710526" startTime="1623330175162" stopTime="1623330176685" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.483792" startTime="1623330176694" stopTime="1623330177731" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.483792" startTime="1623330176694" stopTime="1623330177731" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.504319" startTime="1623330177736" stopTime="1623330178817" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.503853" startTime="1623330177736" stopTime="1623330178816" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.514583" startTime="1623330178836" stopTime="1623330179939" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.513650" startTime="1623330178837" stopTime="1623330179938" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.511317" startTime="1623330179949" stopTime="1623330181045" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.510384" startTime="1623330179950" stopTime="1623330181044" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.850951" startTime="1623330181059" stopTime="1623330182883" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.850018" startTime="1623330181060" stopTime="1623330182882" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.520648" startTime="1623330182904" stopTime="1623330184020" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.519715" startTime="1623330182905" stopTime="1623330184019" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.324239" startTime="1623330184034" stopTime="1623330184729" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.323772" startTime="1623330184035" stopTime="1623330184729" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.222068" startTime="1623330184733" stopTime="1623330185209" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.222068" startTime="1623330184733" stopTime="1623330185209" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.296713" startTime="1623330185214" stopTime="1623330185850" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.296713" startTime="1623330185214" stopTime="1623330185850" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.283184" startTime="1623330185854" stopTime="1623330186461" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.283184" startTime="1623330185854" stopTime="1623330186461" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.278052" startTime="1623330186465" stopTime="1623330187061" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.277586" startTime="1623330186466" stopTime="1623330187061" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.293914" startTime="1623330187065" stopTime="1623330187695" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.293914" startTime="1623330187065" stopTime="1623330187695" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.297180" startTime="1623330187699" stopTime="1623330188336" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.296713" startTime="1623330187700" stopTime="1623330188336" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.290182" startTime="1623330188340" stopTime="1623330188962" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.289715" startTime="1623330188340" stopTime="1623330188961" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.292515" startTime="1623330188966" stopTime="1623330189593" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.292515" startTime="1623330188966" stopTime="1623330189593" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.286916" startTime="1623330189597" stopTime="1623330190212" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.286916" startTime="1623330189597" stopTime="1623330190212" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.288316" startTime="1623330190216" stopTime="1623330190834" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.288316" startTime="1623330190216" stopTime="1623330190834" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.473062" startTime="1623330190838" stopTime="1623330191852" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.472595" startTime="1623330190839" stopTime="1623330191852" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.303245" startTime="1623330191856" stopTime="1623330192506" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.302312" startTime="1623330191857" stopTime="1623330192505" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.282251" startTime="1623330192510" stopTime="1623330193115" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.282251" startTime="1623330192510" stopTime="1623330193115" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.259857" startTime="1623330193120" stopTime="1623330193677" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.259857" startTime="1623330193120" stopTime="1623330193677" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.309776" startTime="1623330193683" stopTime="1623330194347" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.309776" startTime="1623330193683" stopTime="1623330194347" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.243995" startTime="1623330194356" stopTime="1623330194879" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.243995" startTime="1623330194356" stopTime="1623330194879" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.308377" startTime="1623330194883" stopTime="1623330195544" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.307910" startTime="1623330194883" stopTime="1623330195543" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.263123" startTime="1623330195552" stopTime="1623330196116" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.263123" startTime="1623330195552" stopTime="1623330196116" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.251926" startTime="1623330196121" stopTime="1623330196661" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.251460" startTime="1623330196122" stopTime="1623330196661" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.286450" startTime="1623330196667" stopTime="1623330197281" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.286450" startTime="1623330196667" stopTime="1623330197281" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.237931" startTime="1623330197285" stopTime="1623330197795" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.237464" startTime="1623330197285" stopTime="1623330197794" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.271521" startTime="1623330197804" stopTime="1623330198386" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.271521" startTime="1623330197804" stopTime="1623330198386" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.245862" startTime="1623330198391" stopTime="1623330198918" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.245862" startTime="1623330198391" stopTime="1623330198918" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.311176" startTime="1623330198922" stopTime="1623330199589" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.310709" startTime="1623330198923" stopTime="1623330199589" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.958253" startTime="1623330199596" stopTime="1623330201650" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.957787" startTime="1623330199596" stopTime="1623330201649" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.780280" startTime="1623330201654" stopTime="1623330205470" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.779814" startTime="1623330201654" stopTime="1623330205469" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.703061" startTime="1623330205477" stopTime="1623330206984" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.702595" startTime="1623330205478" stopTime="1623330206984" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.651743" startTime="1623330206989" stopTime="1623330208386" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.650810" startTime="1623330206990" stopTime="1623330208385" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.633548" startTime="1623330208390" stopTime="1623330209748" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.633082" startTime="1623330208390" stopTime="1623330209747" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.460466" startTime="1623330209753" stopTime="1623330210740" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.460466" startTime="1623330209753" stopTime="1623330210740" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.256592" startTime="1623330210745" stopTime="1623330211295" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.256592" startTime="1623330210745" stopTime="1623330211295" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.231399" startTime="1623330211300" stopTime="1623330211796" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.231399" startTime="1623330211300" stopTime="1623330211796" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.402149" startTime="1623330211802" stopTime="1623330212664" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.401216" startTime="1623330211803" stopTime="1623330212663" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.366693" startTime="1623330212667" stopTime="1623330213453" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.366693" startTime="1623330212667" stopTime="1623330213453" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.287383" startTime="1623330213455" stopTime="1623330214071" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.287383" startTime="1623330213455" stopTime="1623330214071" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.274320" startTime="1623330214074" stopTime="1623330214662" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.274320" startTime="1623330214074" stopTime="1623330214662" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.383955" startTime="1623330214664" stopTime="1623330215487" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.383488" startTime="1623330214665" stopTime="1623330215487" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.368559" startTime="1623330215490" stopTime="1623330216280" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.368559" startTime="1623330215490" stopTime="1623330216280" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.312575" startTime="1623330216283" stopTime="1623330216953" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.312109" startTime="1623330216284" stopTime="1623330216953" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.281784" startTime="1623330216956" stopTime="1623330217560" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.280851" startTime="1623330216957" stopTime="1623330217559" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.248661" startTime="1623330217562" stopTime="1623330218095" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.248661" startTime="1623330217562" stopTime="1623330218095" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.211338" startTime="1623330218097" stopTime="1623330218550" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.210872" startTime="1623330218098" stopTime="1623330218550" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.207606" startTime="1623330218553" stopTime="1623330218998" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.207606" startTime="1623330218553" stopTime="1623330218998" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.208539" startTime="1623330219001" stopTime="1623330219448" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.208539" startTime="1623330219001" stopTime="1623330219448" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.237464" startTime="1623330219451" stopTime="1623330219960" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.236997" startTime="1623330219452" stopTime="1623330219960" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.229066" startTime="1623330219963" stopTime="1623330220454" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.229066" startTime="1623330219963" stopTime="1623330220454" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.209472" startTime="1623330220462" stopTime="1623330220911" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.209006" startTime="1623330220463" stopTime="1623330220911" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.256592" startTime="1623330220916" stopTime="1623330221466" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.256125" startTime="1623330220916" stopTime="1623330221465" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="11.134214" startTime="1623330221473" stopTime="1623330245339" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="11.133282" startTime="1623330221474" stopTime="1623330245338" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.533711" startTime="1623330245356" stopTime="1623330246500" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.533244" startTime="1623330245356" stopTime="1623330246499" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.360161" startTime="1623330246505" stopTime="1623330247277" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.359228" startTime="1623330246506" stopTime="1623330247276" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.640546" startTime="1623330247283" stopTime="1623330248656" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.640080" startTime="1623330247283" stopTime="1623330248655" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.324705" startTime="1623330248795" stopTime="1623330249491" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.324239" startTime="1623330248796" stopTime="1623330249491" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.578964" startTime="1623330249496" stopTime="1623330250737" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.578498" startTime="1623330249497" stopTime="1623330250737" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.576632" startTime="1623330250741" stopTime="1623330251977" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.576165" startTime="1623330250741" stopTime="1623330251976" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.593427" startTime="1623330251980" stopTime="1623330253252" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.592494" startTime="1623330251981" stopTime="1623330253251" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.465131" startTime="1623330253255" stopTime="1623330254252" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.464664" startTime="1623330253256" stopTime="1623330254252" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.427342" startTime="1623330254255" stopTime="1623330255171" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.426875" startTime="1623330254256" stopTime="1623330255171" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.298113" startTime="1623330255175" stopTime="1623330255814" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.298113" startTime="1623330255175" stopTime="1623330255814" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.289715" startTime="1623330255816" stopTime="1623330256437" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.288782" startTime="1623330255817" stopTime="1623330256436" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.244928" startTime="1623330256439" stopTime="1623330256964" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.244928" startTime="1623330256439" stopTime="1623330256964" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.270121" startTime="1623330256966" stopTime="1623330257545" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.269655" startTime="1623330256967" stopTime="1623330257545" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.280851" startTime="1623330257548" stopTime="1623330258150" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.280851" startTime="1623330257548" stopTime="1623330258150" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.286450" startTime="1623330258153" stopTime="1623330258767" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.285983" startTime="1623330258154" stopTime="1623330258767" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.989978" startTime="1623330258806" stopTime="1623330260928" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.989978" startTime="1623330258806" stopTime="1623330260928" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.264523" startTime="1623330260967" stopTime="1623330261534" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.264523" startTime="1623330260967" stopTime="1623330261534" args=""> 
+						</block>
+					</block>
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.324705" startTime="1623330261570" stopTime="1623330262266" args=""> 
+						<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.324705" startTime="1623330261570" stopTime="1623330262266" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.135760" startTime="1623330262553" stopTime="1623330262844" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.133428" startTime="1623330262555" stopTime="1623330262841" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="9.039960" startTime="1623330262845" stopTime="1623330282222" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="9.038560" startTime="1623330262847" stopTime="1623330282221" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="11.809284" startTime="1623330282225" stopTime="1623330307538" args=""> 
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.371825" startTime="1623330282471" stopTime="1623330283268" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.365760" startTime="1623330282472" stopTime="1623330283256" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="11.320827" startTime="1623330283269" stopTime="1623330307535" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="11.317561" startTime="1623330283274" stopTime="1623330307533" args=""> 
+					<block name="FLUSH GPU HEAPS" totalTimeMS="0.233265" startTime="1623330284060" stopTime="1623330284560" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="10.533790" startTime="1623330307539" stopTime="1623330330118" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="5.395424" startTime="1623330307541" stopTime="1623330319106" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.126430" startTime="1623330319308" stopTime="1623330319579" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.125030" startTime="1623330319309" stopTime="1623330319577" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="4.913032" startTime="1623330319580" stopTime="1623330330111" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="4.909766" startTime="1623330319582" stopTime="1623330330106" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="10.800179" startTime="1623330330122" stopTime="1623330353272" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="9.564806" startTime="1623330330128" stopTime="1623330350630" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.144158" startTime="1623330350865" stopTime="1623330351174" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.142758" startTime="1623330350866" stopTime="1623330351172" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.977381" startTime="1623330351175" stopTime="1623330353270" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.975515" startTime="1623330351177" stopTime="1623330353268" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="12.877639" startTime="1623330353273" stopTime="1623330380876" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="4.081208" startTime="1623330353274" stopTime="1623330362022" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_BeginFrame" totalTimeMS="0.102170" startTime="1623330362050" stopTime="1623330362269" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.177282" startTime="1623330362297" stopTime="1623330362677" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.174016" startTime="1623330362300" stopTime="1623330362673" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="8.488054" startTime="1623330362679" stopTime="1623330380873" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="8.485722" startTime="1623330362682" stopTime="1623330380871" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="5.591834" startTime="1623330380877" stopTime="1623330392863" args=""> 
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.134361" startTime="1623330381195" stopTime="1623330381483" args=""> 
+				<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.132028" startTime="1623330381197" stopTime="1623330381480" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="5.304451" startTime="1623330381484" stopTime="1623330392854" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="5.301651" startTime="1623330381486" stopTime="1623330392850" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="324.958466" startTime="1623330392864" stopTime="1623331089407" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="324.952881" startTime="1623330392870" stopTime="1623331089401" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="5.243802" startTime="1623331089430" stopTime="1623331100670" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="5.241469" startTime="1623331089430" stopTime="1623331100665" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.233265" startTime="1623331100696" stopTime="1623331101196" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.232332" startTime="1623331100696" stopTime="1623331101194" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.359533" startTime="1623331101317" stopTime="1623331121379" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="9.340872" startTime="1623331101317" stopTime="1623331121339" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.130629" startTime="1623331121571" stopTime="1623331121851" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.130162" startTime="1623331121571" stopTime="1623331121850" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.800566" startTime="1623331121860" stopTime="1623331123576" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.800566" startTime="1623331121860" stopTime="1623331123576" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="Streaming File IO HDD" totalTimeMS="1235.731323" startTime="1623328474807" stopTime="1623331123576" totalBlocks="2"> 
+		<block name="Wait - StreamIO New Request" totalTimeMS="10.622897" startTime="1623331100806" stopTime="1623331123576" args=""> 
+		</block>
+	</thread>
+	<thread name="Streaming File IO InMemory" totalTimeMS="1235.731323" startTime="1623328474807" stopTime="1623331123576" totalBlocks="2"> 
+		<block name="Wait - StreamIO New Request" totalTimeMS="10.602370" startTime="1623331100850" stopTime="1623331123576" args=""> 
+		</block>
+	</thread>
+</root>
