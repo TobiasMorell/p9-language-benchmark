@@ -29,9 +29,9 @@ static double Benchmark8(std::string msg, std::function<double(int)> &&fun, int 
 	double mean = deltaTime / iterations, standardDeviation = sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
 
 	char buffer[300];
-	sprintf(buffer, "%s\t%f\t%f\t%d", msg.c_str(), mean, standardDeviation, count);
+	sprintf(buffer, "%s,%f,%f,%d\n", msg.c_str(), mean, standardDeviation, count);
 
-	CryLog(buffer);
+	gEnv->pLog->LogToFile(buffer);
 
 	return dummy / totalCount;
 }

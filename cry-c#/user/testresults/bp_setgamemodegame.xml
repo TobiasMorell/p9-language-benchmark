@@ -1,24 +1,34 @@
 <root>
-	<thread name="Main" totalTimeMS="22.557678" startTime="1455408138278" stopTime="1455408186630" totalBlocks="57"> 
-		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="22.520355" startTime="1455408138358" stopTime="1455408186630" args=""> 
-			<block name="CLog::LogV" totalTimeMS="0.339634" startTime="1455408151504" stopTime="1455408152232" args=""> 
+	<thread name="RenderThread" totalTimeMS="26.477001" startTime="1624044309697" stopTime="1624044366450" totalBlocks="15"> 
+		<block name="Loop: RenderThread" totalTimeMS="0.116166" startTime="1624044311394" stopTime="1624044311643" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.102637" startTime="1624044311395" stopTime="1624044311615" args=""> 
 			</block>
-			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.295780" startTime="1455408152285" stopTime="1455408152919" args=""> 
-				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="0.229066" startTime="1455408152293" stopTime="1455408152784" args=""> 
-				</block>
-			</block>
-			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAISystem/CAISystem.cpp" totalTimeMS="0.321439" startTime="1455408158712" stopTime="1455408159401" args=""> 
-			</block>
-			<block name="CEntitiesComponentPropertyCache::StoreEntities" totalTimeMS="0.155821" startTime="1455408159453" stopTime="1455408159787" args=""> 
-			</block>
-			<block name="CEntity::SendEventInternal" totalTimeMS="0.145091" startTime="1455408159996" stopTime="1455408160307" args=""> 
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="25.522945" startTime="1624044311742" stopTime="1624044366450" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="25.522945" startTime="1624044311742" stopTime="1624044366450" args=""> 
 			</block>
 		</block>
 	</thread>
-	<thread name="RenderThread" totalTimeMS="22.557678" startTime="1455408138278" stopTime="1455408186630" totalBlocks="5"> 
-		<block name="Loop: RenderThread" totalTimeMS="22.385996" startTime="1455408138646" stopTime="1455408186630" args=""> 
-			<block name="SRenderThread::WaitFlushCond" totalTimeMS="22.385996" startTime="1455408138646" stopTime="1455408186630" args=""> 
+	<thread name="Main" totalTimeMS="26.477001" startTime="1624044309697" stopTime="1624044366450" totalBlocks="57"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="26.421017" startTime="1624044309817" stopTime="1624044366450" args=""> 
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="0.826692" startTime="1624044309969" stopTime="1624044311741" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.767909" startTime="1624044309970" stopTime="1624044311616" args=""> 
+				</block>
+			</block>
+			<block name="CLog::LogV" totalTimeMS="0.438072" startTime="1624044318759" stopTime="1624044319698" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.299979" startTime="1624044319766" stopTime="1624044320409" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="0.232332" startTime="1624044319774" stopTime="1624044320272" args=""> 
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAISystem/CAISystem.cpp" totalTimeMS="0.295314" startTime="1624044325275" stopTime="1624044325908" args=""> 
+			</block>
+			<block name="CEntitiesComponentPropertyCache::StoreEntities" totalTimeMS="0.160486" startTime="1624044325949" stopTime="1624044326293" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="5.432280" startTime="1624044326490" stopTime="1624044338134" args=""> 
 			</block>
 		</block>
+	</thread>
+	<thread name="JobSystem_Worker_0" totalTimeMS="26.477001" startTime="1624044309697" stopTime="1624044366450" totalBlocks="6"> 
 	</thread>
 </root>

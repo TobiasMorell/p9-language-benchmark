@@ -1,933 +1,835 @@
 <root>
-	<thread name="Main" totalTimeMS="41.118126" startTime="1455847197689" stopTime="1455847285825" totalBlocks="35"> 
-		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="41.077538" startTime="1455847197775" stopTime="1455847285824" args=""> 
-			<block name="SRenderThread::FlushAndWait" totalTimeMS="37.665333" startTime="1455847197826" stopTime="1455847278561" args=""> 
-				<block name="Wait - SyncMainWithRender" totalTimeMS="37.629410" startTime="1455847197827" stopTime="1455847278485" args=""> 
-					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.001866" startTime="1455847278470" stopTime="1455847278474" args=""> 
+	<thread name="Main" totalTimeMS="40.803215" startTime="1624192597761" stopTime="1624192685222" totalBlocks="35"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="40.772892" startTime="1624192597825" stopTime="1624192685221" args=""> 
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="37.464725" startTime="1624192597857" stopTime="1624192678162" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="37.439999" startTime="1624192597859" stopTime="1624192678111" args=""> 
+					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.001866" startTime="1624192678097" stopTime="1624192678101" args=""> 
 					</block>
 				</block>
-				<block name="Wait - SyncMainWithRender" totalTimeMS="0.035456" startTime="1455847278485" stopTime="1455847278561" args=""> 
-					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.000000" startTime="1455847278560" stopTime="1455847278560" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.023327" startTime="1624192678111" stopTime="1624192678161" args=""> 
+					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.000000" startTime="1624192678161" stopTime="1624192678161" args=""> 
 					</block>
 				</block>
 			</block>
-			<block name="CLog::LogV" totalTimeMS="0.343366" startTime="1455847278760" stopTime="1455847279496" args=""> 
+			<block name="CLog::LogV" totalTimeMS="0.370425" startTime="1624192678307" stopTime="1624192679101" args=""> 
 			</block>
-			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.000000" startTime="1455847282514" stopTime="1455847282514" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.000467" startTime="1624192682023" stopTime="1624192682024" args=""> 
 			</block>
-			<block name="CEntitiesComponentPropertyCache::RestoreEntities" totalTimeMS="0.149290" startTime="1455847282565" stopTime="1455847282885" args=""> 
-				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.001866" startTime="1455847282577" stopTime="1455847282581" args=""> 
+			<block name="CEntitiesComponentPropertyCache::RestoreEntities" totalTimeMS="0.140426" startTime="1624192682061" stopTime="1624192682362" args=""> 
+				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.000933" startTime="1624192682071" stopTime="1624192682073" args=""> 
 				</block>
 			</block>
-			<block name="CEntitiesComponentPropertyCache::ClearCache" totalTimeMS="0.003266" startTime="1455847282886" stopTime="1455847282893" args=""> 
+			<block name="CEntitiesComponentPropertyCache::ClearCache" totalTimeMS="0.002333" startTime="1624192682363" stopTime="1624192682368" args=""> 
 			</block>
-			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="1455847282987" stopTime="1455847282987" args=""> 
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="1624192682461" stopTime="1624192682461" args=""> 
 			</block>
-			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="1455847282987" stopTime="1455847282987" args=""> 
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000467" startTime="1624192682461" stopTime="1624192682462" args=""> 
 			</block>
-			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAISystem/CAISystem.cpp" totalTimeMS="0.480060" startTime="1455847283083" stopTime="1455847284112" args=""> 
-				<block name="CTargetTrackManager::Reset" totalTimeMS="0.001400" startTime="1455847283096" stopTime="1455847283099" args=""> 
-					<block name="CTargetTrackManager::DeleteAgents" totalTimeMS="0.000467" startTime="1455847283098" stopTime="1455847283099" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAISystem/CAISystem.cpp" totalTimeMS="0.500587" startTime="1624192682558" stopTime="1624192683631" args=""> 
+				<block name="CTargetTrackManager::Reset" totalTimeMS="0.000467" startTime="1624192682566" stopTime="1624192682567" args=""> 
+					<block name="CTargetTrackManager::DeleteAgents" totalTimeMS="0.000000" startTime="1624192682567" stopTime="1624192682567" args=""> 
 					</block>
 				</block>
-				<block name="CCryPak::IsFileExist" totalTimeMS="0.149290" startTime="1455847283243" stopTime="1455847283563" args=""> 
-					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002799" startTime="1455847283247" stopTime="1455847283253" args=""> 
+				<block name="CCryPak::IsFileExist" totalTimeMS="0.150689" startTime="1624192682667" stopTime="1624192682990" args=""> 
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002333" startTime="1624192682670" stopTime="1624192682675" args=""> 
 					</block>
-					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.002333" startTime="1455847283383" stopTime="1455847283388" args=""> 
+					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001866" startTime="1624192682805" stopTime="1624192682809" args=""> 
 					</block>
-					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002333" startTime="1455847283389" stopTime="1455847283394" args=""> 
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002799" startTime="1624192682809" stopTime="1624192682815" args=""> 
 					</block>
-					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.006065" startTime="1455847283488" stopTime="1455847283501" args=""> 
+					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.004665" startTime="1624192682918" stopTime="1624192682928" args=""> 
 					</block>
-					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001400" startTime="1455847283501" stopTime="1455847283504" args=""> 
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000933" startTime="1624192682928" stopTime="1624192682930" args=""> 
 					</block>
-					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000467" startTime="1455847283562" stopTime="1455847283563" args=""> 
+					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000467" startTime="1624192682989" stopTime="1624192682990" args=""> 
 					</block>
 				</block>
-				<block name="CLog::LogV" totalTimeMS="0.189411" startTime="1455847283569" stopTime="1455847283975" args=""> 
+				<block name="CLog::LogV" totalTimeMS="0.249594" startTime="1624192682996" stopTime="1624192683531" args=""> 
 				</block>
-				<block name="CMNMPathfinder::WaitForJobsToFinish" totalTimeMS="0.001866" startTime="1455847283986" stopTime="1455847283990" args=""> 
+				<block name="CMNMPathfinder::WaitForJobsToFinish" totalTimeMS="0.001866" startTime="1624192683539" stopTime="1624192683543" args=""> 
 				</block>
 			</block>
-			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.235598" startTime="1455847284165" stopTime="1455847284670" args=""> 
-				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="0.194077" startTime="1455847284168" stopTime="1455847284584" args=""> 
-					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.034057" startTime="1455847284485" stopTime="1455847284558" args=""> 
-						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000467" startTime="1455847284537" stopTime="1455847284538" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.224401" startTime="1624192683661" stopTime="1624192684142" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="0.191277" startTime="1624192683662" stopTime="1624192684072" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.031258" startTime="1624192683990" stopTime="1624192684057" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000467" startTime="1624192684034" stopTime="1624192684035" args=""> 
 						</block>
 					</block>
 				</block>
-				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000467" startTime="1455847284666" stopTime="1455847284667" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000000" startTime="1624192684138" stopTime="1624192684138" args=""> 
 				</block>
 			</block>
-			<block name="CBaseInput::PostInputEvent" totalTimeMS="0.001400" startTime="1455847284856" stopTime="1455847284859" args=""> 
+			<block name="CBaseInput::PostInputEvent" totalTimeMS="0.001400" startTime="1624192684282" stopTime="1624192684285" args=""> 
 			</block>
-			<block name="CKeyboard::Update" totalTimeMS="0.000933" startTime="1455847285148" stopTime="1455847285150" args=""> 
+			<block name="CKeyboard::Update" totalTimeMS="0.000467" startTime="1624192684514" stopTime="1624192684515" args=""> 
 			</block>
-			<block name="CMouse::Update" totalTimeMS="0.001400" startTime="1455847285726" stopTime="1455847285729" args=""> 
+			<block name="CMouse::Update" totalTimeMS="0.001400" startTime="1624192685125" stopTime="1624192685128" args=""> 
 			</block>
-			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000000" startTime="1455847285778" stopTime="1455847285778" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000000" startTime="1624192685181" stopTime="1624192685181" args=""> 
 			</block>
-			<block name="CObjManager::ClearStatObjGarbage" totalTimeMS="0.000933" startTime="1455847285822" stopTime="1455847285824" args=""> 
+			<block name="CObjManager::ClearStatObjGarbage" totalTimeMS="0.000933" startTime="1624192685219" stopTime="1624192685221" args=""> 
 			</block>
 		</block>
 	</thread>
-	<thread name="RenderThread" totalTimeMS="41.118126" startTime="1455847197689" stopTime="1455847285825" totalBlocks="416"> 
-		<block name="CTiledLightVolumesStage::UploadTextures" totalTimeMS="0.001400" startTime="1455847197819" stopTime="1455847197822" args=""> 
+	<thread name="RenderThread" totalTimeMS="40.803215" startTime="1624192597761" stopTime="1624192685222" totalBlocks="369"> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.001400" startTime="1624192597895" stopTime="1624192597898" args=""> 
 		</block>
-		<block name="CTiledLightVolumesStage::UploadTextures" totalTimeMS="0.000467" startTime="1455847197823" stopTime="1455847197824" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.002333" startTime="1624192597919" stopTime="1624192597924" args=""> 
 		</block>
-		<block name="CTiledLightVolumesStage::UploadTextures" totalTimeMS="0.000000" startTime="1455847197825" stopTime="1455847197825" args=""> 
+		<block name="LINEARIZE_DEPTH" totalTimeMS="0.000467" startTime="1624192597927" stopTime="1624192597928" args=""> 
 		</block>
-		<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/SystemRender.cpp" totalTimeMS="0.000467" startTime="1455847197832" stopTime="1455847197833" args=""> 
+		<block name="Renderer:DrawCompiledRenderItems" totalTimeMS="0.000467" startTime="1624192597931" stopTime="1624192597932" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.001866" startTime="1455847197838" stopTime="1455847197842" args=""> 
-		</block>
-		<block name="Renderer:WaitForParticleRendItems" totalTimeMS="0.006998" startTime="1455847197850" stopTime="1455847197865" args=""> 
-			<block name="CRenderer::SyncComputeVerticesJobs" totalTimeMS="0.000467" startTime="1455847197851" stopTime="1455847197852" args=""> 
-			</block>
-			<block name="CDeviceBufferManager::EndReadWrite_Locked" totalTimeMS="0.001866" startTime="1455847197855" stopTime="1455847197859" args=""> 
-			</block>
-			<block name="CDeviceBufferManager::EndReadWrite_Locked" totalTimeMS="0.000933" startTime="1455847197860" stopTime="1455847197862" args=""> 
-			</block>
-		</block>
-		<block name="CRenderView::CompileModifiedRenderObjects" totalTimeMS="0.007931" startTime="1455847197865" stopTime="1455847197882" args=""> 
-			<block name="CRenderPolygonDataPool::UpdateAPIBuffers" totalTimeMS="0.000467" startTime="1455847197867" stopTime="1455847197868" args=""> 
-			</block>
-			<block name="CCompiledRenderObject::Compile" totalTimeMS="0.001400" startTime="1455847197870" stopTime="1455847197873" args=""> 
-			</block>
-			<block name="CRenderView::CompileModifiedRenderObjects" totalTimeMS="0.000467" startTime="1455847197873" stopTime="1455847197874" args=""> 
-				<block name="CRenderPolygonDataPool::UpdateAPIBuffers" totalTimeMS="0.000467" startTime="1455847197873" stopTime="1455847197874" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.022393" startTime="1624192597932" stopTime="1624192597980" args=""> 
+			<block name="DrawCompiledRenderItemsToCommandList" totalTimeMS="0.022393" startTime="1624192597932" stopTime="1624192597980" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.005132" startTime="1624192597956" stopTime="1624192597967" args=""> 
 				</block>
-			</block>
-			<block name="CRenderView::CompileModifiedRenderObjects" totalTimeMS="0.000467" startTime="1455847197874" stopTime="1455847197875" args=""> 
-				<block name="CRenderPolygonDataPool::UpdateAPIBuffers" totalTimeMS="0.000467" startTime="1455847197874" stopTime="1455847197875" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192597968" stopTime="1624192597969" args=""> 
 				</block>
-			</block>
-			<block name="CRenderView::CompileModifiedRenderObjects" totalTimeMS="0.002799" startTime="1455847197875" stopTime="1455847197881" args=""> 
-				<block name="CRenderPolygonDataPool::UpdateAPIBuffers" totalTimeMS="0.001866" startTime="1455847197876" stopTime="1455847197880" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1624192597970" stopTime="1624192597970" args=""> 
 				</block>
-			</block>
-			<block name="CRenderView::CompileModifiedRenderObjects" totalTimeMS="0.000000" startTime="1455847197881" stopTime="1455847197881" args=""> 
-				<block name="CRenderPolygonDataPool::UpdateAPIBuffers" totalTimeMS="0.000000" startTime="1455847197881" stopTime="1455847197881" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192597971" stopTime="1624192597972" args=""> 
 				</block>
-			</block>
-			<block name="CRenderView::CompileModifiedRenderObjects" totalTimeMS="0.000467" startTime="1455847197881" stopTime="1455847197882" args=""> 
-				<block name="CRenderPolygonDataPool::UpdateAPIBuffers" totalTimeMS="0.000000" startTime="1455847197882" stopTime="1455847197882" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1624192597973" stopTime="1624192597973" args=""> 
+				</block>
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192597974" stopTime="1624192597975" args=""> 
+				</block>
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192597976" stopTime="1624192597977" args=""> 
+				</block>
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192597977" stopTime="1624192597978" args=""> 
+				</block>
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192597978" stopTime="1624192597979" args=""> 
 				</block>
 			</block>
 		</block>
-		<block name="GRAPHICS_PIPELINE" totalTimeMS="0.000000" startTime="1455847197932" stopTime="1455847197932" args=""> 
+		<block name="GBUFFER" totalTimeMS="0.000000" startTime="1624192597981" stopTime="1624192597981" args=""> 
 		</block>
-		<block name="CHARACTER_DEFORMATION" totalTimeMS="0.000000" startTime="1455847197937" stopTime="1455847197937" args=""> 
+		<block name="SHADOWMAPS" totalTimeMS="0.000000" startTime="1624192597985" stopTime="1624192597985" args=""> 
 		</block>
-		<block name="CHARACTER_DEFORMATION" totalTimeMS="0.000467" startTime="1455847197962" stopTime="1455847197963" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192597989" stopTime="1624192597989" args=""> 
 		</block>
-		<block name="GBUFFER" totalTimeMS="0.000000" startTime="1455847197966" stopTime="1455847197966" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192597990" stopTime="1624192597990" args=""> 
 		</block>
-		<block name="Renderer:DrawCompiledRenderItems" totalTimeMS="0.000467" startTime="1455847197976" stopTime="1455847197977" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192597997" stopTime="1624192597997" args=""> 
 		</block>
-		<block name="CRenderView::FindRenderListSplit" totalTimeMS="0.000000" startTime="1455847197978" stopTime="1455847197978" args=""> 
+		<block name="SHADOWMAPS" totalTimeMS="0.000000" startTime="1624192597997" stopTime="1624192597997" args=""> 
 		</block>
-		<block name="CRenderView::FindRenderListSplit" totalTimeMS="0.000000" startTime="1455847197979" stopTime="1455847197979" args=""> 
+		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1624192598014" stopTime="1624192598014" args=""> 
 		</block>
-		<block name="CRenderView::FindRenderListSplit" totalTimeMS="0.000467" startTime="1455847197979" stopTime="1455847197980" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.021927" startTime="1624192598037" stopTime="1624192598084" args=""> 
 		</block>
-		<block name="Renderer:DrawCompiledRenderItems" totalTimeMS="0.000000" startTime="1455847197980" stopTime="1455847197980" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.006998" startTime="1624192598138" stopTime="1624192598153" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.061115" startTime="1455847197981" stopTime="1455847198112" args=""> 
-			<block name="DrawCompiledRenderItemsToCommandList" totalTimeMS="0.032657" startTime="1455847197981" stopTime="1455847198051" args=""> 
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.013996" startTime="1455847198014" stopTime="1455847198044" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198047" stopTime="1455847198048" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198049" stopTime="1455847198050" args=""> 
-				</block>
-			</block>
-			<block name="DrawCompiledRenderItemsToCommandList" totalTimeMS="0.028458" startTime="1455847198051" stopTime="1455847198112" args=""> 
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.012130" startTime="1455847198072" stopTime="1455847198098" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198098" stopTime="1455847198099" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198099" stopTime="1455847198100" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198101" stopTime="1455847198102" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847198103" stopTime="1455847198103" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198104" stopTime="1455847198105" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198106" stopTime="1455847198107" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198108" stopTime="1455847198109" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198110" stopTime="1455847198111" args=""> 
-				</block>
-			</block>
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001866" startTime="1624192598171" stopTime="1624192598175" args=""> 
 		</block>
-		<block name="LINEARIZE_DEPTH" totalTimeMS="0.000467" startTime="1455847198115" stopTime="1455847198116" args=""> 
+		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000467" startTime="1624192598176" stopTime="1624192598177" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1455847198133" stopTime="1455847198134" args=""> 
+		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000467" startTime="1624192598183" stopTime="1624192598184" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1455847198148" stopTime="1455847198151" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.006531" startTime="1624192598194" stopTime="1624192598208" args=""> 
 		</block>
-		<block name="LINEARIZE_DEPTH" totalTimeMS="0.000000" startTime="1455847198152" stopTime="1455847198152" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.005598" startTime="1624192598232" stopTime="1624192598244" args=""> 
 		</block>
-		<block name="Renderer:DrawCompiledRenderItems" totalTimeMS="0.000467" startTime="1455847198153" stopTime="1455847198154" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192598254" stopTime="1624192598256" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.028925" startTime="1455847198154" stopTime="1455847198216" args=""> 
-			<block name="DrawCompiledRenderItemsToCommandList" totalTimeMS="0.028925" startTime="1455847198154" stopTime="1455847198216" args=""> 
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.003732" startTime="1455847198168" stopTime="1455847198176" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847198177" stopTime="1455847198177" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198178" stopTime="1455847198179" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.002333" startTime="1455847198180" stopTime="1455847198185" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847198187" stopTime="1455847198187" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198188" stopTime="1455847198189" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847198190" stopTime="1455847198190" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198191" stopTime="1455847198192" args=""> 
-				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198214" stopTime="1455847198215" args=""> 
-				</block>
-			</block>
+		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1624192598257" stopTime="1624192598257" args=""> 
 		</block>
-		<block name="GBUFFER" totalTimeMS="0.000000" startTime="1455847198216" stopTime="1455847198216" args=""> 
+		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1624192598263" stopTime="1624192598263" args=""> 
 		</block>
-		<block name="SHADOWMAPS" totalTimeMS="0.000000" startTime="1455847198219" stopTime="1455847198219" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.006065" startTime="1624192598272" stopTime="1624192598285" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847198221" stopTime="1455847198221" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.005598" startTime="1624192598306" stopTime="1624192598318" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847198222" stopTime="1455847198222" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192598327" stopTime="1624192598329" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847198226" stopTime="1455847198226" args=""> 
+		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1624192598330" stopTime="1624192598330" args=""> 
 		</block>
-		<block name="SHADOWMAPS" totalTimeMS="0.000000" startTime="1455847198226" stopTime="1455847198226" args=""> 
+		<block name="CDepthReadbackStage::ReadbackLatestData" totalTimeMS="0.090973" startTime="1624192598338" stopTime="1624192598533" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.003732" startTime="1455847198240" stopTime="1455847198248" args=""> 
+		<block name="DEPTH READBACK" totalTimeMS="0.000000" startTime="1624192598537" stopTime="1624192598537" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.020527" startTime="1455847198269" stopTime="1455847198313" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1624192598550" stopTime="1624192598553" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.006998" startTime="1455847198366" stopTime="1455847198381" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598560" stopTime="1624192598561" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1455847198398" stopTime="1455847198401" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598567" stopTime="1624192598568" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1455847198403" stopTime="1455847198403" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1624192598575" stopTime="1624192598575" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1455847198410" stopTime="1455847198410" args=""> 
+		<block name="DEPTH READBACK" totalTimeMS="0.000000" startTime="1624192598582" stopTime="1624192598582" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.006998" startTime="1455847198419" stopTime="1455847198434" args=""> 
+		<block name="CDeferredDecalsStage::ResizeDecalBuffers" totalTimeMS="0.000467" startTime="1624192598583" stopTime="1624192598584" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.005132" startTime="1455847198457" stopTime="1455847198468" args=""> 
+		<block name="SVOGI" totalTimeMS="0.000000" startTime="1624192598588" stopTime="1624192598588" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198479" stopTime="1455847198480" args=""> 
+		<block name="TI_GEN_DIFF" totalTimeMS="0.000000" startTime="1624192598688" stopTime="1624192598688" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1455847198482" stopTime="1455847198482" args=""> 
+		<block name="TI_GEN_DIFF" totalTimeMS="0.000000" startTime="1624192598694" stopTime="1624192598694" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1455847198487" stopTime="1455847198487" args=""> 
+		<block name="TI_DEMOSAIC_DIFF" totalTimeMS="0.000000" startTime="1624192598695" stopTime="1624192598695" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.005598" startTime="1455847198495" stopTime="1455847198507" args=""> 
+		<block name="TI_DEMOSAIC_DIFF" totalTimeMS="0.003266" startTime="1624192598696" stopTime="1624192598703" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.004665" startTime="1455847198529" stopTime="1455847198539" args=""> 
+		<block name="TI_UPSCALE_DIFF" totalTimeMS="0.000000" startTime="1624192598704" stopTime="1624192598704" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198548" stopTime="1455847198549" args=""> 
+		<block name="TI_UPSCALE_DIFF" totalTimeMS="0.000000" startTime="1624192598706" stopTime="1624192598706" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_DEPTH" totalTimeMS="0.000000" startTime="1455847198550" stopTime="1455847198550" args=""> 
+		<block name="SVOGI" totalTimeMS="0.000000" startTime="1624192598706" stopTime="1624192598706" args=""> 
 		</block>
-		<block name="CDepthReadbackStage::ReadbackLatestData" totalTimeMS="0.109635" startTime="1455847198558" stopTime="1455847198793" args=""> 
+		<block name="SS_REFLECTIONS" totalTimeMS="0.000467" startTime="1624192598708" stopTime="1624192598709" args=""> 
 		</block>
-		<block name="DEPTH READBACK" totalTimeMS="0.000000" startTime="1455847198796" stopTime="1455847198796" args=""> 
+		<block name="SSR_RAYTRACE" totalTimeMS="0.000467" startTime="1624192598710" stopTime="1624192598711" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1455847198809" stopTime="1455847198812" args=""> 
-		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198819" stopTime="1455847198820" args=""> 
-		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198826" stopTime="1455847198827" args=""> 
-		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847198834" stopTime="1455847198835" args=""> 
-		</block>
-		<block name="DEPTH READBACK" totalTimeMS="0.000000" startTime="1455847198844" stopTime="1455847198844" args=""> 
-		</block>
-		<block name="CDeferredDecalsStage::ResizeDecalBuffers" totalTimeMS="0.000000" startTime="1455847198845" stopTime="1455847198845" args=""> 
-		</block>
-		<block name="SVOGI" totalTimeMS="0.000000" startTime="1455847198849" stopTime="1455847198849" args=""> 
-		</block>
-		<block name="TI_GEN_DIFF" totalTimeMS="0.000000" startTime="1455847198979" stopTime="1455847198979" args=""> 
-		</block>
-		<block name="TI_GEN_DIFF" totalTimeMS="0.000000" startTime="1455847198984" stopTime="1455847198984" args=""> 
-		</block>
-		<block name="TI_DEMOSAIC_DIFF" totalTimeMS="0.000000" startTime="1455847198985" stopTime="1455847198985" args=""> 
-		</block>
-		<block name="TI_DEMOSAIC_DIFF" totalTimeMS="0.000000" startTime="1455847198986" stopTime="1455847198986" args=""> 
-		</block>
-		<block name="TI_UPSCALE_DIFF" totalTimeMS="0.000000" startTime="1455847198988" stopTime="1455847198988" args=""> 
-		</block>
-		<block name="TI_UPSCALE_DIFF" totalTimeMS="0.000000" startTime="1455847198989" stopTime="1455847198989" args=""> 
-		</block>
-		<block name="SVOGI" totalTimeMS="0.000000" startTime="1455847198990" stopTime="1455847198990" args=""> 
-		</block>
-		<block name="SS_REFLECTIONS" totalTimeMS="0.000000" startTime="1455847198991" stopTime="1455847198991" args=""> 
-		</block>
-		<block name="SSR_RAYTRACE" totalTimeMS="0.000000" startTime="1455847198993" stopTime="1455847198993" args=""> 
-		</block>
-		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.007464" startTime="1455847199003" stopTime="1455847199019" args=""> 
-			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.003732" startTime="1455847199005" stopTime="1455847199013" args=""> 
+		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.007464" startTime="1624192598719" stopTime="1624192598735" args=""> 
+			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.003732" startTime="1624192598722" stopTime="1624192598730" args=""> 
 			</block>
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1455847199023" stopTime="1455847199024" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1624192598739" stopTime="1624192598740" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1455847199024" stopTime="1455847199025" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1624192598740" stopTime="1624192598741" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001866" startTime="1455847199032" stopTime="1455847199036" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001866" startTime="1624192598748" stopTime="1624192598752" args=""> 
 		</block>
-		<block name="SSR_RAYTRACE" totalTimeMS="0.000000" startTime="1455847199038" stopTime="1455847199038" args=""> 
+		<block name="SSR_RAYTRACE" totalTimeMS="0.000000" startTime="1624192598753" stopTime="1624192598753" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199039" stopTime="1455847199039" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598756" stopTime="1624192598756" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199047" stopTime="1455847199048" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192598763" stopTime="1624192598765" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199049" stopTime="1455847199049" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598765" stopTime="1624192598765" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199051" stopTime="1455847199051" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598767" stopTime="1624192598767" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1455847199058" stopTime="1455847199061" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598774" stopTime="1624192598775" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847199068" stopTime="1455847199070" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598782" stopTime="1624192598783" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199070" stopTime="1455847199070" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598783" stopTime="1624192598783" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199071" stopTime="1455847199071" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598784" stopTime="1624192598784" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199077" stopTime="1455847199078" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1624192598791" stopTime="1624192598791" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199079" stopTime="1455847199079" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598792" stopTime="1624192598792" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199080" stopTime="1455847199080" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598794" stopTime="1624192598794" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199086" stopTime="1455847199087" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192598799" stopTime="1624192598801" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.013063" startTime="1455847199093" stopTime="1455847199121" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598806" stopTime="1624192598807" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199122" stopTime="1455847199122" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598807" stopTime="1624192598807" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199123" stopTime="1455847199123" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598808" stopTime="1624192598808" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199128" stopTime="1455847199129" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1624192598813" stopTime="1624192598813" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199129" stopTime="1455847199129" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598814" stopTime="1624192598814" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199130" stopTime="1455847199130" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598815" stopTime="1624192598815" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199135" stopTime="1455847199136" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598820" stopTime="1624192598821" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199142" stopTime="1455847199143" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598827" stopTime="1624192598828" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199144" stopTime="1455847199144" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598828" stopTime="1624192598828" args=""> 
 		</block>
-		<block name="SSR_COMPOSE" totalTimeMS="0.000000" startTime="1455847199145" stopTime="1455847199145" args=""> 
+		<block name="SSR_COMPOSE" totalTimeMS="0.000000" startTime="1624192598829" stopTime="1624192598829" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847199149" stopTime="1455847199149" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192598833" stopTime="1624192598833" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199154" stopTime="1455847199155" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1624192598837" stopTime="1624192598840" args=""> 
 		</block>
-		<block name="SSR_COMPOSE" totalTimeMS="0.000000" startTime="1455847199155" stopTime="1455847199155" args=""> 
+		<block name="SSR_COMPOSE" totalTimeMS="0.000000" startTime="1624192598840" stopTime="1624192598840" args=""> 
 		</block>
-		<block name="SS_REFLECTIONS" totalTimeMS="0.000467" startTime="1455847199155" stopTime="1455847199156" args=""> 
+		<block name="SS_REFLECTIONS" totalTimeMS="0.000000" startTime="1624192598840" stopTime="1624192598840" args=""> 
 		</block>
-		<block name="DIRECTIONAL_OCC" totalTimeMS="0.000000" startTime="1455847199158" stopTime="1455847199158" args=""> 
+		<block name="DIRECTIONAL_OCC" totalTimeMS="0.000000" startTime="1624192598843" stopTime="1624192598843" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847199176" stopTime="1455847199178" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192598860" stopTime="1624192598862" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199186" stopTime="1455847199187" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598870" stopTime="1624192598871" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199188" stopTime="1455847199188" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000467" startTime="1624192598872" stopTime="1624192598873" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199193" stopTime="1455847199194" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598878" stopTime="1624192598879" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199195" stopTime="1455847199195" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598879" stopTime="1624192598879" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199196" stopTime="1455847199196" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598880" stopTime="1624192598880" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847199202" stopTime="1455847199202" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598886" stopTime="1624192598887" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199203" stopTime="1455847199203" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598888" stopTime="1624192598888" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199204" stopTime="1455847199204" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598889" stopTime="1624192598889" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199209" stopTime="1455847199210" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598894" stopTime="1624192598895" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847199211" stopTime="1455847199211" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192598896" stopTime="1624192598896" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199212" stopTime="1455847199212" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598897" stopTime="1624192598897" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199217" stopTime="1455847199218" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.003266" startTime="1624192598902" stopTime="1624192598909" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199223" stopTime="1455847199224" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192598915" stopTime="1624192598916" args=""> 
 		</block>
-		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1455847199225" stopTime="1455847199225" args=""> 
+		<block name="TEXBLUR_GAUSSIAN" totalTimeMS="0.000000" startTime="1624192598916" stopTime="1624192598916" args=""> 
 		</block>
-		<block name="DIRECTIONAL_OCC" totalTimeMS="0.000000" startTime="1455847199225" stopTime="1455847199225" args=""> 
+		<block name="DIRECTIONAL_OCC" totalTimeMS="0.000000" startTime="1624192598916" stopTime="1624192598916" args=""> 
 		</block>
-		<block name="TILED_LIGHT_VOLUMES" totalTimeMS="0.000000" startTime="1455847199227" stopTime="1455847199227" args=""> 
+		<block name="TILED_LIGHT_VOLUMES" totalTimeMS="0.000000" startTime="1624192598919" stopTime="1624192598919" args=""> 
 		</block>
-		<block name="COPY_DEPTH_EIGHTH" totalTimeMS="0.000000" startTime="1455847199230" stopTime="1455847199230" args=""> 
+		<block name="COPY_DEPTH_EIGHTH" totalTimeMS="0.000000" startTime="1624192598922" stopTime="1624192598922" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847199240" stopTime="1455847199242" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192598932" stopTime="1624192598934" args=""> 
 		</block>
-		<block name="COPY_DEPTH_EIGHTH" totalTimeMS="0.000467" startTime="1455847199242" stopTime="1455847199243" args=""> 
+		<block name="COPY_DEPTH_EIGHTH" totalTimeMS="0.000000" startTime="1624192598934" stopTime="1624192598934" args=""> 
 		</block>
-		<block name="TILED_VOLUMES" totalTimeMS="0.000000" startTime="1455847199244" stopTime="1455847199244" args=""> 
+		<block name="TILED_VOLUMES" totalTimeMS="0.000000" startTime="1624192598936" stopTime="1624192598936" args=""> 
 		</block>
-		<block name="CTiledLightVolumesStage::GenerateLightVolumeInfo" totalTimeMS="0.030791" startTime="1455847199246" stopTime="1455847199312" args=""> 
+		<block name="CTiledLightVolumesStage::GenerateLightVolumeInfo" totalTimeMS="0.022393" startTime="1624192598938" stopTime="1624192598986" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.003266" startTime="1455847199334" stopTime="1455847199341" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.003732" startTime="1624192599006" stopTime="1624192599014" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199345" stopTime="1455847199346" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599018" stopTime="1624192599019" args=""> 
 		</block>
-		<block name="TILED_VOLUMES" totalTimeMS="0.000000" startTime="1455847199347" stopTime="1455847199347" args=""> 
+		<block name="TILED_VOLUMES" totalTimeMS="0.000000" startTime="1624192599020" stopTime="1624192599020" args=""> 
 		</block>
-		<block name="TILED_LIGHT_VOLUMES" totalTimeMS="0.000000" startTime="1455847199348" stopTime="1455847199348" args=""> 
+		<block name="TILED_LIGHT_VOLUMES" totalTimeMS="0.000000" startTime="1624192599020" stopTime="1624192599020" args=""> 
 		</block>
-		<block name="DEFERRED_LIGHTING" totalTimeMS="0.000000" startTime="1455847199351" stopTime="1455847199351" args=""> 
+		<block name="DEFERRED_LIGHTING" totalTimeMS="0.000000" startTime="1624192599025" stopTime="1624192599025" args=""> 
 		</block>
-		<block name="CLIPVOLUMES" totalTimeMS="0.000000" startTime="1455847199378" stopTime="1455847199378" args=""> 
+		<block name="CLIPVOLUMES" totalTimeMS="0.000000" startTime="1624192599055" stopTime="1624192599055" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847199387" stopTime="1455847199389" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192599063" stopTime="1624192599065" args=""> 
 		</block>
-		<block name="CLIPVOLUMES" totalTimeMS="0.000000" startTime="1455847199390" stopTime="1455847199390" args=""> 
+		<block name="CLIPVOLUMES" totalTimeMS="0.000000" startTime="1624192599066" stopTime="1624192599066" args=""> 
 		</block>
-		<block name="SHADOWMASK" totalTimeMS="0.000000" startTime="1455847199442" stopTime="1455847199442" args=""> 
+		<block name="SHADOWMASK" totalTimeMS="0.000000" startTime="1624192599114" stopTime="1624192599114" args=""> 
 		</block>
-		<block name="SHADOWMASK_SUN" totalTimeMS="0.000000" startTime="1455847199444" stopTime="1455847199444" args=""> 
+		<block name="SHADOWMASK_SUN" totalTimeMS="0.000000" startTime="1624192599116" stopTime="1624192599116" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001866" startTime="1455847199455" stopTime="1455847199459" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.002333" startTime="1624192599126" stopTime="1624192599131" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199464" stopTime="1455847199465" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599135" stopTime="1624192599136" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199469" stopTime="1455847199470" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599140" stopTime="1624192599141" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199473" stopTime="1455847199474" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599143" stopTime="1624192599144" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.004199" startTime="1455847199477" stopTime="1455847199486" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599148" stopTime="1624192599149" args=""> 
 		</block>
-		<block name="SHADOWMASK_SUN" totalTimeMS="0.000467" startTime="1455847199486" stopTime="1455847199487" args=""> 
+		<block name="SHADOWMASK_SUN" totalTimeMS="0.000000" startTime="1624192599150" stopTime="1624192599150" args=""> 
 		</block>
-		<block name="SHADOWMASK" totalTimeMS="0.000000" startTime="1455847199487" stopTime="1455847199487" args=""> 
+		<block name="SHADOWMASK" totalTimeMS="0.000000" startTime="1624192599151" stopTime="1624192599151" args=""> 
 		</block>
-		<block name="TILED_SHADING" totalTimeMS="0.000000" startTime="1455847199488" stopTime="1455847199488" args=""> 
+		<block name="TILED_SHADING" totalTimeMS="0.000000" startTime="1624192599152" stopTime="1624192599152" args=""> 
 		</block>
-		<block name="SHADING" totalTimeMS="0.000000" startTime="1455847199517" stopTime="1455847199517" args=""> 
+		<block name="SHADING" totalTimeMS="0.000000" startTime="1624192599181" stopTime="1624192599181" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.003266" startTime="1455847199522" stopTime="1455847199529" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.004199" startTime="1624192599186" stopTime="1624192599195" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199530" stopTime="1455847199531" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599196" stopTime="1624192599197" args=""> 
 		</block>
-		<block name="SHADING" totalTimeMS="0.000000" startTime="1455847199532" stopTime="1455847199532" args=""> 
+		<block name="SHADING" totalTimeMS="0.000000" startTime="1624192599197" stopTime="1624192599197" args=""> 
 		</block>
-		<block name="TILED_SHADING" totalTimeMS="0.000000" startTime="1455847199533" stopTime="1455847199533" args=""> 
+		<block name="TILED_SHADING" totalTimeMS="0.000000" startTime="1624192599197" stopTime="1624192599197" args=""> 
 		</block>
-		<block name="SSSSS" totalTimeMS="0.000000" startTime="1455847199534" stopTime="1455847199534" args=""> 
+		<block name="SSSSS" totalTimeMS="0.000000" startTime="1624192599199" stopTime="1624192599199" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847199539" stopTime="1455847199539" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599204" stopTime="1624192599204" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1455847199540" stopTime="1455847199541" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599205" stopTime="1624192599205" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847199547" stopTime="1455847199549" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1624192599212" stopTime="1624192599215" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847199554" stopTime="1455847199554" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599219" stopTime="1624192599219" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847199555" stopTime="1455847199555" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599219" stopTime="1624192599219" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847199560" stopTime="1455847199561" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599224" stopTime="1624192599225" args=""> 
 		</block>
-		<block name="SSSSS" totalTimeMS="0.000000" startTime="1455847199562" stopTime="1455847199562" args=""> 
+		<block name="SSSSS" totalTimeMS="0.000000" startTime="1624192599226" stopTime="1624192599226" args=""> 
 		</block>
-		<block name="DEFERRED_LIGHTING" totalTimeMS="0.000000" startTime="1455847199562" stopTime="1455847199562" args=""> 
+		<block name="DEFERRED_LIGHTING" totalTimeMS="0.000000" startTime="1624192599226" stopTime="1624192599226" args=""> 
 		</block>
-		<block name="FORWARD_OPAQUE" totalTimeMS="0.000000" startTime="1455847199564" stopTime="1455847199564" args=""> 
+		<block name="FORWARD_OPAQUE" totalTimeMS="0.000000" startTime="1624192599228" stopTime="1624192599228" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1455847199575" stopTime="1455847199576" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000933" startTime="1624192599239" stopTime="1624192599241" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199576" stopTime="1455847199576" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599241" stopTime="1624192599241" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199576" stopTime="1455847199576" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1624192599241" stopTime="1624192599242" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199610" stopTime="1455847199610" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599278" stopTime="1624192599278" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199643" stopTime="1455847199643" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599281" stopTime="1624192599281" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199646" stopTime="1455847199646" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599284" stopTime="1624192599284" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199693" stopTime="1455847199693" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599338" stopTime="1624192599338" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199694" stopTime="1455847199694" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599339" stopTime="1624192599339" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199694" stopTime="1455847199694" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.002799" startTime="1624192599339" stopTime="1624192599345" args=""> 
 		</block>
-		<block name="Renderer:DrawCompiledRenderItems" totalTimeMS="0.000467" startTime="1455847199713" stopTime="1455847199714" args=""> 
+		<block name="Renderer:DrawCompiledRenderItems" totalTimeMS="0.000000" startTime="1624192599367" stopTime="1624192599367" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.011663" startTime="1455847199714" stopTime="1455847199739" args=""> 
-			<block name="DrawCompiledRenderItemsToCommandList" totalTimeMS="0.011197" startTime="1455847199715" stopTime="1455847199739" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.013063" startTime="1624192599368" stopTime="1624192599396" args=""> 
+			<block name="DrawCompiledRenderItemsToCommandList" totalTimeMS="0.013063" startTime="1624192599368" stopTime="1624192599396" args=""> 
 			</block>
 		</block>
-		<block name="SKY_PASS" totalTimeMS="0.000000" startTime="1455847199742" stopTime="1455847199742" args=""> 
+		<block name="SKY_PASS" totalTimeMS="0.000467" startTime="1624192599398" stopTime="1624192599399" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1455847199744" stopTime="1455847199745" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599401" stopTime="1624192599401" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.007931" startTime="1455847199768" stopTime="1455847199785" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.007931" startTime="1624192599424" stopTime="1624192599441" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000467" startTime="1455847199786" stopTime="1455847199787" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192599442" stopTime="1624192599442" args=""> 
 		</block>
-		<block name="SKY_PASS" totalTimeMS="0.000000" startTime="1455847199787" stopTime="1455847199787" args=""> 
+		<block name="SKY_PASS" totalTimeMS="0.000000" startTime="1624192599443" stopTime="1624192599443" args=""> 
 		</block>
-		<block name="FORWARD_OPAQUE" totalTimeMS="0.000000" startTime="1455847199788" stopTime="1455847199788" args=""> 
+		<block name="FORWARD_OPAQUE" totalTimeMS="0.000000" startTime="1624192599443" stopTime="1624192599443" args=""> 
 		</block>
-		<block name="FOG_GLOBAL" totalTimeMS="0.000000" startTime="1455847199791" stopTime="1455847199791" args=""> 
+		<block name="FOG_GLOBAL" totalTimeMS="0.000000" startTime="1624192599447" stopTime="1624192599447" args=""> 
 		</block>
-		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.002799" startTime="1455847199805" stopTime="1455847199811" args=""> 
-			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.001400" startTime="1455847199806" stopTime="1455847199809" args=""> 
+		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.004665" startTime="1624192599461" stopTime="1624192599471" args=""> 
+			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.001866" startTime="1624192599463" stopTime="1624192599467" args=""> 
 			</block>
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1455847199815" stopTime="1455847199816" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1624192599480" stopTime="1624192599481" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847199823" stopTime="1455847199825" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1624192599487" stopTime="1624192599490" args=""> 
 		</block>
-		<block name="FOG_GLOBAL" totalTimeMS="0.000000" startTime="1455847199827" stopTime="1455847199827" args=""> 
+		<block name="FOG_GLOBAL" totalTimeMS="0.000000" startTime="1624192599491" stopTime="1624192599491" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847199875" stopTime="1455847199875" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192599523" stopTime="1624192599523" args=""> 
 		</block>
-		<block name="FORWARD_TRANSPARENT_BW" totalTimeMS="0.000000" startTime="1455847199877" stopTime="1455847199877" args=""> 
+		<block name="FORWARD_TRANSPARENT_BW" totalTimeMS="0.000000" startTime="1624192599526" stopTime="1624192599526" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1455847199882" stopTime="1455847199883" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1624192599532" stopTime="1624192599533" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199883" stopTime="1455847199883" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599533" stopTime="1624192599533" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199883" stopTime="1455847199883" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1624192599533" stopTime="1624192599534" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199895" stopTime="1455847199895" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1624192599548" stopTime="1624192599549" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199897" stopTime="1455847199897" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599552" stopTime="1624192599552" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199898" stopTime="1455847199898" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1624192599553" stopTime="1624192599554" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.002799" startTime="1455847199925" stopTime="1455847199931" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1624192599589" stopTime="1624192599590" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199931" stopTime="1455847199931" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599590" stopTime="1624192599590" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199931" stopTime="1455847199931" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599590" stopTime="1624192599590" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847199941" stopTime="1455847199941" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192599601" stopTime="1624192599601" args=""> 
 		</block>
-		<block name="FORWARD_TRANSPARENT_BW" totalTimeMS="0.000000" startTime="1455847199941" stopTime="1455847199941" args=""> 
+		<block name="FORWARD_TRANSPARENT_BW" totalTimeMS="0.000000" startTime="1624192599601" stopTime="1624192599601" args=""> 
 		</block>
-		<block name="WATER" totalTimeMS="0.000000" startTime="1455847199943" stopTime="1455847199943" args=""> 
+		<block name="WATER" totalTimeMS="0.000000" startTime="1624192599603" stopTime="1624192599603" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847199974" stopTime="1455847199974" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192599642" stopTime="1624192599642" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847199975" stopTime="1455847199975" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192599643" stopTime="1624192599643" args=""> 
 		</block>
-		<block name="WATER" totalTimeMS="0.000000" startTime="1455847199975" stopTime="1455847199975" args=""> 
+		<block name="WATER" totalTimeMS="0.000000" startTime="1624192599643" stopTime="1624192599643" args=""> 
 		</block>
-		<block name="FORWARD_TRANSPARENT_AW" totalTimeMS="0.000000" startTime="1455847199977" stopTime="1455847199977" args=""> 
+		<block name="FORWARD_TRANSPARENT_AW" totalTimeMS="0.000000" startTime="1624192599645" stopTime="1624192599645" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199980" stopTime="1455847199980" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599649" stopTime="1624192599649" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199980" stopTime="1455847199980" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599649" stopTime="1624192599649" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199981" stopTime="1455847199981" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599649" stopTime="1624192599649" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1455847199990" stopTime="1455847199991" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599661" stopTime="1624192599661" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199992" stopTime="1455847199992" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599663" stopTime="1624192599663" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847199993" stopTime="1455847199993" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599664" stopTime="1624192599664" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847200018" stopTime="1455847200018" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599693" stopTime="1624192599693" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1455847200018" stopTime="1455847200018" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599693" stopTime="1624192599693" args=""> 
 		</block>
-		<block name="CBaseResource::GetResource" totalTimeMS="0.000467" startTime="1455847200018" stopTime="1455847200019" args=""> 
+		<block name="CBaseResource::GetResource" totalTimeMS="0.000000" startTime="1624192599694" stopTime="1624192599694" args=""> 
 		</block>
-		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1455847200026" stopTime="1455847200026" args=""> 
+		<block name="Renderer:JobifyDrawSubmission" totalTimeMS="0.000000" startTime="1624192599702" stopTime="1624192599702" args=""> 
 		</block>
-		<block name="FORWARD_TRANSPARENT_AW" totalTimeMS="0.000000" startTime="1455847200026" stopTime="1455847200026" args=""> 
+		<block name="FORWARD_TRANSPARENT_AW" totalTimeMS="0.000000" startTime="1624192599702" stopTime="1624192599702" args=""> 
 		</block>
-		<block name="MERGE_DEPTH" totalTimeMS="0.000000" startTime="1455847200028" stopTime="1455847200028" args=""> 
+		<block name="MERGE_DEPTH" totalTimeMS="0.000000" startTime="1624192599704" stopTime="1624192599704" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200043" stopTime="1455847200045" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192599719" stopTime="1624192599721" args=""> 
 		</block>
-		<block name="MERGE_DEPTH" totalTimeMS="0.000000" startTime="1455847200046" stopTime="1455847200046" args=""> 
+		<block name="MERGE_DEPTH" totalTimeMS="0.000000" startTime="1624192599722" stopTime="1624192599722" args=""> 
 		</block>
-		<block name="POST_EFFECTS_HDR" totalTimeMS="0.000000" startTime="1455847200049" stopTime="1455847200049" args=""> 
+		<block name="POST_EFFECTS_HDR" totalTimeMS="0.000000" startTime="1624192599726" stopTime="1624192599726" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847200058" stopTime="1455847200058" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192599736" stopTime="1624192599736" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200084" stopTime="1455847200085" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599765" stopTime="1624192599766" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847200085" stopTime="1455847200085" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192599767" stopTime="1624192599767" args=""> 
 		</block>
-		<block name="DOF" totalTimeMS="0.000000" startTime="1455847200089" stopTime="1455847200089" args=""> 
+		<block name="DOF" totalTimeMS="0.002799" startTime="1624192599772" stopTime="1624192599778" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847200091" stopTime="1455847200091" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192599780" stopTime="1624192599780" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847200094" stopTime="1455847200094" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192599785" stopTime="1624192599785" args=""> 
 		</block>
-		<block name="DOWNSCALE LAYERS" totalTimeMS="0.000000" startTime="1455847200096" stopTime="1455847200096" args=""> 
+		<block name="DOWNSCALE LAYERS" totalTimeMS="0.000000" startTime="1624192599787" stopTime="1624192599787" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1455847200103" stopTime="1455847200104" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599794" stopTime="1624192599794" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200110" stopTime="1455847200112" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1624192599801" stopTime="1624192599804" args=""> 
 		</block>
-		<block name="DOWNSCALE LAYERS" totalTimeMS="0.000000" startTime="1455847200113" stopTime="1455847200113" args=""> 
+		<block name="DOWNSCALE LAYERS" totalTimeMS="0.000000" startTime="1624192599805" stopTime="1624192599805" args=""> 
 		</block>
-		<block name="MIN COC DOWNSCALE" totalTimeMS="0.000000" startTime="1455847200114" stopTime="1455847200114" args=""> 
+		<block name="MIN COC DOWNSCALE" totalTimeMS="0.000000" startTime="1624192599807" stopTime="1624192599807" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200123" stopTime="1455847200125" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599815" stopTime="1624192599816" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847200132" stopTime="1455847200132" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599823" stopTime="1624192599824" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847200139" stopTime="1455847200139" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599830" stopTime="1624192599831" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200146" stopTime="1455847200147" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1624192599837" stopTime="1624192599837" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847200154" stopTime="1455847200154" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599843" stopTime="1624192599844" args=""> 
 		</block>
-		<block name="MIN COC DOWNSCALE" totalTimeMS="0.000000" startTime="1455847200155" stopTime="1455847200155" args=""> 
+		<block name="MIN COC DOWNSCALE" totalTimeMS="0.000000" startTime="1624192599844" stopTime="1624192599844" args=""> 
 		</block>
-		<block name="FAR/NEAR LAYER" totalTimeMS="0.000000" startTime="1455847200163" stopTime="1455847200163" args=""> 
+		<block name="FAR/NEAR LAYER" totalTimeMS="0.000000" startTime="1624192599853" stopTime="1624192599853" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200167" stopTime="1455847200167" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599856" stopTime="1624192599856" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200172" stopTime="1455847200173" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192599862" stopTime="1624192599864" args=""> 
 		</block>
-		<block name="FAR/NEAR LAYER" totalTimeMS="0.000000" startTime="1455847200174" stopTime="1455847200174" args=""> 
+		<block name="FAR/NEAR LAYER" totalTimeMS="0.000000" startTime="1624192599864" stopTime="1624192599864" args=""> 
 		</block>
-		<block name="FAR/NEAR LAYER ITERATION" totalTimeMS="0.000000" startTime="1455847200177" stopTime="1455847200177" args=""> 
+		<block name="FAR/NEAR LAYER ITERATION" totalTimeMS="0.000000" startTime="1624192599867" stopTime="1624192599867" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200180" stopTime="1455847200180" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599871" stopTime="1624192599871" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200189" stopTime="1455847200190" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599879" stopTime="1624192599880" args=""> 
 		</block>
-		<block name="FAR/NEAR LAYER ITERATION" totalTimeMS="0.000000" startTime="1455847200191" stopTime="1455847200191" args=""> 
+		<block name="FAR/NEAR LAYER ITERATION" totalTimeMS="0.000000" startTime="1624192599880" stopTime="1624192599880" args=""> 
 		</block>
-		<block name="COMPOSITE" totalTimeMS="0.000000" startTime="1455847200192" stopTime="1455847200192" args=""> 
+		<block name="COMPOSITE" totalTimeMS="0.000000" startTime="1624192599881" stopTime="1624192599881" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200194" stopTime="1455847200194" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1624192599884" stopTime="1624192599885" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.003266" startTime="1455847200199" stopTime="1455847200206" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599890" stopTime="1624192599891" args=""> 
 		</block>
-		<block name="COMPOSITE" totalTimeMS="0.000000" startTime="1455847200206" stopTime="1455847200206" args=""> 
+		<block name="COMPOSITE" totalTimeMS="0.000000" startTime="1624192599891" stopTime="1624192599891" args=""> 
 		</block>
-		<block name="DOF" totalTimeMS="0.000000" startTime="1455847200207" stopTime="1455847200207" args=""> 
+		<block name="DOF" totalTimeMS="0.000000" startTime="1624192599892" stopTime="1624192599892" args=""> 
 		</block>
-		<block name="MB" totalTimeMS="0.000000" startTime="1455847200208" stopTime="1455847200208" args=""> 
+		<block name="MB" totalTimeMS="0.000000" startTime="1624192599894" stopTime="1624192599894" args=""> 
 		</block>
-		<block name="PACK VELOCITY" totalTimeMS="0.000000" startTime="1455847200212" stopTime="1455847200212" args=""> 
+		<block name="PACK VELOCITY" totalTimeMS="0.000000" startTime="1624192599898" stopTime="1624192599898" args=""> 
 		</block>
-		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.001866" startTime="1455847200215" stopTime="1455847200219" args=""> 
-			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.000933" startTime="1455847200215" stopTime="1455847200217" args=""> 
+		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.002799" startTime="1624192599901" stopTime="1624192599907" args=""> 
+			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.001400" startTime="1624192599902" stopTime="1624192599905" args=""> 
 			</block>
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200224" stopTime="1455847200224" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192599911" stopTime="1624192599911" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200229" stopTime="1455847200231" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192599916" stopTime="1624192599918" args=""> 
 		</block>
-		<block name="PACK VELOCITY" totalTimeMS="0.000467" startTime="1455847200231" stopTime="1455847200232" args=""> 
+		<block name="PACK VELOCITY" totalTimeMS="0.000000" startTime="1624192599918" stopTime="1624192599918" args=""> 
 		</block>
-		<block name="VELOCITY TILES" totalTimeMS="0.000000" startTime="1455847200233" stopTime="1455847200233" args=""> 
+		<block name="VELOCITY TILES" totalTimeMS="0.000000" startTime="1624192599920" stopTime="1624192599920" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200241" stopTime="1455847200242" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599927" stopTime="1624192599928" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200250" stopTime="1455847200251" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599933" stopTime="1624192599934" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200259" stopTime="1455847200260" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599941" stopTime="1624192599942" args=""> 
 		</block>
-		<block name="VELOCITY TILES" totalTimeMS="0.000000" startTime="1455847200261" stopTime="1455847200261" args=""> 
+		<block name="VELOCITY TILES" totalTimeMS="0.000000" startTime="1624192599943" stopTime="1624192599943" args=""> 
 		</block>
-		<block name="MOTION VECTOR APPLY" totalTimeMS="0.000000" startTime="1455847200262" stopTime="1455847200262" args=""> 
+		<block name="MOTION VECTOR APPLY" totalTimeMS="0.000000" startTime="1624192599945" stopTime="1624192599945" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847200264" stopTime="1455847200264" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192599947" stopTime="1624192599947" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847200270" stopTime="1455847200270" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192599952" stopTime="1624192599953" args=""> 
 		</block>
-		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1455847200271" stopTime="1455847200271" args=""> 
+		<block name="STRETCHRECT" totalTimeMS="0.000000" startTime="1624192599953" stopTime="1624192599953" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200281" stopTime="1455847200282" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192599968" stopTime="1624192599970" args=""> 
 		</block>
-		<block name="MOTION VECTOR APPLY" totalTimeMS="0.000000" startTime="1455847200283" stopTime="1455847200283" args=""> 
+		<block name="MOTION VECTOR APPLY" totalTimeMS="0.000000" startTime="1624192599971" stopTime="1624192599971" args=""> 
 		</block>
-		<block name="MB" totalTimeMS="0.000000" startTime="1455847200284" stopTime="1455847200284" args=""> 
+		<block name="MB" totalTimeMS="0.000000" startTime="1624192599972" stopTime="1624192599972" args=""> 
 		</block>
-		<block name="HALFRES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1455847200286" stopTime="1455847200286" args=""> 
+		<block name="HALFRES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1624192599974" stopTime="1624192599974" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.000000" startTime="1455847200293" stopTime="1455847200293" args=""> 
+		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.000000" startTime="1624192599992" stopTime="1624192599992" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.012596" startTime="1455847200318" stopTime="1455847200345" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.013996" startTime="1624192600019" stopTime="1624192600049" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200352" stopTime="1455847200352" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1624192600057" stopTime="1624192600058" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200356" stopTime="1455847200358" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192600063" stopTime="1624192600065" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.000000" startTime="1455847200359" stopTime="1455847200359" args=""> 
+		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.002333" startTime="1624192600066" stopTime="1624192600071" args=""> 
 		</block>
-		<block name="HALFRES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1455847200359" stopTime="1455847200359" args=""> 
+		<block name="HALFRES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1624192600072" stopTime="1624192600072" args=""> 
 		</block>
-		<block name="QUARTER_RES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1455847200362" stopTime="1455847200362" args=""> 
+		<block name="QUARTER_RES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1624192600075" stopTime="1624192600075" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.000000" startTime="1455847200367" stopTime="1455847200367" args=""> 
+		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.000000" startTime="1624192600082" stopTime="1624192600082" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.006531" startTime="1455847200385" stopTime="1455847200399" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.008398" startTime="1624192600103" stopTime="1624192600121" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200403" stopTime="1455847200403" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192600128" stopTime="1624192600128" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200407" stopTime="1455847200408" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600133" stopTime="1624192600134" args=""> 
 		</block>
-		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.000000" startTime="1455847200409" stopTime="1455847200409" args=""> 
+		<block name="DOWNSAMPLE_STABLE" totalTimeMS="0.000000" startTime="1624192600135" stopTime="1624192600135" args=""> 
 		</block>
-		<block name="QUARTER_RES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1455847200409" stopTime="1455847200409" args=""> 
+		<block name="QUARTER_RES_DOWNSAMPLE_HDRTARGET" totalTimeMS="0.000000" startTime="1624192600136" stopTime="1624192600136" args=""> 
 		</block>
-		<block name="MEASURE_LUMINANCE" totalTimeMS="0.000000" startTime="1455847200411" stopTime="1455847200411" args=""> 
+		<block name="MEASURE_LUMINANCE" totalTimeMS="0.000000" startTime="1624192600138" stopTime="1624192600138" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200420" stopTime="1455847200421" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600147" stopTime="1624192600148" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200429" stopTime="1455847200430" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600156" stopTime="1624192600157" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847200437" stopTime="1455847200437" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600163" stopTime="1624192600164" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200445" stopTime="1455847200446" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600170" stopTime="1624192600171" args=""> 
 		</block>
-		<block name="MEASURE_LUMINANCE" totalTimeMS="0.000000" startTime="1455847200448" stopTime="1455847200448" args=""> 
+		<block name="MEASURE_LUMINANCE" totalTimeMS="0.000000" startTime="1624192600174" stopTime="1624192600174" args=""> 
 		</block>
-		<block name="EYEADAPTATION" totalTimeMS="0.000000" startTime="1455847200449" stopTime="1455847200449" args=""> 
+		<block name="EYEADAPTATION" totalTimeMS="0.000000" startTime="1624192600175" stopTime="1624192600175" args=""> 
 		</block>
-		<block name="CHWShader_D3D::mfGetInstance" totalTimeMS="0.000467" startTime="1455847200468" stopTime="1455847200469" args=""> 
+		<block name="CHWShader_D3D::mfGetInstance" totalTimeMS="0.000000" startTime="1624192600196" stopTime="1624192600196" args=""> 
 		</block>
-		<block name="CHWShader_D3D::mfGetInstance" totalTimeMS="0.000467" startTime="1455847200470" stopTime="1455847200471" args=""> 
+		<block name="CHWShader_D3D::mfGetInstance" totalTimeMS="0.000467" startTime="1624192600197" stopTime="1624192600198" args=""> 
 		</block>
-		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.006998" startTime="1455847200480" stopTime="1455847200495" args=""> 
+		<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.007464" startTime="1624192600208" stopTime="1624192600224" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200510" stopTime="1455847200512" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192600241" stopTime="1624192600243" args=""> 
 		</block>
-		<block name="EYEADAPTATION" totalTimeMS="0.000467" startTime="1455847200512" stopTime="1455847200513" args=""> 
+		<block name="EYEADAPTATION" totalTimeMS="0.000000" startTime="1624192600244" stopTime="1624192600244" args=""> 
 		</block>
-		<block name="BLOOM_GEN" totalTimeMS="0.000000" startTime="1455847200515" stopTime="1455847200515" args=""> 
+		<block name="BLOOM_GEN" totalTimeMS="0.000000" startTime="1624192600247" stopTime="1624192600247" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200524" stopTime="1455847200525" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600256" stopTime="1624192600257" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200531" stopTime="1455847200532" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1624192600264" stopTime="1624192600264" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.002799" startTime="1455847200540" stopTime="1455847200546" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600273" stopTime="1624192600274" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200553" stopTime="1455847200554" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600280" stopTime="1624192600281" args=""> 
 		</block>
-		<block name="BLOOM_GEN" totalTimeMS="0.000000" startTime="1455847200555" stopTime="1455847200555" args=""> 
+		<block name="BLOOM_GEN" totalTimeMS="0.000000" startTime="1624192600282" stopTime="1624192600282" args=""> 
 		</block>
-		<block name="LENS_OPTICS" totalTimeMS="0.000000" startTime="1455847200557" stopTime="1455847200557" args=""> 
+		<block name="LENS_OPTICS" totalTimeMS="0.000000" startTime="1624192600283" stopTime="1624192600283" args=""> 
 		</block>
-		<block name="LENS_OPTICS" totalTimeMS="0.000000" startTime="1455847200558" stopTime="1455847200558" args=""> 
+		<block name="LENS_OPTICS" totalTimeMS="0.000000" startTime="1624192600285" stopTime="1624192600285" args=""> 
 		</block>
-		<block name="SUNSHAFTS_GEN" totalTimeMS="0.000000" startTime="1455847200560" stopTime="1455847200560" args=""> 
+		<block name="SUNSHAFTS_GEN" totalTimeMS="0.000000" startTime="1624192600287" stopTime="1624192600287" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200563" stopTime="1455847200563" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192600291" stopTime="1624192600291" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200568" stopTime="1455847200570" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192600295" stopTime="1624192600297" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200586" stopTime="1455847200588" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192600310" stopTime="1624192600312" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847200599" stopTime="1455847200600" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600322" stopTime="1624192600323" args=""> 
 		</block>
-		<block name="SUNSHAFTS_GEN" totalTimeMS="0.000000" startTime="1455847200601" stopTime="1455847200601" args=""> 
+		<block name="SUNSHAFTS_GEN" totalTimeMS="0.000000" startTime="1624192600324" stopTime="1624192600324" args=""> 
 		</block>
-		<block name="COLORGRADING" totalTimeMS="0.000000" startTime="1455847200602" stopTime="1455847200602" args=""> 
+		<block name="COLORGRADING" totalTimeMS="0.000000" startTime="1624192600326" stopTime="1624192600326" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200628" stopTime="1455847200630" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1624192600351" stopTime="1624192600354" args=""> 
 		</block>
-		<block name="COLORGRADING" totalTimeMS="0.000000" startTime="1455847200630" stopTime="1455847200630" args=""> 
+		<block name="COLORGRADING" totalTimeMS="0.000000" startTime="1624192600355" stopTime="1624192600355" args=""> 
 		</block>
-		<block name="TONEMAPPING" totalTimeMS="0.000000" startTime="1455847200632" stopTime="1455847200632" args=""> 
+		<block name="TONEMAPPING" totalTimeMS="0.000000" startTime="1624192600357" stopTime="1624192600357" args=""> 
 		</block>
-		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.002333" startTime="1455847200638" stopTime="1455847200643" args=""> 
-			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.000933" startTime="1455847200639" stopTime="1455847200641" args=""> 
+		<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.003732" startTime="1624192600363" stopTime="1624192600371" args=""> 
+			<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.001400" startTime="1624192600365" stopTime="1624192600368" args=""> 
 			</block>
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1455847200648" stopTime="1455847200649" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192600377" stopTime="1624192600377" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1455847200657" stopTime="1455847200660" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001400" startTime="1624192600386" stopTime="1624192600389" args=""> 
 		</block>
-		<block name="TONEMAPPING" totalTimeMS="0.000000" startTime="1455847200660" stopTime="1455847200660" args=""> 
+		<block name="TONEMAPPING" totalTimeMS="0.000000" startTime="1624192600390" stopTime="1624192600390" args=""> 
 		</block>
-		<block name="POST_EFFECTS_HDR" totalTimeMS="0.000000" startTime="1455847200661" stopTime="1455847200661" args=""> 
+		<block name="POST_EFFECTS_HDR" totalTimeMS="0.000000" startTime="1624192600390" stopTime="1624192600390" args=""> 
 		</block>
-		<block name="POST_EFFECTS_LDR" totalTimeMS="0.000000" startTime="1455847200663" stopTime="1455847200663" args=""> 
+		<block name="POST_EFFECTS_LDR" totalTimeMS="0.000000" startTime="1624192600394" stopTime="1624192600394" args=""> 
 		</block>
-		<block name="POST_AA" totalTimeMS="0.000000" startTime="1455847200675" stopTime="1455847200675" args=""> 
+		<block name="POST_AA" totalTimeMS="0.000000" startTime="1624192600406" stopTime="1624192600406" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200683" stopTime="1455847200683" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192600414" stopTime="1624192600414" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200689" stopTime="1455847200691" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192600420" stopTime="1624192600422" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200694" stopTime="1455847200694" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1624192600424" stopTime="1624192600424" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.001866" startTime="1455847200698" stopTime="1455847200702" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192600429" stopTime="1624192600431" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200705" stopTime="1455847200705" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.002799" startTime="1624192600433" stopTime="1624192600439" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000000" startTime="1455847200711" stopTime="1455847200711" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192600446" stopTime="1624192600447" args=""> 
 		</block>
-		<block name="FLARES, GRAIN" totalTimeMS="0.000000" startTime="1455847200714" stopTime="1455847200714" args=""> 
+		<block name="FLARES, GRAIN" totalTimeMS="0.000000" startTime="1624192600450" stopTime="1624192600450" args=""> 
 		</block>
-		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000000" startTime="1455847200720" stopTime="1455847200720" args=""> 
+		<block name="Renderer:Shader_SetParams" totalTimeMS="0.000467" startTime="1624192600457" stopTime="1624192600458" args=""> 
 		</block>
-		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1455847200725" stopTime="1455847200727" args=""> 
+		<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000933" startTime="1624192600463" stopTime="1624192600465" args=""> 
 		</block>
-		<block name="FLARES, GRAIN" totalTimeMS="0.000000" startTime="1455847200727" stopTime="1455847200727" args=""> 
+		<block name="FLARES, GRAIN" totalTimeMS="0.000000" startTime="1624192600466" stopTime="1624192600466" args=""> 
 		</block>
-		<block name="POST_AA" totalTimeMS="0.000000" startTime="1455847200728" stopTime="1455847200728" args=""> 
+		<block name="POST_AA" totalTimeMS="0.000000" startTime="1624192600466" stopTime="1624192600466" args=""> 
 		</block>
-		<block name="POST_EFFECTS_LDR" totalTimeMS="0.000000" startTime="1455847200736" stopTime="1455847200736" args=""> 
+		<block name="POST_EFFECTS_LDR" totalTimeMS="0.000000" startTime="1624192600475" stopTime="1624192600475" args=""> 
 		</block>
-		<block name="OMNICAMERA" totalTimeMS="0.000000" startTime="1455847200740" stopTime="1455847200740" args=""> 
+		<block name="OMNICAMERA" totalTimeMS="0.000000" startTime="1624192600478" stopTime="1624192600478" args=""> 
 		</block>
-		<block name="OMNICAMERA" totalTimeMS="0.000467" startTime="1455847200741" stopTime="1455847200742" args=""> 
+		<block name="OMNICAMERA" totalTimeMS="0.000000" startTime="1624192600479" stopTime="1624192600479" args=""> 
 		</block>
-		<block name="GRAPHICS_PIPELINE" totalTimeMS="0.000000" startTime="1455847200742" stopTime="1455847200742" args=""> 
+		<block name="GRAPHICS_PIPELINE" totalTimeMS="0.000000" startTime="1624192600480" stopTime="1624192600480" args=""> 
 		</block>
-		<block name="Renderer:RenderViewEndFrame" totalTimeMS="0.000933" startTime="1455847200802" stopTime="1455847200804" args=""> 
-			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000933" startTime="1455847200802" stopTime="1455847200804" args=""> 
+		<block name="Renderer:RenderViewEndFrame" totalTimeMS="0.001400" startTime="1624192600555" stopTime="1624192600558" args=""> 
+			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000933" startTime="1624192600556" stopTime="1624192600558" args=""> 
 			</block>
 		</block>
-		<block name="SCENE" totalTimeMS="0.000000" startTime="1455847202154" stopTime="1455847202154" args=""> 
+		<block name="SCENE" totalTimeMS="0.000000" startTime="1624192601135" stopTime="1624192601135" args=""> 
 		</block>
-		<block name="Renderer:ShadowViewsEndFrame" totalTimeMS="0.001400" startTime="1455847202156" stopTime="1455847202159" args=""> 
-			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000933" startTime="1455847202156" stopTime="1455847202158" args=""> 
+		<block name="Renderer:ShadowViewsEndFrame" totalTimeMS="0.002333" startTime="1624192601137" stopTime="1624192601142" args=""> 
+			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000933" startTime="1624192601138" stopTime="1624192601140" args=""> 
 			</block>
-			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000000" startTime="1455847202158" stopTime="1455847202158" args=""> 
+			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000467" startTime="1624192601140" stopTime="1624192601141" args=""> 
 			</block>
-			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000000" startTime="1455847202158" stopTime="1455847202158" args=""> 
+			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000000" startTime="1624192601141" stopTime="1624192601141" args=""> 
 			</block>
-			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000467" startTime="1455847202158" stopTime="1455847202159" args=""> 
+			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000000" startTime="1624192601141" stopTime="1624192601141" args=""> 
 			</block>
-			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000000" startTime="1455847202159" stopTime="1455847202159" args=""> 
+			<block name="CRenderView::SwitchUsageMode" totalTimeMS="0.000000" startTime="1624192601142" stopTime="1624192601142" args=""> 
 			</block>
 		</block>
-		<block name="CAuxGeomCB::Flush" totalTimeMS="0.000933" startTime="1455847202162" stopTime="1455847202164" args=""> 
+		<block name="CAuxGeomCB::Flush" totalTimeMS="0.000933" startTime="1624192601144" stopTime="1624192601146" args=""> 
 		</block>
-		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000000" startTime="1455847202180" stopTime="1455847202180" args=""> 
+		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000467" startTime="1624192601163" stopTime="1624192601164" args=""> 
 		</block>
-		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000000" startTime="1455847202188" stopTime="1455847202188" args=""> 
+		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000000" startTime="1624192601171" stopTime="1624192601171" args=""> 
 		</block>
-		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000467" startTime="1455847202191" stopTime="1455847202192" args=""> 
+		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000000" startTime="1624192601175" stopTime="1624192601175" args=""> 
 		</block>
-		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.003732" startTime="1455847202195" stopTime="1455847202203" args=""> 
+		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000000" startTime="1624192601179" stopTime="1624192601179" args=""> 
 		</block>
-		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000467" startTime="1455847202205" stopTime="1455847202206" args=""> 
+		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.000000" startTime="1624192601183" stopTime="1624192601183" args=""> 
 		</block>
-		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.002333" startTime="1455847202209" stopTime="1455847202214" args=""> 
+		<block name="Renderer:ClearTemporaryCompiledObjects" totalTimeMS="0.002333" startTime="1624192601186" stopTime="1624192601191" args=""> 
 		</block>
-		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.003266" startTime="1455847202218" stopTime="1455847202225" args=""> 
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.003732" startTime="1624192601195" stopTime="1624192601203" args=""> 
 		</block>
-		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.001866" startTime="1455847202225" stopTime="1455847202229" args=""> 
-			<block name="CRenderMesh::Tick" totalTimeMS="0.000933" startTime="1455847202227" stopTime="1455847202229" args=""> 
-				<block name="CRenderMesh::ClearStaleMemory" totalTimeMS="0.000000" startTime="1455847202228" stopTime="1455847202228" args=""> 
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.002333" startTime="1624192601203" stopTime="1624192601208" args=""> 
+			<block name="CRenderMesh::Tick" totalTimeMS="0.000933" startTime="1624192601205" stopTime="1624192601207" args=""> 
+				<block name="CRenderMesh::ClearStaleMemory" totalTimeMS="0.000000" startTime="1624192601207" stopTime="1624192601207" args=""> 
 				</block>
 			</block>
 		</block>
-		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.082109" startTime="1455847202229" stopTime="1455847202405" args=""> 
-			<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.081176" startTime="1455847202230" stopTime="1455847202404" args=""> 
-				<block name="AuxGeom_Flush" totalTimeMS="0.000000" startTime="1455847202235" stopTime="1455847202235" args=""> 
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.070913" startTime="1624192601208" stopTime="1624192601360" args=""> 
+			<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.069046" startTime="1624192601210" stopTime="1624192601358" args=""> 
+				<block name="AuxGeom_Flush" totalTimeMS="0.000467" startTime="1624192601215" stopTime="1624192601216" args=""> 
 				</block>
-				<block name="CDeviceBufferManager::Destroy_Locked" totalTimeMS="0.000000" startTime="1455847202243" stopTime="1455847202243" args=""> 
+				<block name="CDeviceBufferManager::Destroy_Locked" totalTimeMS="0.000000" startTime="1624192601224" stopTime="1624192601224" args=""> 
 				</block>
-				<block name="CDeviceBufferManager::Create" totalTimeMS="0.002799" startTime="1455847202243" stopTime="1455847202249" args=""> 
-					<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.001400" startTime="1455847202245" stopTime="1455847202248" args=""> 
+				<block name="CDeviceBufferManager::Create" totalTimeMS="0.002799" startTime="1624192601225" stopTime="1624192601231" args=""> 
+					<block name="`anonymous-namespace&apos;::CDynamicDefragAllocator::Allocate" totalTimeMS="0.001866" startTime="1624192601226" stopTime="1624192601230" args=""> 
 					</block>
 				</block>
-				<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.028925" startTime="1455847202250" stopTime="1455847202312" args=""> 
+				<block name="CDeviceBufferManager::UpdateBuffer_Locked" totalTimeMS="0.018195" startTime="1624192601232" stopTime="1624192601271" args=""> 
 				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.002333" startTime="1455847202364" stopTime="1455847202369" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.002799" startTime="1624192601320" stopTime="1624192601326" args=""> 
 				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847202375" stopTime="1455847202376" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192601331" stopTime="1624192601332" args=""> 
 				</block>
-				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1455847202380" stopTime="1455847202381" args=""> 
+				<block name="CSubmissionQueue_DX11::CommitDeviceStates" totalTimeMS="0.000467" startTime="1624192601336" stopTime="1624192601337" args=""> 
 				</block>
-				<block name="AuxGeom_Flush" totalTimeMS="0.000000" startTime="1455847202385" stopTime="1455847202385" args=""> 
+				<block name="AuxGeom_Flush" totalTimeMS="0.000000" startTime="1624192601340" stopTime="1624192601340" args=""> 
 				</block>
 			</block>
 		</block>
-		<block name="SRenderThread: eRC_EndFrame" totalTimeMS="35.456310" startTime="1455847202406" stopTime="1455847278406" args=""> 
-			<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="35.455845" startTime="1455847202407" stopTime="1455847278406" args=""> 
-				<block name="CTexture::Update" totalTimeMS="0.014929" startTime="1455847202408" stopTime="1455847202440" args=""> 
-					<block name="CPlanningTextureStreamer::ApplySchedule" totalTimeMS="0.003732" startTime="1455847202412" stopTime="1455847202420" args=""> 
-						<block name="CPlanningTextureStreamer::SyncWithJob_Locked" totalTimeMS="0.000933" startTime="1455847202412" stopTime="1455847202414" args=""> 
+		<block name="SRenderThread: eRC_EndFrame" totalTimeMS="35.772152" startTime="1624192601361" stopTime="1624192678038" args=""> 
+			<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="35.771217" startTime="1624192601362" stopTime="1624192678037" args=""> 
+				<block name="CTexture::Update" totalTimeMS="0.014929" startTime="1624192601363" stopTime="1624192601395" args=""> 
+					<block name="CPlanningTextureStreamer::ApplySchedule" totalTimeMS="0.003266" startTime="1624192601367" stopTime="1624192601374" args=""> 
+						<block name="CPlanningTextureStreamer::SyncWithJob_Locked" totalTimeMS="0.001400" startTime="1624192601367" stopTime="1624192601370" args=""> 
 						</block>
-						<block name="CTexture::StreamState_Update" totalTimeMS="0.000467" startTime="1455847202415" stopTime="1455847202416" args=""> 
+						<block name="CTexture::StreamState_Update" totalTimeMS="0.000467" startTime="1624192601370" stopTime="1624192601371" args=""> 
 						</block>
-						<block name="CTexture::StreamState_UpdatePrep" totalTimeMS="0.000000" startTime="1455847202416" stopTime="1455847202416" args=""> 
+						<block name="CTexture::StreamState_UpdatePrep" totalTimeMS="0.000000" startTime="1624192601371" stopTime="1624192601371" args=""> 
 						</block>
 					</block>
 				</block>
-				<block name="CAuxGeomCB::Flush" totalTimeMS="0.000467" startTime="1455847202445" stopTime="1455847202446" args=""> 
+				<block name="CAuxGeomCB::Flush" totalTimeMS="0.000467" startTime="1624192601400" stopTime="1624192601401" args=""> 
 				</block>
-				<block name="CFillRateManager::ComputeMaxPixels" totalTimeMS="0.002799" startTime="1455847202454" stopTime="1455847202460" args=""> 
+				<block name="CFillRateManager::ComputeMaxPixels" totalTimeMS="0.002799" startTime="1624192601408" stopTime="1624192601414" args=""> 
 				</block>
-				<block name="SYNC TO FRAME FENCE" totalTimeMS="32.972038" startTime="1455847202709" stopTime="1455847273384" args=""> 
+				<block name="SYNC TO FRAME FENCE" totalTimeMS="33.578060" startTime="1624192601544" stopTime="1624192673518" args=""> 
 				</block>
-				<block name="FLUSH GPU HEAPS" totalTimeMS="0.026126" startTime="1455847273386" stopTime="1455847273442" args=""> 
+				<block name="FLUSH GPU HEAPS" totalTimeMS="0.024260" startTime="1624192673520" stopTime="1624192673572" args=""> 
 				</block>
-				<block name="LockParticleVideoMemory" totalTimeMS="0.056917" startTime="1455847278264" stopTime="1455847278386" args=""> 
-					<block name="CDeviceBufferManager::BeginWrite_Locked" totalTimeMS="0.003266" startTime="1455847278270" stopTime="1455847278277" args=""> 
+				<block name="LockParticleVideoMemory" totalTimeMS="0.061582" startTime="1624192677867" stopTime="1624192677999" args=""> 
+					<block name="CDeviceBufferManager::BeginWrite_Locked" totalTimeMS="0.003732" startTime="1624192677874" stopTime="1624192677882" args=""> 
 					</block>
-					<block name="CDeviceBufferManager::BeginWrite_Locked" totalTimeMS="0.001400" startTime="1455847278279" stopTime="1455847278282" args=""> 
+					<block name="CDeviceBufferManager::BeginWrite_Locked" totalTimeMS="0.000933" startTime="1624192677884" stopTime="1624192677886" args=""> 
 					</block>
 				</block>
-				<block name="CREGeomCache::UpdateModified" totalTimeMS="0.000467" startTime="1455847278387" stopTime="1455847278388" args=""> 
+				<block name="CREGeomCache::UpdateModified" totalTimeMS="0.000467" startTime="1624192678019" stopTime="1624192678020" args=""> 
 				</block>
-				<block name="CDeviceBufferManager::ReleaseEmptyBanks" totalTimeMS="0.006531" startTime="1455847278388" stopTime="1455847278402" args=""> 
+				<block name="CDeviceBufferManager::ReleaseEmptyBanks" totalTimeMS="0.006065" startTime="1624192678021" stopTime="1624192678034" args=""> 
 				</block>
 			</block>
 		</block>
-		<block name="Loop: RenderThread" totalTimeMS="0.052718" startTime="1455847278408" stopTime="1455847278521" args=""> 
-			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.034057" startTime="1455847278409" stopTime="1455847278482" args=""> 
+		<block name="Loop: RenderThread" totalTimeMS="0.047120" startTime="1624192678040" stopTime="1624192678141" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.031724" startTime="1624192678041" stopTime="1624192678109" args=""> 
 			</block>
-			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.017262" startTime="1455847278483" stopTime="1455847278520" args=""> 
-			</block>
-		</block>
-		<block name="Loop: RenderThread" totalTimeMS="0.019128" startTime="1455847278521" stopTime="1455847278562" args=""> 
-			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.018661" startTime="1455847278521" stopTime="1455847278561" args=""> 
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.014462" startTime="1624192678110" stopTime="1624192678141" args=""> 
 			</block>
 		</block>
-		<block name="Loop: RenderThread" totalTimeMS="3.388410" startTime="1455847278562" stopTime="1455847285825" args=""> 
-			<block name="SRenderThread::WaitFlushCond" totalTimeMS="3.388410" startTime="1455847278562" stopTime="1455847285825" args=""> 
+		<block name="Loop: RenderThread" totalTimeMS="0.009797" startTime="1624192678141" stopTime="1624192678162" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.009331" startTime="1624192678142" stopTime="1624192678162" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="3.293705" startTime="1624192678162" stopTime="1624192685222" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="3.293705" startTime="1624192678162" stopTime="1624192685222" args=""> 
 			</block>
 		</block>
 	</thread>
-	<thread name="JobSystem_Worker_3" totalTimeMS="41.118126" startTime="1455847197689" stopTime="1455847285825" totalBlocks="1"> 
-		<block name="job:pfx2:ScheduleUpdates" totalTimeMS="0.005598" startTime="1455847198022" stopTime="1455847198034" args="job:pfx2:ScheduleUpdates"> 
-		</block>
-	</thread>
-	<thread name="JobSystem_Worker_4" totalTimeMS="41.118126" startTime="1455847197689" stopTime="1455847285825" totalBlocks="6"> 
-		<block name="TexStrmUpdate" totalTimeMS="0.008398" startTime="1455847202523" stopTime="1455847202541" args="TexStrmUpdate"> 
-			<block name="CPlanningTextureStreamer::Job_UpdateEntry" totalTimeMS="0.003266" startTime="1455847202533" stopTime="1455847202540" args=""> 
-				<block name="CPlanningTextureStreamer::Job_Sort" totalTimeMS="0.003266" startTime="1455847202533" stopTime="1455847202540" args=""> 
-					<block name="CPlanningTextureStreamer::Job_InitKeys" totalTimeMS="0.000933" startTime="1455847202534" stopTime="1455847202536" args=""> 
+	<thread name="JobSystem_Worker_0" totalTimeMS="40.803215" startTime="1624192597761" stopTime="1624192685222" totalBlocks="6"> 
+		<block name="TexStrmUpdate" totalTimeMS="0.008864" startTime="1624192601480" stopTime="1624192601499" args="TexStrmUpdate"> 
+			<block name="CPlanningTextureStreamer::Job_UpdateEntry" totalTimeMS="0.003732" startTime="1624192601490" stopTime="1624192601498" args=""> 
+				<block name="CPlanningTextureStreamer::Job_Sort" totalTimeMS="0.002799" startTime="1624192601491" stopTime="1624192601497" args=""> 
+					<block name="CPlanningTextureStreamer::Job_InitKeys" totalTimeMS="0.000467" startTime="1624192601492" stopTime="1624192601493" args=""> 
 					</block>
-					<block name="CPlanningTextureStreamer::Job_Bias" totalTimeMS="0.000000" startTime="1455847202537" stopTime="1455847202537" args=""> 
+					<block name="CPlanningTextureStreamer::Job_Bias" totalTimeMS="0.000000" startTime="1624192601494" stopTime="1624192601494" args=""> 
 					</block>
-					<block name="CPlanningTextureStreamer::Job_Plan" totalTimeMS="0.000467" startTime="1455847202539" stopTime="1455847202540" args=""> 
+					<block name="CPlanningTextureStreamer::Job_Plan" totalTimeMS="0.000467" startTime="1624192601496" stopTime="1624192601497" args=""> 
 					</block>
 				</block>
 			</block>
 		</block>
 	</thread>
-	<thread name="AudioMainThread" totalTimeMS="41.118126" startTime="1455847197689" stopTime="1455847285825" totalBlocks="3"> 
-		<block name="Audio: Internal Update" totalTimeMS="0.005598" startTime="1455847251147" stopTime="1455847251159" args=""> 
+	<thread name="AudioMainThread" totalTimeMS="40.803215" startTime="1624192597761" stopTime="1624192685222" totalBlocks="3"> 
+		<block name="Audio: Internal Update" totalTimeMS="0.006998" startTime="1624192650974" stopTime="1624192650989" args=""> 
 		</block>
-		<block name="Audio: Internal Update" totalTimeMS="16.172277" startTime="1455847251160" stopTime="1455847285825" args=""> 
-			<block name="Wait - Audio Update" totalTimeMS="16.171810" startTime="1455847251161" stopTime="1455847285825" args=""> 
+		<block name="Audio: Internal Update" totalTimeMS="15.970736" startTime="1624192650989" stopTime="1624192685222" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="15.970736" startTime="1624192650989" stopTime="1624192685222" args=""> 
 			</block>
 		</block>
 	</thread>

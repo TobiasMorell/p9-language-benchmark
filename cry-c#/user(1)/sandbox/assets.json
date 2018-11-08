@@ -1,0 +1,4994 @@
+{
+	"version": 2,
+	"assets": [
+		{
+			"type": "Xml",
+			"guid": "248e3333-a0b7-840f-832c-1a09e5697843",
+			"name": "compressionpolicy",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/config/defaultscripts/CompressionPolicy.xml" ],
+			"source": "",
+			"metadata": "%engine%/config/defaultscripts/compressionpolicy.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "CompressionPolicy" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "23fece5f-70b3-8a49-7e47-046bba31db90",
+			"name": "scheduler",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/config/defaultscripts/Scheduler.xml" ],
+			"source": "",
+			"metadata": "%engine%/config/defaultscripts/scheduler.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "Scheduler" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "2da6a363-4ce7-47f8-b217-45e89a6bef8c",
+			"name": "hdd_cache",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/config/HDD_cache.xml" ],
+			"source": "",
+			"metadata": "%engine%/config/hdd_cache.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "HDD_Cache" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "9172b0e9-03a7-551a-714d-c7ab6929e615",
+			"name": "levelrotation",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/config/levelrotation.xml" ],
+			"source": "",
+			"metadata": "%engine%/config/levelrotation.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "levelrotation" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "3e7124bd-b4aa-6d46-1776-8b3e990275dd",
+			"name": "perfhud_pc",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/config/PerfHud_PC.xml" ],
+			"source": "",
+			"metadata": "%engine%/config/perfhud_pc.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "budgets" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "dddab758-618d-bebd-3dd1-d349b6b3a84a",
+			"name": "watervolume",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/animated/WaterVolume.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/animated/watervolume.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7ab1163f-fc6e-a79b-c3b3-350329dfb5fd",
+			"name": "hit",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/codecoverage/hit.dds" ],
+			"source": "%engine%/engineassets/codecoverage/hit.tif",
+			"metadata": "%engine%/engineassets/codecoverage/hit.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ff802013-67fb-78de-905f-b1bc7e82cc62",
+			"name": "pbar",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/codecoverage/pbar.dds" ],
+			"source": "%engine%/engineassets/codecoverage/pbar.tif",
+			"metadata": "%engine%/engineassets/codecoverage/pbar.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ef57379a-6ae0-b78e-80d0-2dc60fadceb7",
+			"name": "unexpected",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/codecoverage/unexpected.dds",
+				"%engine%/engineassets/codecoverage/unexpected.dds.1",
+				"%engine%/engineassets/codecoverage/unexpected.dds.2"
+			],
+			"source": "%engine%/engineassets/codecoverage/unexpected.tif",
+			"metadata": "%engine%/engineassets/codecoverage/unexpected.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "9bfb5be1-5802-7731-7bea-0541185ab26b",
+			"name": "defaulttextures",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/defaulttextures.xml" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/defaulttextures.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "textures" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "GeometryCache",
+			"guid": "21967604-a087-8154-e307-f706a489adfe",
+			"name": "default",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/geomcaches/default.cax" ],
+			"source": "%engine%/engineassets/geomcaches/default.abc",
+			"metadata": "%engine%/engineassets/geomcaches/default.cax.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2e6e98de-796d-3563-a73e-e34bc633782c",
+			"name": "averagememoryusage",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/AverageMemoryUsage.dds" ],
+			"source": "%engine%/engineassets/icons/AverageMemoryUsage.TIF",
+			"metadata": "%engine%/engineassets/icons/averagememoryusage.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "16" },
+				{ "key": "mipCount", "value": "3" },
+				{ "key": "width", "value": "16" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "4b1e2c06-2f63-478b-cfd1-b4795fb3b500",
+			"name": "highmemoryusage",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/HighMemoryUsage.dds" ],
+			"source": "%engine%/engineassets/icons/HighMemoryUsage.TIF",
+			"metadata": "%engine%/engineassets/icons/highmemoryusage.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "16" },
+				{ "key": "mipCount", "value": "3" },
+				{ "key": "width", "value": "16" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "464236f4-a24c-bc6f-1f9b-f5897b2b5881",
+			"name": "levelshadercachemiss",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/LevelShaderCacheMiss.dds" ],
+			"source": "%engine%/engineassets/icons/LevelShaderCacheMiss.tif",
+			"metadata": "%engine%/engineassets/icons/levelshadercachemiss.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "e2f53810-86b4-8bb5-8bf5-0910e25aecfc",
+			"name": "livepreview",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/LivePreview.dds" ],
+			"source": "%engine%/engineassets/icons/LivePreview.TIF",
+			"metadata": "%engine%/engineassets/icons/livepreview.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "16" },
+				{ "key": "mipCount", "value": "3" },
+				{ "key": "width", "value": "16" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "034d6c84-ef65-f9aa-4fcf-8f8fb78d0215",
+			"name": "lowmemoryusage",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/LowMemoryUsage.dds" ],
+			"source": "%engine%/engineassets/icons/LowMemoryUsage.TIF",
+			"metadata": "%engine%/engineassets/icons/lowmemoryusage.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "16" },
+				{ "key": "mipCount", "value": "3" },
+				{ "key": "width", "value": "16" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "4257fd3e-5e0f-7b12-5bdf-c940dad7dcc3",
+			"name": "navigationprocessing",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/NavigationProcessing.dds" ],
+			"source": "%engine%/engineassets/icons/NavigationProcessing.tif",
+			"metadata": "%engine%/engineassets/icons/navigationprocessing.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d263561c-d8db-6308-271c-ce0f382175c9",
+			"name": "shadercompiling",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/ShaderCompiling.dds" ],
+			"source": "%engine%/engineassets/icons/ShaderCompiling.tif",
+			"metadata": "%engine%/engineassets/icons/shadercompiling.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "020649cb-7ee4-e85b-99e1-8ab23c9cb94c",
+			"name": "streaming",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/Streaming.dds" ],
+			"source": "%engine%/engineassets/icons/Streaming.tif",
+			"metadata": "%engine%/engineassets/icons/streaming.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "74711dd2-75fa-ab24-1241-c247cfc714dd",
+			"name": "streamingterrain",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/icons/StreamingTerrain.dds" ],
+			"source": "%engine%/engineassets/icons/StreamingTerrain.tif",
+			"metadata": "%engine%/engineassets/icons/streamingterrain.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "06f76428-979f-e7d2-f4e1-0a20d0cd203f",
+			"name": "billboard_default",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/billboard_default.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/billboard_default.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [ { "path": "textures/defaults/grey.dds", "usageCount": 2 } ]
+		},
+		{
+			"type": "Material",
+			"guid": "454f4a07-e397-afac-a8be-f6f93401e2c5",
+			"name": "fogvolumebox",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/FogVolumeBox.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/fogvolumebox.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "328f0e3b-f15f-06cf-6bf6-bd0db271c438",
+			"name": "fogvolumeellipsoid",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/FogVolumeEllipsoid.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "e1260632-5378-97b1-d555-fdbb38aab68f",
+			"name": "oceaninto",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/OceanInto.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/oceaninto.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "80fe902c-bd9d-1f48-a070-ce5f345c3425",
+			"name": "oceanintolowspec",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/OceanIntoLowSpec.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/oceanintolowspec.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "3f1e6dd4-4e35-ae71-fd90-97215e3a93ed",
+			"name": "oceanoutof",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/OceanOutof.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/oceanoutof.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "8c033ea4-07df-4376-45cd-6bfbf26bb94d",
+			"name": "oceanoutoflowspec",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/OceanOutofLowSpec.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "123c8c9c-0437-be11-cbee-7c334120e3f9",
+			"name": "waterfogvolumeinto",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/WaterFogVolumeInto.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/waterfogvolumeinto.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "2fa4d330-616a-9c8d-0872-84203a7b0ea9",
+			"name": "waterfogvolumeoutof",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/fog/WaterFogVolumeOutof.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/fog/waterfogvolumeoutof.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "8721d212-cda6-5b90-9cb6-7df491ce287e",
+			"name": "lens_optics",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/lens_optics.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/lens_optics.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{ "path": "textures/lights/lens_flare1.dds", "usageCount": 1 }
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "29ed6022-76d6-777d-01db-28f33989f24f",
+			"name": "material_default",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/material_default.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/material_default.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/grey.dds", "usageCount": 1 }
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "54a3521e-fe55-20e6-a772-594ee6e71852",
+			"name": "material_layers_default",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/material_layers_default.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/material_layers_default.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/EngineAssets/TextureMsg/DefaultNoUVs.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "fe9c5bcc-bf0e-2034-1883-3868a938aa37",
+			"name": "material_terrain_default",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/material_terrain_default.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/material_terrain_default.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/EngineAssets/TextureMsg/DefaultNoUVs.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "f4eb99dd-6aa0-b245-dd13-7ba38ba8aa57",
+			"name": "mi_previewvertexalpha",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/materials/meshimporter/MI_PreviewVertexAlpha.mtl"
+			],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/meshimporter/mi_previewvertexalpha.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/engineassets/texturemsg/color_black.dds",
+					"usageCount": 1
+				},
+				{
+					"path": "%ENGINE%/engineassets/texturemsg/color_white.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "2b30e75d-8b54-a1f5-6901-21dae4173e2c",
+			"name": "mi_previewvertexcolor",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/materials/meshimporter/MI_PreviewVertexColor.mtl"
+			],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/meshimporter/mi_previewvertexcolor.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/engineassets/texturemsg/color_white.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "3c93d6f7-68d1-02d2-ae87-760af147417a",
+			"name": "physproxytoobig",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/PhysProxyTooBig.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/physproxytoobig.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/EngineAssets/TextureMsg/PhysProxyTooBig.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "72e1adda-86ab-bc3d-b00b-44fb4aacdcca",
+			"name": "sky",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/sky/sky.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/sky/sky.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/defaults/16_grey.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "dc744bfe-fd9f-9067-d9f6-d79e01afa17b",
+			"name": "ocean_default",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/water/ocean_default.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/water/ocean_default.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "ae63a965-202b-7c4b-7119-34edd2f1f022",
+			"name": "wateroceanbottom",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/materials/water/WaterOceanBottom.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/materials/water/wateroceanbottom.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Mesh",
+			"guid": "8cc6becd-e34f-3319-d450-cf8c0b06dcad",
+			"name": "default",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/objects/Default.cgf" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/default.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "3" },
+				{ "key": "triangleCount", "value": "120" },
+				{ "key": "vertexCount", "value": "73" }
+			],
+			"dependencies": [
+				{ "path": "%engine%/engineassets/objects/helper.mtl", "usageCount": 1 }
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "7c36310c-7f88-2787-dd0c-73e8460264a5",
+			"name": "editorprimitive",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/objects/editorprimitive.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/editorprimitive.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/grey.dds", "usageCount": 1 }
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "c61c10cb-b256-a774-37f1-2c13948e7283",
+			"name": "helper",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/objects/helper.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/helper.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/EngineAssets/texturemsg/replaceme.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "643a1a91-1a38-b69c-496c-3a6175c1f806",
+			"name": "primitive_box",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/objects/primitive_box.cgf" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/primitive_box.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "2" },
+				{ "key": "triangleCount", "value": "12" },
+				{ "key": "vertexCount", "value": "24" }
+			],
+			"dependencies": [
+				{
+					"path": "%engine%/engineassets/objects/editorprimitive.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "c57e3dfc-32d6-782b-b5f5-fbeabaece7fa",
+			"name": "primitive_cube",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/objects/primitive_cube.cgf" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/primitive_cube.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "2" },
+				{ "key": "triangleCount", "value": "12" },
+				{ "key": "vertexCount", "value": "24" }
+			],
+			"dependencies": [
+				{
+					"path": "%engine%/engineassets/objects/editorprimitive.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "45f6ba25-3bdd-16a2-ab28-203bed922c79",
+			"name": "primitive_cylinder",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/objects/primitive_cylinder.cgf" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/primitive_cylinder.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "2" },
+				{ "key": "triangleCount", "value": "80" },
+				{ "key": "vertexCount", "value": "84" }
+			],
+			"dependencies": [
+				{
+					"path": "%engine%/engineassets/objects/editorprimitive.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "e7636faf-8153-5ab8-0294-b5663ddb722d",
+			"name": "primitive_plane",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/objects/primitive_plane.cgf" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/primitive_plane.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "2" },
+				{ "key": "triangleCount", "value": "2" },
+				{ "key": "vertexCount", "value": "4" }
+			],
+			"dependencies": [
+				{
+					"path": "%engine%/engineassets/objects/editorprimitive.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "a8243d73-5700-f38d-fa05-7b3749206c33",
+			"name": "primitive_pyramid",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/objects/primitive_pyramid.cgf" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/primitive_pyramid.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "2" },
+				{ "key": "triangleCount", "value": "6" },
+				{ "key": "vertexCount", "value": "16" }
+			],
+			"dependencies": [
+				{
+					"path": "%engine%/engineassets/objects/editorprimitive.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "ebd97baa-0da2-445f-0aa5-8f5027bed27b",
+			"name": "primitive_sphere",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/objects/primitive_sphere.cgf" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/objects/primitive_sphere.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "2" },
+				{ "key": "triangleCount", "value": "760" },
+				{ "key": "vertexCount", "value": "439" }
+			],
+			"dependencies": [
+				{
+					"path": "%engine%/engineassets/objects/editorprimitive.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Texture",
+			"guid": "fb1ea0db-af24-874b-0077-4aaa6b2aa01f",
+			"name": "midgray",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/production/MidGray.dds",
+				"%engine%/engineassets/production/MidGray.dds.1",
+				"%engine%/engineassets/production/MidGray.dds.2"
+			],
+			"source": "%engine%/engineassets/production/MidGray.tif",
+			"metadata": "%engine%/engineassets/production/midgray.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d61c2b92-02b8-ee13-9f95-1cbbcfe11e74",
+			"name": "tangentreference_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/production/TangentReference_ddn.dds",
+				"%engine%/engineassets/production/TangentReference_ddn.dds.1",
+				"%engine%/engineassets/production/TangentReference_ddn.dds.2",
+				"%engine%/engineassets/production/TangentReference_ddn.dds.3",
+				"%engine%/engineassets/production/TangentReference_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/production/TangentReference_ddn.tif",
+			"metadata": "%engine%/engineassets/production/tangentreference_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "07808f4a-a387-482e-c6aa-b942e33ec06c",
+			"name": "uv",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/production/UV.dds",
+				"%engine%/engineassets/production/UV.dds.1",
+				"%engine%/engineassets/production/UV.dds.2",
+				"%engine%/engineassets/production/UV.dds.3",
+				"%engine%/engineassets/production/UV.dds.4"
+			],
+			"source": "%engine%/engineassets/production/UV.tif",
+			"metadata": "%engine%/engineassets/production/uv.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "9939c1d3-e672-be06-2258-b591131ef7a5",
+			"name": "raintextures",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/raintextures.xml" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/raintextures.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "textures" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "bb84cab5-8453-42ba-9fb8-f2a1bc915bc5",
+			"name": "areatex",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/AreaTex.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/screenspace/areatex.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "560" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "160" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "6c2f5a44-983e-a970-2202-6ad88b00d456",
+			"name": "bokeh_love",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/bokeh_love.dds" ],
+			"source": "%engine%/engineassets/screenspace/bokeh_love.TIF",
+			"metadata": "%engine%/engineassets/screenspace/bokeh_love.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "cf3dc95c-9a15-b99b-2467-9ab79d7c5593",
+			"name": "bokeh_music",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/bokeh_music.dds" ],
+			"source": "%engine%/engineassets/screenspace/bokeh_music.TIF",
+			"metadata": "%engine%/engineassets/screenspace/bokeh_music.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "eb788ced-3dcb-9235-c8ee-827949c031e6",
+			"name": "bokeh_pentagon",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/bokeh_pentagon.dds" ],
+			"source": "%engine%/engineassets/screenspace/bokeh_pentagon.TIF",
+			"metadata": "%engine%/engineassets/screenspace/bokeh_pentagon.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5e8dd8ad-3e76-b4e0-c3e3-7f3c0691380d",
+			"name": "bokeh_spherical",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/bokeh_spherical.dds" ],
+			"source": "%engine%/engineassets/screenspace/bokeh_spherical.TIF",
+			"metadata": "%engine%/engineassets/screenspace/bokeh_spherical.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3c8160e3-7d7f-0fb8-3048-0d8989a67adf",
+			"name": "bokeh_square",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/bokeh_square.dds" ],
+			"source": "%engine%/engineassets/screenspace/bokeh_square.TIF",
+			"metadata": "%engine%/engineassets/screenspace/bokeh_square.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c8123acd-93cf-c3cc-6a4d-1331a64c5353",
+			"name": "bokeh_star",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/bokeh_star.dds" ],
+			"source": "%engine%/engineassets/screenspace/bokeh_star.TIF",
+			"metadata": "%engine%/engineassets/screenspace/bokeh_star.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c580ced8-b006-1725-136d-4f9551535ef5",
+			"name": "film_grain",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/film_grain.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/screenspace/film_grain.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2c3f1aa0-2b4d-9bfd-a66a-6a334c6e856b",
+			"name": "grain_bayer_mul",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/grain_bayer_mul.dds" ],
+			"source": "%engine%/engineassets/screenspace/grain_bayer_mul.tif",
+			"metadata": "%engine%/engineassets/screenspace/grain_bayer_mul.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "e62142d3-9db8-9b30-ede6-45533c610aea",
+			"name": "normalsfitting",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/NormalsFitting.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/screenspace/normalsfitting.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "10" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "9b56e774-c706-1eba-bed9-78f802c9e348",
+			"name": "pointsonsphere4x4",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/PointsOnSphere4x4.dds" ],
+			"source": "%engine%/engineassets/screenspace/PointsOnSphere4x4.tif",
+			"metadata": "%engine%/engineassets/screenspace/pointsonsphere4x4.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "40ecbcc2-4af9-81bf-d592-086935a4ce79",
+			"name": "pointsonspherevo4x4",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/PointsOnSphereVO4x4.dds" ],
+			"source": "%engine%/engineassets/screenspace/PointsOnSphereVO4x4.tif",
+			"metadata": "%engine%/engineassets/screenspace/pointsonspherevo4x4.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b1cbdb0c-9000-7648-3932-6412ed79174d",
+			"name": "searchtex",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/screenspace/SearchTex.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/screenspace/searchtex.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "33" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "66" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "df7522c4-4e8a-b0b1-d337-39d308c5f3e3",
+			"name": "cloud_mie_phase_function",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/cloud_mie_phase_function.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/shading/cloud_mie_phase_function.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "2048" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "eaaefb53-38bf-fa1d-5944-e202d200c371",
+			"name": "cook_d_sampler_g16r16f",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/cook_d_sampler_G16R16F.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/shading/cook_d_sampler_g16r16f.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7eec63cb-0c1b-9510-8e95-0a49553789f1",
+			"name": "defaultprobe_cm",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/shading/defaultProbe_cm.dds",
+				"%engine%/engineassets/shading/defaultProbe_cm.dds.1",
+				"%engine%/engineassets/shading/defaultProbe_cm.dds.2",
+				"%engine%/engineassets/shading/defaultProbe_cm.dds.3",
+				"%engine%/engineassets/shading/defaultProbe_cm.dds.4"
+			],
+			"source": "%engine%/engineassets/shading/defaultProbe_cm.tif",
+			"metadata": "%engine%/engineassets/shading/defaultprobe_cm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "70b3be81-8804-0d19-67c5-8c91ee28dbc2",
+			"name": "defaultprobe_cm_diff",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/defaultProbe_cm_diff.dds" ],
+			"source": "%engine%/engineassets/shading/defaultProbe_cm.tif",
+			"metadata": "%engine%/engineassets/shading/defaultprobe_cm_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "4804e426-3165-c8cc-2188-4d2a4c41c2b4",
+			"name": "environmentbrdf",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/environmentBRDF.dds" ],
+			"source": "%engine%/engineassets/shading/environmentBRDF.tif",
+			"metadata": "%engine%/engineassets/shading/environmentbrdf.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d957329a-a919-ebda-400b-7b4bc52d08a5",
+			"name": "generic_reflections",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/shading/generic_reflections.dds",
+				"%engine%/engineassets/shading/generic_reflections.dds.1",
+				"%engine%/engineassets/shading/generic_reflections.dds.2",
+				"%engine%/engineassets/shading/generic_reflections.dds.3",
+				"%engine%/engineassets/shading/generic_reflections.dds.4"
+			],
+			"source": "%engine%/engineassets/shading/generic_reflections.tif",
+			"metadata": "%engine%/engineassets/shading/generic_reflections.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "37f63d35-27de-581a-afa6-d6e508bb53a1",
+			"name": "generic_reflections_diff",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/generic_reflections_diff.dds" ],
+			"source": "%engine%/engineassets/shading/generic_reflections.tif",
+			"metadata": "%engine%/engineassets/shading/generic_reflections_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "62cd8b15-6e78-2afe-c5d5-976c69370a6b",
+			"name": "layer_effect_anim_function",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/layer_effect_anim_function.dds" ],
+			"source": "%engine%/engineassets/shading/layer_effect_anim_function.tif",
+			"metadata": "%engine%/engineassets/shading/layer_effect_anim_function.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f0a8d45e-0254-438b-acdb-e94898a503a2",
+			"name": "nanosuit_mask",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/shading/nanosuit_mask.dds",
+				"%engine%/engineassets/shading/nanosuit_mask.dds.1",
+				"%engine%/engineassets/shading/nanosuit_mask.dds.2"
+			],
+			"source": "%engine%/engineassets/shading/nanosuit_mask.TIF",
+			"metadata": "%engine%/engineassets/shading/nanosuit_mask.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "811667b4-fb28-9774-52ad-5b2da68797a7",
+			"name": "nanosuit_modes_grads",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/nanosuit_modes_grads.dds" ],
+			"source": "%engine%/engineassets/shading/nanosuit_modes_grads.TIF",
+			"metadata": "%engine%/engineassets/shading/nanosuit_modes_grads.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5df9de1d-f4aa-706a-2057-f567eeb20efc",
+			"name": "sonarvisiongradient",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/SonarVisionGradient.dds" ],
+			"source": "%engine%/engineassets/shading/SonarVisionGradient.TIF",
+			"metadata": "%engine%/engineassets/shading/sonarvisiongradient.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "143dfdda-0568-462a-a06f-74a44bbf389e",
+			"name": "thermalvisiongradient",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/ThermalVisionGradient.dds" ],
+			"source": "%engine%/engineassets/shading/ThermalVisionGradient.tif",
+			"metadata": "%engine%/engineassets/shading/thermalvisiongradient.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3ece046c-4781-77e9-02ba-e5b275cc07c3",
+			"name": "thermalvisiongradient02",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/ThermalVisionGradient02.dds" ],
+			"source": "%engine%/engineassets/shading/ThermalVisionGradient02.TIF",
+			"metadata": "%engine%/engineassets/shading/thermalvisiongradient02.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8cf0adb2-5104-52ab-e06f-018af34e0017",
+			"name": "vignetting",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/shading/vignetting.dds" ],
+			"source": "%engine%/engineassets/shading/vignetting.TIF",
+			"metadata": "%engine%/engineassets/shading/vignetting.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5779ca66-f980-ca01-022f-f72f40a276cc",
+			"name": "waterfoam",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/shading/WaterFoam.dds",
+				"%engine%/engineassets/shading/WaterFoam.dds.1",
+				"%engine%/engineassets/shading/WaterFoam.dds.2",
+				"%engine%/engineassets/shading/WaterFoam.dds.3",
+				"%engine%/engineassets/shading/WaterFoam.dds.4"
+			],
+			"source": "%engine%/engineassets/shading/WaterFoam.TIF",
+			"metadata": "%engine%/engineassets/shading/waterfoam.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "e16148d1-cade-2b07-5629-fddc000c8cac",
+			"name": "color_black",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Black.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Black.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_black.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "85bd626c-5b38-0458-bc52-75d2fd7af6b9",
+			"name": "color_blue",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Blue.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Blue.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_blue.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "475917fb-1376-435e-5af4-30d58fe816f3",
+			"name": "color_cyan",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Cyan.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Cyan.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_cyan.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "bfc67020-86c0-2e0f-cac4-c7d78544ef90",
+			"name": "color_green",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Green.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Green.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_green.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "373433e5-95ae-2aae-772e-441e818c49b6",
+			"name": "color_magenta",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Magenta.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Magenta.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_magenta.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f7a452ea-d6a5-d541-a79f-f3e055e6e00e",
+			"name": "color_orange",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Orange.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Orange.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_orange.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "1c112ab3-11da-7d04-3de9-84dfbf983588",
+			"name": "color_purple",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Purple.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Purple.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_purple.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "23b82d29-f6fe-29d1-ef34-95e5dec67bd0",
+			"name": "color_red",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Red.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Red.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_red.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "41d496a0-0dfd-bf4a-2d13-cf8b89099fc4",
+			"name": "color_white",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_White.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_White.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_white.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "9d723785-b427-d72b-abbc-ae509bc141f8",
+			"name": "color_yellow",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/color_Yellow.dds" ],
+			"source": "%engine%/engineassets/texturemsg/color_Yellow.tif",
+			"metadata": "%engine%/engineassets/texturemsg/color_yellow.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "53a66c2f-8bd4-5338-ad2f-bc4ef8ee018d",
+			"name": "defaultnouvs",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/DefaultNoUVs.dds",
+				"%engine%/engineassets/texturemsg/DefaultNoUVs.dds.1",
+				"%engine%/engineassets/texturemsg/DefaultNoUVs.dds.2",
+				"%engine%/engineassets/texturemsg/DefaultNoUVs.dds.3",
+				"%engine%/engineassets/texturemsg/DefaultNoUVs.dds.4"
+			],
+			"source": "%engine%/engineassets/texturemsg/DefaultNoUVs.tif",
+			"metadata": "%engine%/engineassets/texturemsg/defaultnouvs.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "db9c18b0-6c07-edf4-228c-9affd5762b51",
+			"name": "defaultsolids",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/texturemsg/DefaultSolids.mtl" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/texturemsg/defaultsolids.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "1" }
+			],
+			"dependencies": [
+				{
+					"path": "%ENGINE%/EngineAssets/TextureMsg/DefaultNoUVs.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Texture",
+			"guid": "fa8ee5ad-181e-ab8a-f42e-ce53c02f2d62",
+			"name": "mipmapdebug",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/mipmapdebug.dds" ],
+			"source": "%engine%/engineassets/texturemsg/mipmapdebug.tif",
+			"metadata": "%engine%/engineassets/texturemsg/mipmapdebug.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "792d3111-e64b-de00-ea97-8165ccb7c237",
+			"name": "notfound",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/NotFound.dds",
+				"%engine%/engineassets/texturemsg/NotFound.dds.1",
+				"%engine%/engineassets/texturemsg/NotFound.dds.2",
+				"%engine%/engineassets/texturemsg/NotFound.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/NotFound.tif",
+			"metadata": "%engine%/engineassets/texturemsg/notfound.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ad63780b-92dd-2e3f-81f3-01426324885b",
+			"name": "notfound_a",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/NotFound_a.dds",
+				"%engine%/engineassets/texturemsg/NotFound_a.dds.1",
+				"%engine%/engineassets/texturemsg/NotFound_a.dds.2",
+				"%engine%/engineassets/texturemsg/NotFound_a.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/NotFound_a.tif",
+			"metadata": "%engine%/engineassets/texturemsg/notfound_a.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d135e9cf-4a40-702f-8c4d-852549926322",
+			"name": "notfound_cm",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/NotFound_cm.dds",
+				"%engine%/engineassets/texturemsg/NotFound_cm.dds.1",
+				"%engine%/engineassets/texturemsg/NotFound_cm.dds.2",
+				"%engine%/engineassets/texturemsg/NotFound_cm.dds.3",
+				"%engine%/engineassets/texturemsg/NotFound_cm.dds.4"
+			],
+			"source": "%engine%/engineassets/texturemsg/NotFound_cm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/notfound_cm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0d14a26f-4d1c-8c3f-36f9-dfb0c428c4c8",
+			"name": "notfound_cm_diff",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/NotFound_cm_diff.dds" ],
+			"source": "%engine%/engineassets/texturemsg/NotFound_cm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/notfound_cm_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0263a69a-5767-06ef-9bc3-9dc725e5654b",
+			"name": "notfound_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/NotFound_ddn.dds",
+				"%engine%/engineassets/texturemsg/NotFound_ddn.dds.1",
+				"%engine%/engineassets/texturemsg/NotFound_ddn.dds.2",
+				"%engine%/engineassets/texturemsg/NotFound_ddn.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/NotFound_ddn.tif",
+			"metadata": "%engine%/engineassets/texturemsg/notfound_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "df98a881-81dc-0c19-58e8-0e49175b7d1e",
+			"name": "notfound_ddna",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds",
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds.a",
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds.1",
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds.1a",
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds.2",
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds.2a",
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds.3",
+				"%engine%/engineassets/texturemsg/NotFound_ddna.dds.3a"
+			],
+			"source": "%engine%/engineassets/texturemsg/NotFound_ddna.tif",
+			"metadata": "%engine%/engineassets/texturemsg/notfound_ddna.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d5d1d03d-0eeb-1e4c-a29f-17dd8dd2cee3",
+			"name": "orange_for_designer",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/orange_for_designer.dds" ],
+			"source": "%engine%/engineassets/texturemsg/orange_for_designer.tif",
+			"metadata": "%engine%/engineassets/texturemsg/orange_for_designer.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "6b0d82e8-5fdd-cbad-00a9-ae1572526041",
+			"name": "physproxytoobig",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/PhysProxyTooBig.dds",
+				"%engine%/engineassets/texturemsg/PhysProxyTooBig.dds.1",
+				"%engine%/engineassets/texturemsg/PhysProxyTooBig.dds.2",
+				"%engine%/engineassets/texturemsg/PhysProxyTooBig.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/PhysProxyTooBig.tif",
+			"metadata": "%engine%/engineassets/texturemsg/physproxytoobig.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c423a8a6-2c74-ece7-47fb-9d76a124bd70",
+			"name": "rcerror_a",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/RCError_a.dds",
+				"%engine%/engineassets/texturemsg/RCError_a.dds.1",
+				"%engine%/engineassets/texturemsg/RCError_a.dds.2",
+				"%engine%/engineassets/texturemsg/RCError_a.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/RCError_a.tif",
+			"metadata": "%engine%/engineassets/texturemsg/rcerror_a.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "25d6365d-3747-b6ba-0f09-c168307a66eb",
+			"name": "rcerror_cm",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/RCError_cm.dds",
+				"%engine%/engineassets/texturemsg/RCError_cm.dds.1",
+				"%engine%/engineassets/texturemsg/RCError_cm.dds.2",
+				"%engine%/engineassets/texturemsg/RCError_cm.dds.3",
+				"%engine%/engineassets/texturemsg/RCError_cm.dds.4"
+			],
+			"source": "%engine%/engineassets/texturemsg/RCError_cm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/rcerror_cm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0e26270f-e1ce-90e7-58f0-372ccf27d0de",
+			"name": "rcerror_cm_diff",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/RCError_cm_diff.dds" ],
+			"source": "%engine%/engineassets/texturemsg/RCError_cm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/rcerror_cm_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "87fcb27a-0d34-1f70-c312-dc7c344f49d1",
+			"name": "rcerror_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/RCError_ddn.dds",
+				"%engine%/engineassets/texturemsg/RCError_ddn.dds.1",
+				"%engine%/engineassets/texturemsg/RCError_ddn.dds.2",
+				"%engine%/engineassets/texturemsg/RCError_ddn.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/RCError_ddn.tif",
+			"metadata": "%engine%/engineassets/texturemsg/rcerror_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7ea2da71-d0c4-42b0-ace2-2c64ef41ac33",
+			"name": "rcerror_ddna",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds",
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds.a",
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds.1",
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds.1a",
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds.2",
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds.2a",
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds.3",
+				"%engine%/engineassets/texturemsg/RCError_ddna.dds.3a"
+			],
+			"source": "%engine%/engineassets/texturemsg/RCError_ddna.tif",
+			"metadata": "%engine%/engineassets/texturemsg/rcerror_ddna.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "296fa827-2694-072d-2b84-77e12536e52c",
+			"name": "replaceme",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/ReplaceMe.dds",
+				"%engine%/engineassets/texturemsg/ReplaceMe.dds.1",
+				"%engine%/engineassets/texturemsg/ReplaceMe.dds.2",
+				"%engine%/engineassets/texturemsg/ReplaceMe.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/ReplaceMe.tif",
+			"metadata": "%engine%/engineassets/texturemsg/replaceme.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "88463adc-89db-9bb1-ac19-58fdb33d5785",
+			"name": "replacemecm",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/ReplaceMeCm.dds",
+				"%engine%/engineassets/texturemsg/ReplaceMeCm.dds.1",
+				"%engine%/engineassets/texturemsg/ReplaceMeCm.dds.2",
+				"%engine%/engineassets/texturemsg/ReplaceMeCm.dds.3",
+				"%engine%/engineassets/texturemsg/ReplaceMeCm.dds.4"
+			],
+			"source": "%engine%/engineassets/texturemsg/ReplaceMeCm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/replacemecm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ec502771-654b-6564-8ac9-2f7b1884a4ac",
+			"name": "replacemecm_diff",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/ReplaceMeCm_diff.dds" ],
+			"source": "%engine%/engineassets/texturemsg/ReplaceMeCm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/replacemecm_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f7063419-edc8-afb1-476c-69287fd7dc22",
+			"name": "replacemerelease",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/ReplaceMeRelease.dds" ],
+			"source": "%engine%/engineassets/texturemsg/ReplaceMeRelease.tif",
+			"metadata": "%engine%/engineassets/texturemsg/replacemerelease.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c5ef229b-1bc8-1a97-7710-9c9a25243f2b",
+			"name": "shadercompiling",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/ShaderCompiling.dds",
+				"%engine%/engineassets/texturemsg/ShaderCompiling.dds.1",
+				"%engine%/engineassets/texturemsg/ShaderCompiling.dds.2",
+				"%engine%/engineassets/texturemsg/ShaderCompiling.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/ShaderCompiling.tif",
+			"metadata": "%engine%/engineassets/texturemsg/shadercompiling.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f99265b4-d208-169f-06b0-164b383fdbd1",
+			"name": "shadererror",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/ShaderError.dds",
+				"%engine%/engineassets/texturemsg/ShaderError.dds.1",
+				"%engine%/engineassets/texturemsg/ShaderError.dds.2",
+				"%engine%/engineassets/texturemsg/ShaderError.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/ShaderError.tif",
+			"metadata": "%engine%/engineassets/texturemsg/shadererror.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2da87be0-b435-9c5e-32df-9d597743d080",
+			"name": "texturecompiling",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/TextureCompiling.dds",
+				"%engine%/engineassets/texturemsg/TextureCompiling.dds.1",
+				"%engine%/engineassets/texturemsg/TextureCompiling.dds.2",
+				"%engine%/engineassets/texturemsg/TextureCompiling.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/TextureCompiling.tif",
+			"metadata": "%engine%/engineassets/texturemsg/texturecompiling.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5cf7cf8d-6d9d-9c9d-7f26-a9e17b7d65eb",
+			"name": "texturecompiling_a",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/TextureCompiling_a.dds",
+				"%engine%/engineassets/texturemsg/TextureCompiling_a.dds.1",
+				"%engine%/engineassets/texturemsg/TextureCompiling_a.dds.2",
+				"%engine%/engineassets/texturemsg/TextureCompiling_a.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/TextureCompiling_a.tif",
+			"metadata": "%engine%/engineassets/texturemsg/texturecompiling_a.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "02f2aa75-6c24-7d25-ddee-540d2b1e2814",
+			"name": "texturecompiling_cm",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/TextureCompiling_cm.dds",
+				"%engine%/engineassets/texturemsg/TextureCompiling_cm.dds.1",
+				"%engine%/engineassets/texturemsg/TextureCompiling_cm.dds.2",
+				"%engine%/engineassets/texturemsg/TextureCompiling_cm.dds.3",
+				"%engine%/engineassets/texturemsg/TextureCompiling_cm.dds.4"
+			],
+			"source": "%engine%/engineassets/texturemsg/TextureCompiling_cm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/texturecompiling_cm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "77f602d0-d915-9e48-b50f-d40c40088b2b",
+			"name": "texturecompiling_cm_diff",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/texturemsg/TextureCompiling_cm_diff.dds" ],
+			"source": "%engine%/engineassets/texturemsg/TextureCompiling_cm.tif",
+			"metadata": "%engine%/engineassets/texturemsg/texturecompiling_cm_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f57cf778-7e08-49d6-cbb2-ed907eb8526c",
+			"name": "texturecompiling_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddn.dds",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddn.dds.1",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddn.dds.2",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddn.dds.3"
+			],
+			"source": "%engine%/engineassets/texturemsg/TextureCompiling_ddn.tif",
+			"metadata": "%engine%/engineassets/texturemsg/texturecompiling_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0abbfd04-e201-2045-1a29-a42ace6660fa",
+			"name": "texturecompiling_ddna",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds.a",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds.1",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds.1a",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds.2",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds.2a",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds.3",
+				"%engine%/engineassets/texturemsg/TextureCompiling_ddna.dds.3a"
+			],
+			"source": "%engine%/engineassets/texturemsg/TextureCompiling_ddna.tif",
+			"metadata": "%engine%/engineassets/texturemsg/texturecompiling_ddna.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "369f5020-5360-0fc4-8f66-882a67a137c5",
+			"name": "alienhud_distortionimage",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/alienhud_distortionimage.dds" ],
+			"source": "%engine%/engineassets/textures/alienhud_distortionimage.tif",
+			"metadata": "%engine%/engineassets/textures/alienhud_distortionimage.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2868565c-8d58-c81b-a829-737fa42ccaad",
+			"name": "alienhud_noise1",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/alienhud_noise1.dds" ],
+			"source": "%engine%/engineassets/textures/alienhud_noise1.tif",
+			"metadata": "%engine%/engineassets/textures/alienhud_noise1.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c740eda5-e286-6560-9a14-ed9a95cec0d5",
+			"name": "black",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/black.dds" ],
+			"source": "%engine%/engineassets/textures/black.tif",
+			"metadata": "%engine%/engineassets/textures/black.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8efa1d23-8b82-add9-14fc-266650dd9fcf",
+			"name": "blackalpha",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/BlackAlpha.dds" ],
+			"source": "%engine%/engineassets/textures/BlackAlpha.tif",
+			"metadata": "%engine%/engineassets/textures/blackalpha.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b07693ed-cec6-ca9d-1875-8850edf51b13",
+			"name": "blackcm",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/BlackCM.dds",
+				"%engine%/engineassets/textures/BlackCM.dds.1",
+				"%engine%/engineassets/textures/BlackCM.dds.2",
+				"%engine%/engineassets/textures/BlackCM.dds.3",
+				"%engine%/engineassets/textures/BlackCM.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/BlackCM.tif",
+			"metadata": "%engine%/engineassets/textures/blackcm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "a308e4a0-89bb-2088-1ff7-eb4ad91056d3",
+			"name": "blackcm_diff",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/BlackCM_diff.dds" ],
+			"source": "%engine%/engineassets/textures/BlackCM.tif",
+			"metadata": "%engine%/engineassets/textures/blackcm_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b06c1fda-8454-f9ea-7fe3-2466830674e2",
+			"name": "caustics_sampler",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/caustics_sampler.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/caustics_sampler.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "58572a64-2816-5498-b8c3-829fb2feb9a1",
+			"name": "cursor_green",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/Cursor_Green.dds" ],
+			"source": "%engine%/engineassets/textures/Cursor_Green.tif",
+			"metadata": "%engine%/engineassets/textures/cursor_green.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "4" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3c0a63a6-e5a5-e7bc-d453-d97891fe1c6a",
+			"name": "default_cch",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/default_cch.dds" ],
+			"source": "%engine%/engineassets/textures/default_cch.tif",
+			"metadata": "%engine%/engineassets/textures/default_cch.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "16" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b2aace23-8017-3fc6-025b-1cc51548d820",
+			"name": "default_icon",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/default_icon.dds",
+				"%engine%/engineassets/textures/default_icon.dds.1",
+				"%engine%/engineassets/textures/default_icon.dds.2"
+			],
+			"source": "%engine%/engineassets/textures/default_icon.tif",
+			"metadata": "%engine%/engineassets/textures/default_icon.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "9e11d08a-46ef-4017-93ea-37f4a88f7aac",
+			"name": "16_12",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/defaults/16_12.dds",
+				"%engine%/engineassets/textures/defaults/16_12.dds.1",
+				"%engine%/engineassets/textures/defaults/16_12.dds.2"
+			],
+			"source": "%engine%/engineassets/textures/defaults/16_12.tif",
+			"metadata": "%engine%/engineassets/textures/defaults/16_12.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "51e98e22-1cb5-3fc6-c08a-6b0432202235",
+			"name": "16_34",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/defaults/16_34.dds",
+				"%engine%/engineassets/textures/defaults/16_34.dds.1",
+				"%engine%/engineassets/textures/defaults/16_34.dds.2"
+			],
+			"source": "%engine%/engineassets/textures/defaults/16_34.tif",
+			"metadata": "%engine%/engineassets/textures/defaults/16_34.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "596f51be-d1d9-7229-dc20-8c6df9cae9c7",
+			"name": "16_5",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/defaults/16_5.dds",
+				"%engine%/engineassets/textures/defaults/16_5.dds.1",
+				"%engine%/engineassets/textures/defaults/16_5.dds.2"
+			],
+			"source": "%engine%/engineassets/textures/defaults/16_5.tif",
+			"metadata": "%engine%/engineassets/textures/defaults/16_5.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "043130bf-54c0-fd0a-b76e-6fb9bcb16e69",
+			"name": "16_grey",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/defaults/16_grey.dds" ],
+			"source": "%engine%/engineassets/textures/defaults/16_grey.tif",
+			"metadata": "%engine%/engineassets/textures/defaults/16_grey.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "8" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "8" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c6d464d3-85f3-cc11-e2df-ec1ea9476cc0",
+			"name": "defaultnouvs",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/defaults/defaultnouvs.dds",
+				"%engine%/engineassets/textures/defaults/defaultnouvs.dds.1",
+				"%engine%/engineassets/textures/defaults/defaultnouvs.dds.2",
+				"%engine%/engineassets/textures/defaults/defaultnouvs.dds.3",
+				"%engine%/engineassets/textures/defaults/defaultnouvs.dds.4",
+				"%engine%/engineassets/textures/defaults/defaultnouvs.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/defaults/defaultnouvs.tif",
+			"metadata": "%engine%/engineassets/textures/defaults/defaultnouvs.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "1a2ae5aa-ba13-9fa7-5d92-a0993fc22ad6",
+			"name": "detaildecalvariation",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/detailDecalVariation.dds",
+				"%engine%/engineassets/textures/detailDecalVariation.dds.1",
+				"%engine%/engineassets/textures/detailDecalVariation.dds.2",
+				"%engine%/engineassets/textures/detailDecalVariation.dds.3",
+				"%engine%/engineassets/textures/detailDecalVariation.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/detailDecalVariation.tif",
+			"metadata": "%engine%/engineassets/textures/detaildecalvariation.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "62c782e2-840d-7073-534a-75c81e989bea",
+			"name": "dither_2",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/dither_2.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/dither_2.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "626c1344-957c-754e-d797-9709997ee02c",
+			"name": "dither_pattern_2d",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/dither_pattern_2d.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/dither_pattern_2d.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2131e209-ca02-b797-a04b-6dd9021ef0d7",
+			"name": "arc",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/arc.dds" ],
+			"source": "%engine%/engineassets/textures/flares/arc.tif",
+			"metadata": "%engine%/engineassets/textures/flares/arc.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "1830f5aa-13cf-b68a-bfdf-d08516fd4133",
+			"name": "arc2",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/arc2.dds" ],
+			"source": "%engine%/engineassets/textures/flares/arc2.tif",
+			"metadata": "%engine%/engineassets/textures/flares/arc2.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "377bbf0c-932a-d8e9-180d-eb637c904e8e",
+			"name": "arc_full",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/arc_full.dds" ],
+			"source": "%engine%/engineassets/textures/flares/arc_full.tif",
+			"metadata": "%engine%/engineassets/textures/flares/arc_full.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ab91380f-8cd8-be21-49de-7078706ec4d5",
+			"name": "arc_full2",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/arc_full2.dds" ],
+			"source": "%engine%/engineassets/textures/flares/arc_full2.tif",
+			"metadata": "%engine%/engineassets/textures/flares/arc_full2.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8c927fbf-c1b7-17b8-de1f-65e2e0ed79b8",
+			"name": "circle_ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/circle_ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/circle_ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/circle_ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3f62b126-830f-e6e0-f4e3-fd9b2053ba35",
+			"name": "circle_smudgy_ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/circle_smudgy_ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/circle_smudgy_ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/circle_smudgy_ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7e3a5e17-2dae-26a7-1bd7-baa2e5a7a685",
+			"name": "default-flare",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/default-flare.dds" ],
+			"source": "%engine%/engineassets/textures/flares/default-flare.tif",
+			"metadata": "%engine%/engineassets/textures/flares/default-flare.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "13660a33-5cfa-9a36-3c4a-21f1ccb4b55c",
+			"name": "default-flares_tile_2x2",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/default-flares_tile_2x2.dds" ],
+			"source": "%engine%/engineassets/textures/flares/default-flares_tile_2x2.tif",
+			"metadata": "%engine%/engineassets/textures/flares/default-flares_tile_2x2.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "454e455a-0751-5383-2d9f-113a974cd538",
+			"name": "default-orb",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/default-orb.dds" ],
+			"source": "%engine%/engineassets/textures/flares/default-orb.tif",
+			"metadata": "%engine%/engineassets/textures/flares/default-orb.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "da5dbf0c-3217-604f-3bff-526e5c3e6b1f",
+			"name": "elipse_ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/elipse_ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/elipse_ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/elipse_ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "6d58e410-8d9d-b7f5-63ff-88ae12527d90",
+			"name": "ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "1b6d84b2-a9b4-5cae-8581-8e6e6cb4b44c",
+			"name": "glow",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/glow.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/glow.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/glow.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "417d9b89-42f7-c74c-b38c-0656abb42b1a",
+			"name": "iris_shafts",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/iris_shafts.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/iris_shafts.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/iris_shafts.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8cf91b71-e499-0e84-3870-324224e0d349",
+			"name": "multi_ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/multi_ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/multi_ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/multi_ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0147093a-2949-0708-c17b-b2f7846f5620",
+			"name": "orbs",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/orbs.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/orbs.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/orbs.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3471b1df-652f-cede-273a-a23763cc7f8d",
+			"name": "ring",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/ring.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/ring.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/ring.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3567f97c-4537-dea9-4ada-ffc0793494ca",
+			"name": "test_demo",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/test_demo.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/test_demo.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/test_demo.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b687818d-4fde-f5d9-6b75-63c2e7291b62",
+			"name": "vol_shafts",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/icons/vol_shafts.dds" ],
+			"source": "%engine%/engineassets/textures/flares/icons/vol_shafts.tif",
+			"metadata": "%engine%/engineassets/textures/flares/icons/vol_shafts.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "96" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "96" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "dfd7c67f-c7a8-1d0a-93c4-836e930135da",
+			"name": "lens_flare1-wide",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/lens_flare1-wide.dds" ],
+			"source": "%engine%/engineassets/textures/flares/lens_flare1-wide.tif",
+			"metadata": "%engine%/engineassets/textures/flares/lens_flare1-wide.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "387639a0-815a-a5e8-95d8-417c92d8b5d2",
+			"name": "luma_falloff",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/luma_falloff.dds" ],
+			"source": "%engine%/engineassets/textures/flares/luma_falloff.tif",
+			"metadata": "%engine%/engineassets/textures/flares/luma_falloff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ec5353b0-cec1-5e95-8c48-1771158fa34f",
+			"name": "luma_falloff2",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/luma_falloff2.dds" ],
+			"source": "%engine%/engineassets/textures/flares/luma_falloff2.tif",
+			"metadata": "%engine%/engineassets/textures/flares/luma_falloff2.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "9180a08e-6ff4-a543-7097-8f15a067dba0",
+			"name": "pentagon_ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/pentagon_ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/pentagon_ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/pentagon_ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c8d0a771-f629-abef-845b-d66ef5a3c2fc",
+			"name": "pentagon_ghost_cellular",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/pentagon_ghost_cellular.dds" ],
+			"source": "%engine%/engineassets/textures/flares/pentagon_ghost_cellular.tif",
+			"metadata": "%engine%/engineassets/textures/flares/pentagon_ghost_cellular.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5f950cf2-e093-8e19-90a9-c40dcdafe386",
+			"name": "pentagon_ghost_darkened",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/pentagon_ghost_darkened.dds" ],
+			"source": "%engine%/engineassets/textures/flares/pentagon_ghost_darkened.tif",
+			"metadata": "%engine%/engineassets/textures/flares/pentagon_ghost_darkened.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "166b6667-ba80-a155-5a92-052f3d8f5f3f",
+			"name": "pentagon_ghost_smudgy",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/pentagon_ghost_smudgy.dds" ],
+			"source": "%engine%/engineassets/textures/flares/pentagon_ghost_smudgy.tif",
+			"metadata": "%engine%/engineassets/textures/flares/pentagon_ghost_smudgy.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7638edff-5f63-2b23-7ba5-1b34f05dabd5",
+			"name": "rectangular_ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/rectangular_ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/rectangular_ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/rectangular_ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "1026d00a-d3b6-a8d9-5baa-ece0d6a167ae",
+			"name": "smudgy",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/Smudgy.dds" ],
+			"source": "%engine%/engineassets/textures/flares/Smudgy.tif",
+			"metadata": "%engine%/engineassets/textures/flares/smudgy.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "61008943-52f6-6fa7-5ff0-767474b1c73c",
+			"name": "smudgy_ghost",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/smudgy_ghost.dds" ],
+			"source": "%engine%/engineassets/textures/flares/smudgy_ghost.tif",
+			"metadata": "%engine%/engineassets/textures/flares/smudgy_ghost.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d5a53caf-e8ee-dfa1-461a-ede26f674fb4",
+			"name": "spectrum_full",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/spectrum_full.dds" ],
+			"source": "%engine%/engineassets/textures/flares/spectrum_full.tif",
+			"metadata": "%engine%/engineassets/textures/flares/spectrum_full.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2a1616b8-0809-88c1-d830-407408a2f9da",
+			"name": "spectrum_spike",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/spectrum_spike.dds" ],
+			"source": "%engine%/engineassets/textures/flares/spectrum_spike.tif",
+			"metadata": "%engine%/engineassets/textures/flares/spectrum_spike.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "59ec686a-a220-8add-4378-cc35c2b3892e",
+			"name": "visorflare_square01",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/flares/VisorFlare_square01.dds" ],
+			"source": "%engine%/engineassets/textures/flares/VisorFlare_square01.tif",
+			"metadata": "%engine%/engineassets/textures/flares/visorflare_square01.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "eb3c238f-59bb-c8e0-94c3-0a3ede3cd445",
+			"name": "fogvolshadowjitter",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/FogVolShadowJitter.dds" ],
+			"source": "%engine%/engineassets/textures/FogVolShadowJitter.tif",
+			"metadata": "%engine%/engineassets/textures/fogvolshadowjitter.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "a4f3323a-4a49-c900-ceda-058cb2dcf6ce",
+			"name": "fresnel_sampler",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/fresnel_sampler.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/fresnel_sampler.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "81d01e10-449a-361a-6d9d-9bddecad1833",
+			"name": "fringe_map",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/fringe_map.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/fringe_map.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "a7d5a521-9244-ed4b-d030-cbfd2382e09b",
+			"name": "frost_refl2",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/frost_refl2.dds",
+				"%engine%/engineassets/textures/frost_refl2.dds.1",
+				"%engine%/engineassets/textures/frost_refl2.dds.2",
+				"%engine%/engineassets/textures/frost_refl2.dds.3",
+				"%engine%/engineassets/textures/frost_refl2.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/frost_refl2.tif",
+			"metadata": "%engine%/engineassets/textures/frost_refl2.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d1e90bd2-0410-11d4-5fd3-744a1b2bd949",
+			"name": "frost_noise3",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/frozen/frost_noise3.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/frozen/frost_noise3.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d6cc4fd9-b57a-2d88-acb0-9ae6191d323f",
+			"name": "frost_noise4",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/frozen/frost_noise4.dds",
+				"%engine%/engineassets/textures/frozen/frost_noise4.dds.1",
+				"%engine%/engineassets/textures/frozen/frost_noise4.dds.2",
+				"%engine%/engineassets/textures/frozen/frost_noise4.dds.3",
+				"%engine%/engineassets/textures/frozen/frost_noise4.dds.4",
+				"%engine%/engineassets/textures/frozen/frost_noise4.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/frozen/frost_noise4.tif",
+			"metadata": "%engine%/engineassets/textures/frozen/frost_noise4.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2ba7a91f-902f-4bc5-0fe6-220a6b7df00b",
+			"name": "snow_spatter",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/frozen/snow_spatter.dds",
+				"%engine%/engineassets/textures/frozen/snow_spatter.dds.1",
+				"%engine%/engineassets/textures/frozen/snow_spatter.dds.2",
+				"%engine%/engineassets/textures/frozen/snow_spatter.dds.3",
+				"%engine%/engineassets/textures/frozen/snow_spatter.dds.4",
+				"%engine%/engineassets/textures/frozen/snow_spatter.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/frozen/snow_spatter.tif",
+			"metadata": "%engine%/engineassets/textures/frozen/snow_spatter.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3a748d1f-9a45-1668-304f-66e51c342fa9",
+			"name": "fuzzy_pow_sampler_merged",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/fuzzy_pow_sampler_merged.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/fuzzy_pow_sampler_merged.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "215abc14-bf51-8d36-eba7-0637c3bcda51",
+			"name": "glass_decalatlas_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/glass_decalatlas_ddn.dds",
+				"%engine%/engineassets/textures/glass_decalatlas_ddn.dds.1",
+				"%engine%/engineassets/textures/glass_decalatlas_ddn.dds.2",
+				"%engine%/engineassets/textures/glass_decalatlas_ddn.dds.3",
+				"%engine%/engineassets/textures/glass_decalatlas_ddn.dds.4",
+				"%engine%/engineassets/textures/glass_decalatlas_ddn.dds.5",
+				"%engine%/engineassets/textures/glass_decalatlas_ddn.dds.6"
+			],
+			"source": "%engine%/engineassets/textures/glass_decalatlas_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/glass_decalatlas_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1024" },
+				{ "key": "mipCount", "value": "9" },
+				{ "key": "width", "value": "2048" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "737396af-5f4e-b158-eebc-ae019c08ead5",
+			"name": "glass_decalatlas_diff",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/glass_decalatlas_diff.dds",
+				"%engine%/engineassets/textures/glass_decalatlas_diff.dds.1",
+				"%engine%/engineassets/textures/glass_decalatlas_diff.dds.2",
+				"%engine%/engineassets/textures/glass_decalatlas_diff.dds.3",
+				"%engine%/engineassets/textures/glass_decalatlas_diff.dds.4",
+				"%engine%/engineassets/textures/glass_decalatlas_diff.dds.5",
+				"%engine%/engineassets/textures/glass_decalatlas_diff.dds.6"
+			],
+			"source": "%engine%/engineassets/textures/glass_decalatlas_diff.tif",
+			"metadata": "%engine%/engineassets/textures/glass_decalatlas_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1024" },
+				{ "key": "mipCount", "value": "9" },
+				{ "key": "width", "value": "2048" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "74782279-89be-eb55-4119-e9ca9f3e0255",
+			"name": "grey",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/grey.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/grey.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2fb4fe29-ed99-21ed-9f88-5264dc99a038",
+			"name": "greyalpha",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/GreyAlpha.dds" ],
+			"source": "%engine%/engineassets/textures/GreyAlpha.tif",
+			"metadata": "%engine%/engineassets/textures/greyalpha.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5f28acc9-8f14-89be-eb20-6c17763e70d9",
+			"name": "hex",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hex.dds",
+				"%engine%/engineassets/textures/hex.dds.1",
+				"%engine%/engineassets/textures/hex.dds.2",
+				"%engine%/engineassets/textures/hex.dds.3"
+			],
+			"source": "%engine%/engineassets/textures/hex.tif",
+			"metadata": "%engine%/engineassets/textures/hex.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f545ecdd-08e2-d9a0-53c6-b7ed1470ef88",
+			"name": "hex_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hex_ddn.dds",
+				"%engine%/engineassets/textures/hex_ddn.dds.1",
+				"%engine%/engineassets/textures/hex_ddn.dds.2",
+				"%engine%/engineassets/textures/hex_ddn.dds.3"
+			],
+			"source": "%engine%/engineassets/textures/hex_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/hex_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c82e9489-f267-6c6f-887c-c64b7262f6cd",
+			"name": "hex_grad",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hex_grad.dds",
+				"%engine%/engineassets/textures/hex_grad.dds.1",
+				"%engine%/engineassets/textures/hex_grad.dds.2",
+				"%engine%/engineassets/textures/hex_grad.dds.3"
+			],
+			"source": "%engine%/engineassets/textures/hex_grad.tif",
+			"metadata": "%engine%/engineassets/textures/hex_grad.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "bad4558c-850e-0760-58df-467abb80e4af",
+			"name": "hex_line",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hex_line.dds",
+				"%engine%/engineassets/textures/hex_line.dds.1",
+				"%engine%/engineassets/textures/hex_line.dds.2"
+			],
+			"source": "%engine%/engineassets/textures/hex_line.tif",
+			"metadata": "%engine%/engineassets/textures/hex_line.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "566d2e85-b573-0160-fb1e-cc6f5eef51f3",
+			"name": "hex_rand",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hex_rand.dds",
+				"%engine%/engineassets/textures/hex_rand.dds.1",
+				"%engine%/engineassets/textures/hex_rand.dds.2",
+				"%engine%/engineassets/textures/hex_rand.dds.3"
+			],
+			"source": "%engine%/engineassets/textures/hex_rand.tif",
+			"metadata": "%engine%/engineassets/textures/hex_rand.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "02408ab1-cb5b-feb4-1bdd-9a544ae19264",
+			"name": "hiteffect_areas",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/hiteffect_areas.dds" ],
+			"source": "%engine%/engineassets/textures/hiteffect_areas.tif",
+			"metadata": "%engine%/engineassets/textures/hiteffect_areas.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ab029149-e442-3b4c-217c-4fd68fb1ed1e",
+			"name": "hiteffect_blurmask_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hiteffect_blurmask_ddn.dds",
+				"%engine%/engineassets/textures/hiteffect_blurmask_ddn.dds.1",
+				"%engine%/engineassets/textures/hiteffect_blurmask_ddn.dds.2",
+				"%engine%/engineassets/textures/hiteffect_blurmask_ddn.dds.3",
+				"%engine%/engineassets/textures/hiteffect_blurmask_ddn.dds.4",
+				"%engine%/engineassets/textures/hiteffect_blurmask_ddn.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/hiteffect_blurmask_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/hiteffect_blurmask_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "9eeeb340-058f-b753-3da1-a20f7730c1e3",
+			"name": "hiteffect_healthgradient",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/hiteffect_healthgradient.dds" ],
+			"source": "%engine%/engineassets/textures/hiteffect_healthgradient.tif",
+			"metadata": "%engine%/engineassets/textures/hiteffect_healthgradient.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5b82a72c-e2c3-43eb-c8de-fc6c33f7b6ae",
+			"name": "hiteffect_lvlgradient",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/hiteffect_lvlgradient.dds" ],
+			"source": "%engine%/engineassets/textures/hiteffect_lvlgradient.tif",
+			"metadata": "%engine%/engineassets/textures/hiteffect_lvlgradient.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "6ae1cefd-d8c2-5c6d-4682-0de72b518bcd",
+			"name": "hiteffect_round",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hiteffect_round.dds",
+				"%engine%/engineassets/textures/hiteffect_round.dds.1",
+				"%engine%/engineassets/textures/hiteffect_round.dds.2"
+			],
+			"source": "%engine%/engineassets/textures/hiteffect_round.tif",
+			"metadata": "%engine%/engineassets/textures/hiteffect_round.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c0070c3d-d430-5c04-93bf-b8806e530cce",
+			"name": "hiteffect_veinsblood",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/hiteffect_veinsblood.dds",
+				"%engine%/engineassets/textures/hiteffect_veinsblood.dds.1",
+				"%engine%/engineassets/textures/hiteffect_veinsblood.dds.2",
+				"%engine%/engineassets/textures/hiteffect_veinsblood.dds.3",
+				"%engine%/engineassets/textures/hiteffect_veinsblood.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/hiteffect_veinsblood.tif",
+			"metadata": "%engine%/engineassets/textures/hiteffect_veinsblood.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5b3eaa49-6391-3fe3-cba6-fdf89767b52e",
+			"name": "interference",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/interference.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/interference.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b7f2c003-7111-e1a2-070a-e58dbe0c4e89",
+			"name": "jumpnoisehighfrequency_x27y19",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/jumpnoisehighfrequency_x27y19.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/jumpnoisehighfrequency_x27y19.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8bbef126-93b7-efdb-87ed-871c5917a171",
+			"name": "alien_ringlight",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/alien_ringlight.dds",
+				"%engine%/engineassets/textures/lights/alien_ringlight.dds.1",
+				"%engine%/engineassets/textures/lights/alien_ringlight.dds.2",
+				"%engine%/engineassets/textures/lights/alien_ringlight.dds.3",
+				"%engine%/engineassets/textures/lights/alien_ringlight.dds.4",
+				"%engine%/engineassets/textures/lights/alien_ringlight.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/alien_ringlight.tif",
+			"metadata": "%engine%/engineassets/textures/lights/alien_ringlight.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "eb778b65-91a8-538b-b015-2ba6e5827481",
+			"name": "ce_logo_black",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/ce_logo_black.dds",
+				"%engine%/engineassets/textures/lights/ce_logo_black.dds.1",
+				"%engine%/engineassets/textures/lights/ce_logo_black.dds.2",
+				"%engine%/engineassets/textures/lights/ce_logo_black.dds.3",
+				"%engine%/engineassets/textures/lights/ce_logo_black.dds.4",
+				"%engine%/engineassets/textures/lights/ce_logo_black.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/ce_logo_black.tif",
+			"metadata": "%engine%/engineassets/textures/lights/ce_logo_black.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c1c9a0b8-4aae-11d0-0940-484bef9d36d6",
+			"name": "ce_logo_white",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/ce_logo_white.dds",
+				"%engine%/engineassets/textures/lights/ce_logo_white.dds.1",
+				"%engine%/engineassets/textures/lights/ce_logo_white.dds.2",
+				"%engine%/engineassets/textures/lights/ce_logo_white.dds.3",
+				"%engine%/engineassets/textures/lights/ce_logo_white.dds.4",
+				"%engine%/engineassets/textures/lights/ce_logo_white.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/ce_logo_white.tif",
+			"metadata": "%engine%/engineassets/textures/lights/ce_logo_white.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "64efccfa-e6f6-2d09-b52a-2fb413c64d9d",
+			"name": "donut_light",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/donut_light.dds",
+				"%engine%/engineassets/textures/lights/donut_light.dds.1",
+				"%engine%/engineassets/textures/lights/donut_light.dds.2",
+				"%engine%/engineassets/textures/lights/donut_light.dds.3",
+				"%engine%/engineassets/textures/lights/donut_light.dds.4",
+				"%engine%/engineassets/textures/lights/donut_light.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/donut_light.tif",
+			"metadata": "%engine%/engineassets/textures/lights/donut_light.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d3cfaf37-027c-9446-60b2-df8cb5a6a010",
+			"name": "flashlight_projector",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/flashlight_projector.dds",
+				"%engine%/engineassets/textures/lights/flashlight_projector.dds.1",
+				"%engine%/engineassets/textures/lights/flashlight_projector.dds.2",
+				"%engine%/engineassets/textures/lights/flashlight_projector.dds.3",
+				"%engine%/engineassets/textures/lights/flashlight_projector.dds.4",
+				"%engine%/engineassets/textures/lights/flashlight_projector.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/flashlight_projector.tif",
+			"metadata": "%engine%/engineassets/textures/lights/flashlight_projector.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "968ae66b-5036-0126-228f-e299debb418e",
+			"name": "horzontal_projector_100",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/horzontal_projector_100.dds",
+				"%engine%/engineassets/textures/lights/horzontal_projector_100.dds.1",
+				"%engine%/engineassets/textures/lights/horzontal_projector_100.dds.2",
+				"%engine%/engineassets/textures/lights/horzontal_projector_100.dds.3",
+				"%engine%/engineassets/textures/lights/horzontal_projector_100.dds.4",
+				"%engine%/engineassets/textures/lights/horzontal_projector_100.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/horzontal_projector_100.tif",
+			"metadata": "%engine%/engineassets/textures/lights/horzontal_projector_100.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "dd53fa3e-63a4-2c25-5ef3-3893e3db337b",
+			"name": "lens_flare1",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/lens_flare1.dds",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.a",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.1",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.1a",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.2",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.2a",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.3",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.3a",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.4",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.4a",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.5",
+				"%engine%/engineassets/textures/lights/lens_flare1.dds.5a"
+			],
+			"source": "%engine%/engineassets/textures/lights/lens_flare1.tif",
+			"metadata": "%engine%/engineassets/textures/lights/lens_flare1.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "4ec014c9-414a-d750-fb68-aa58adfe064e",
+			"name": "rectangular_projector_100",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/rectangular_projector_100.dds",
+				"%engine%/engineassets/textures/lights/rectangular_projector_100.dds.1",
+				"%engine%/engineassets/textures/lights/rectangular_projector_100.dds.2",
+				"%engine%/engineassets/textures/lights/rectangular_projector_100.dds.3",
+				"%engine%/engineassets/textures/lights/rectangular_projector_100.dds.4",
+				"%engine%/engineassets/textures/lights/rectangular_projector_100.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/rectangular_projector_100.tif",
+			"metadata": "%engine%/engineassets/textures/lights/rectangular_projector_100.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "78b45392-2e60-9809-c27e-9eef5c2b37f5",
+			"name": "rectangular_projector_33",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/rectangular_projector_33.dds",
+				"%engine%/engineassets/textures/lights/rectangular_projector_33.dds.1",
+				"%engine%/engineassets/textures/lights/rectangular_projector_33.dds.2",
+				"%engine%/engineassets/textures/lights/rectangular_projector_33.dds.3",
+				"%engine%/engineassets/textures/lights/rectangular_projector_33.dds.4",
+				"%engine%/engineassets/textures/lights/rectangular_projector_33.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/rectangular_projector_33.tif",
+			"metadata": "%engine%/engineassets/textures/lights/rectangular_projector_33.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "973b401a-292e-0f90-1de5-7307b48f7d1c",
+			"name": "rectangular_projector_66",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/rectangular_projector_66.dds",
+				"%engine%/engineassets/textures/lights/rectangular_projector_66.dds.1",
+				"%engine%/engineassets/textures/lights/rectangular_projector_66.dds.2",
+				"%engine%/engineassets/textures/lights/rectangular_projector_66.dds.3",
+				"%engine%/engineassets/textures/lights/rectangular_projector_66.dds.4",
+				"%engine%/engineassets/textures/lights/rectangular_projector_66.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/rectangular_projector_66.tif",
+			"metadata": "%engine%/engineassets/textures/lights/rectangular_projector_66.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7e8c6ac8-bd0f-6fb6-bf82-6963ccecc6de",
+			"name": "softedge",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/softedge.dds",
+				"%engine%/engineassets/textures/lights/softedge.dds.1",
+				"%engine%/engineassets/textures/lights/softedge.dds.2",
+				"%engine%/engineassets/textures/lights/softedge.dds.3",
+				"%engine%/engineassets/textures/lights/softedge.dds.4",
+				"%engine%/engineassets/textures/lights/softedge.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/softedge.tif",
+			"metadata": "%engine%/engineassets/textures/lights/softedge.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "12a337a8-f60d-80d3-03fe-58d05aefb4ea",
+			"name": "spot_005",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/spot_005.dds",
+				"%engine%/engineassets/textures/lights/spot_005.dds.1",
+				"%engine%/engineassets/textures/lights/spot_005.dds.2",
+				"%engine%/engineassets/textures/lights/spot_005.dds.3",
+				"%engine%/engineassets/textures/lights/spot_005.dds.4",
+				"%engine%/engineassets/textures/lights/spot_005.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/spot_005.tif",
+			"metadata": "%engine%/engineassets/textures/lights/spot_005.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c0e8a065-eeb2-9782-d540-a46f2ca79ccc",
+			"name": "spot_025",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/spot_025.dds",
+				"%engine%/engineassets/textures/lights/spot_025.dds.1",
+				"%engine%/engineassets/textures/lights/spot_025.dds.2",
+				"%engine%/engineassets/textures/lights/spot_025.dds.3",
+				"%engine%/engineassets/textures/lights/spot_025.dds.4",
+				"%engine%/engineassets/textures/lights/spot_025.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/spot_025.tif",
+			"metadata": "%engine%/engineassets/textures/lights/spot_025.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "e48a294e-bf81-535b-37fa-226a0a95c415",
+			"name": "spot_050",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/spot_050.dds",
+				"%engine%/engineassets/textures/lights/spot_050.dds.1",
+				"%engine%/engineassets/textures/lights/spot_050.dds.2",
+				"%engine%/engineassets/textures/lights/spot_050.dds.3",
+				"%engine%/engineassets/textures/lights/spot_050.dds.4",
+				"%engine%/engineassets/textures/lights/spot_050.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/spot_050.tif",
+			"metadata": "%engine%/engineassets/textures/lights/spot_050.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "47a00275-fccc-68f4-074d-cdf5cea6fc62",
+			"name": "spot_075",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/spot_075.dds",
+				"%engine%/engineassets/textures/lights/spot_075.dds.1",
+				"%engine%/engineassets/textures/lights/spot_075.dds.2",
+				"%engine%/engineassets/textures/lights/spot_075.dds.3",
+				"%engine%/engineassets/textures/lights/spot_075.dds.4",
+				"%engine%/engineassets/textures/lights/spot_075.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/spot_075.tif",
+			"metadata": "%engine%/engineassets/textures/lights/spot_075.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "a9e1b4e1-57b0-3316-4e85-d9035a59cb15",
+			"name": "spot_100",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/spot_100.dds",
+				"%engine%/engineassets/textures/lights/spot_100.dds.1",
+				"%engine%/engineassets/textures/lights/spot_100.dds.2",
+				"%engine%/engineassets/textures/lights/spot_100.dds.3",
+				"%engine%/engineassets/textures/lights/spot_100.dds.4",
+				"%engine%/engineassets/textures/lights/spot_100.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/spot_100.tif",
+			"metadata": "%engine%/engineassets/textures/lights/spot_100.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8fd2fb13-5c44-18c9-4a03-32d2222ba800",
+			"name": "vertical_projector_100",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/lights/vertical_projector_100.dds",
+				"%engine%/engineassets/textures/lights/vertical_projector_100.dds.1",
+				"%engine%/engineassets/textures/lights/vertical_projector_100.dds.2",
+				"%engine%/engineassets/textures/lights/vertical_projector_100.dds.3",
+				"%engine%/engineassets/textures/lights/vertical_projector_100.dds.4",
+				"%engine%/engineassets/textures/lights/vertical_projector_100.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/lights/vertical_projector_100.tif",
+			"metadata": "%engine%/engineassets/textures/lights/vertical_projector_100.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "73d43375-de9a-70f6-5a25-2d84a740af79",
+			"name": "moisturedroplets",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/moisturedroplets.dds",
+				"%engine%/engineassets/textures/moisturedroplets.dds.1",
+				"%engine%/engineassets/textures/moisturedroplets.dds.2",
+				"%engine%/engineassets/textures/moisturedroplets.dds.3",
+				"%engine%/engineassets/textures/moisturedroplets.dds.4",
+				"%engine%/engineassets/textures/moisturedroplets.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/moisturedroplets.tif",
+			"metadata": "%engine%/engineassets/textures/moisturedroplets.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "01649ee1-a54c-5486-e326-994194be4ea5",
+			"name": "nightvis_grad",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/nightvis_grad.dds" ],
+			"source": "%engine%/engineassets/textures/nightvis_grad.tif",
+			"metadata": "%engine%/engineassets/textures/nightvis_grad.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "67fa436d-4323-809b-2028-2dbf1659c63a",
+			"name": "noise",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/noise.dds",
+				"%engine%/engineassets/textures/noise.dds.1",
+				"%engine%/engineassets/textures/noise.dds.2"
+			],
+			"source": "%engine%/engineassets/textures/noise.tif",
+			"metadata": "%engine%/engineassets/textures/noise.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "5" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3461abcb-67d8-cadb-8be0-7f98fa7e6026",
+			"name": "noise3d",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/noise3d.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/noise3d.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "15c93779-ce9f-2a11-a8e6-54ff9c04ebb3",
+			"name": "oceanwaves_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/oceanwaves_ddn.dds",
+				"%engine%/engineassets/textures/oceanwaves_ddn.dds.1",
+				"%engine%/engineassets/textures/oceanwaves_ddn.dds.2",
+				"%engine%/engineassets/textures/oceanwaves_ddn.dds.3",
+				"%engine%/engineassets/textures/oceanwaves_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/oceanwaves_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/oceanwaves_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "cce828f5-f2ad-4ce0-fc7a-a079ce50c95f",
+			"name": "cloak_interlation",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/palette/cloak_interlation.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/palette/cloak_interlation.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b67a69c4-b16d-58f5-70ee-d1c54d79caef",
+			"name": "cloak_palette",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/palette/cloak_palette.dds" ],
+			"source": "%engine%/engineassets/textures/palette/cloak_palette.tif",
+			"metadata": "%engine%/engineassets/textures/palette/cloak_palette.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b5195e8b-16fd-efcc-9c83-c9b36df459a0",
+			"name": "cloak_sparks",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/palette/cloak_sparks.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/palette/cloak_sparks.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0b0d2567-42df-50f6-a147-6bb4dc98f8fd",
+			"name": "cloak_transition",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/palette/cloak_transition.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/palette/cloak_transition.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "8" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "370d0ffb-5cda-646f-a510-1a049c88a18e",
+			"name": "palletteinst",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/palletteInst.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/palletteinst.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "2" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "43178161-4cec-9958-0837-ab8150d07fbf",
+			"name": "perlinnoise2d",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/perlinNoise2d.dds",
+				"%engine%/engineassets/textures/perlinNoise2d.dds.1",
+				"%engine%/engineassets/textures/perlinNoise2d.dds.2",
+				"%engine%/engineassets/textures/perlinNoise2d.dds.3",
+				"%engine%/engineassets/textures/perlinNoise2d.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/perlinNoise2d.tif",
+			"metadata": "%engine%/engineassets/textures/perlinnoise2d.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b395c965-badb-cd18-71f5-2bd04c4848e8",
+			"name": "perlinnoise_sum",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/perlinNoise_sum.dds",
+				"%engine%/engineassets/textures/perlinNoise_sum.dds.1",
+				"%engine%/engineassets/textures/perlinNoise_sum.dds.2",
+				"%engine%/engineassets/textures/perlinNoise_sum.dds.3",
+				"%engine%/engineassets/textures/perlinNoise_sum.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/perlinNoise_sum.tif",
+			"metadata": "%engine%/engineassets/textures/perlinnoise_sum.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d11bd744-6029-1c1a-7dfc-dfb17e4e6411",
+			"name": "perlinnoise_sum_small",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/perlinNoise_sum_small.dds",
+				"%engine%/engineassets/textures/perlinNoise_sum_small.dds.1",
+				"%engine%/engineassets/textures/perlinNoise_sum_small.dds.2",
+				"%engine%/engineassets/textures/perlinNoise_sum_small.dds.3"
+			],
+			"source": "%engine%/engineassets/textures/perlinNoise_sum_small.tif",
+			"metadata": "%engine%/engineassets/textures/perlinnoise_sum_small.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "128" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "128" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "e4bda646-9f0c-d521-4c8c-d5650bc9aba3",
+			"name": "perlinnoisederivatives",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/perlinNoiseDerivatives.dds",
+				"%engine%/engineassets/textures/perlinNoiseDerivatives.dds.1",
+				"%engine%/engineassets/textures/perlinNoiseDerivatives.dds.2",
+				"%engine%/engineassets/textures/perlinNoiseDerivatives.dds.3",
+				"%engine%/engineassets/textures/perlinNoiseDerivatives.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/perlinNoiseDerivatives.tif",
+			"metadata": "%engine%/engineassets/textures/perlinnoisederivatives.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3755bc26-98fd-9d1d-0231-e38ef9e3b2a8",
+			"name": "perlinnoisenormal_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/perlinNoiseNormal_ddn.dds",
+				"%engine%/engineassets/textures/perlinNoiseNormal_ddn.dds.1",
+				"%engine%/engineassets/textures/perlinNoiseNormal_ddn.dds.2",
+				"%engine%/engineassets/textures/perlinNoiseNormal_ddn.dds.3",
+				"%engine%/engineassets/textures/perlinNoiseNormal_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/perlinNoiseNormal_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/perlinnoisenormal_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "046f5797-896d-d2a0-9414-733eae8c0192",
+			"name": "pixeltex",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/pixeltex.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/pixeltex.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "6" },
+				{ "key": "width", "value": "32" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "51acc9f2-9214-d33a-0858-cbb827659087",
+			"name": "puddle_mask",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/puddle_mask.dds",
+				"%engine%/engineassets/textures/rain/puddle_mask.dds.1",
+				"%engine%/engineassets/textures/rain/puddle_mask.dds.2",
+				"%engine%/engineassets/textures/rain/puddle_mask.dds.3",
+				"%engine%/engineassets/textures/rain/puddle_mask.dds.4",
+				"%engine%/engineassets/textures/rain/puddle_mask.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/rain/puddle_mask.tif",
+			"metadata": "%engine%/engineassets/textures/rain/puddle_mask.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "59f9ff1b-dcba-9555-8c69-aef2d972fba5",
+			"name": "rain_spatter",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/rain_spatter.dds",
+				"%engine%/engineassets/textures/rain/rain_spatter.dds.1",
+				"%engine%/engineassets/textures/rain/rain_spatter.dds.2",
+				"%engine%/engineassets/textures/rain/rain_spatter.dds.3",
+				"%engine%/engineassets/textures/rain/rain_spatter.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/rain_spatter.tif",
+			"metadata": "%engine%/engineassets/textures/rain/rain_spatter.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f6b59bf7-8927-a999-e4cf-7ac30d1d878d",
+			"name": "rain_streak",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/rain_streak.dds",
+				"%engine%/engineassets/textures/rain/rain_streak.dds.1",
+				"%engine%/engineassets/textures/rain/rain_streak.dds.2",
+				"%engine%/engineassets/textures/rain/rain_streak.dds.3",
+				"%engine%/engineassets/textures/rain/rain_streak.dds.4",
+				"%engine%/engineassets/textures/rain/rain_streak.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/rain/rain_streak.tif",
+			"metadata": "%engine%/engineassets/textures/rain/rain_streak.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f4d8a6e0-ce3d-b737-33ba-07e5608d32fb",
+			"name": "rainfall",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/rainfall.dds",
+				"%engine%/engineassets/textures/rain/rainfall.dds.1",
+				"%engine%/engineassets/textures/rain/rainfall.dds.2",
+				"%engine%/engineassets/textures/rain/rainfall.dds.3",
+				"%engine%/engineassets/textures/rain/rainfall.dds.4",
+				"%engine%/engineassets/textures/rain/rainfall.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/rain/rainfall.tif",
+			"metadata": "%engine%/engineassets/textures/rain/rainfall.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "579fc10a-10c2-083a-9cad-80f8fc4a76c5",
+			"name": "rainfall_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/rainfall_ddn.dds",
+				"%engine%/engineassets/textures/rain/rainfall_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/rainfall_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/rainfall_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/rainfall_ddn.dds.4",
+				"%engine%/engineassets/textures/rain/rainfall_ddn.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/rain/rainfall_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/rainfall_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "04e4cb82-bb7f-6833-15ef-00901eb4ea09",
+			"name": "ripple10_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple10_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple10_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple10_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple10_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple10_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple10_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple10_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "45b14698-6d7a-1b35-a51d-1c85b3f4f82f",
+			"name": "ripple11_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple11_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple11_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple11_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple11_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple11_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple11_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple11_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d3eeb9a7-eaac-b6af-3860-2fa8dfde398d",
+			"name": "ripple12_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple12_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple12_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple12_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple12_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple12_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple12_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple12_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "a68aab10-f643-c46c-f2bf-d61b4769c294",
+			"name": "ripple13_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple13_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple13_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple13_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple13_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple13_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple13_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple13_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "a21aece6-ed44-8fa9-7265-aff97b3d1ccb",
+			"name": "ripple14_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple14_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple14_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple14_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple14_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple14_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple14_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple14_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "dfa6dc2a-32aa-a078-8603-ab3443c62aa2",
+			"name": "ripple15_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple15_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple15_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple15_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple15_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple15_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple15_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple15_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0ce2b0e1-6da2-74ad-eacb-d8b912bb55ad",
+			"name": "ripple16_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple16_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple16_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple16_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple16_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple16_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple16_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple16_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8abfdafc-a0ad-5521-f01f-df5659c137ca",
+			"name": "ripple17_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple17_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple17_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple17_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple17_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple17_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple17_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple17_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5a20071a-d595-86a4-05ae-900cedb2438b",
+			"name": "ripple18_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple18_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple18_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple18_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple18_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple18_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple18_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple18_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c9eb8a1a-0a95-b517-165e-a67c185e1a6e",
+			"name": "ripple19_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple19_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple19_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple19_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple19_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple19_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple19_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple19_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c52fdca0-b823-0e6b-e9dc-24cd46eb630a",
+			"name": "ripple1_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple1_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple1_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple1_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple1_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple1_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple1_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple1_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b2f2fba8-877f-11ba-b0b6-b46881bfea80",
+			"name": "ripple20_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple20_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple20_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple20_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple20_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple20_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple20_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple20_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "0699d2f3-90b6-6051-bab7-90d988951dc2",
+			"name": "ripple21_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple21_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple21_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple21_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple21_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple21_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple21_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple21_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "3ead0b87-2c5d-6f6a-042f-f12dde359319",
+			"name": "ripple22_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple22_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple22_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple22_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple22_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple22_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple22_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple22_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7c9276dd-5e9e-9abb-7cb6-ddd6ecc704bc",
+			"name": "ripple23_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple23_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple23_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple23_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple23_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple23_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple23_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple23_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "319cbfca-efb7-c236-13a3-f0cd130b90d8",
+			"name": "ripple24_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple24_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple24_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple24_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple24_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple24_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple24_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple24_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "608a3b54-7c5c-957d-7b0f-c294ae7bb149",
+			"name": "ripple2_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple2_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple2_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple2_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple2_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple2_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple2_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple2_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8d871c64-e415-683b-56f9-56536d607652",
+			"name": "ripple3_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple3_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple3_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple3_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple3_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple3_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple3_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple3_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "84a74872-81cf-80ce-34c7-182df74e0362",
+			"name": "ripple4_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple4_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple4_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple4_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple4_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple4_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple4_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple4_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c4dc657c-31e9-9c43-832d-da54800554c6",
+			"name": "ripple5_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple5_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple5_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple5_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple5_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple5_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple5_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple5_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "e25c8ba3-bd8e-6fbb-690c-eadbe4c49456",
+			"name": "ripple6_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple6_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple6_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple6_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple6_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple6_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple6_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple6_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "954871ab-0d66-aa2c-89ee-21124628342a",
+			"name": "ripple7_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple7_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple7_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple7_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple7_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple7_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple7_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple7_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "4efa19fd-ac0f-2922-e366-8dcefdc6c9ec",
+			"name": "ripple8_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple8_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple8_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple8_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple8_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple8_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple8_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple8_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "9206d6f4-dc3c-2198-c7d8-79a0b306f805",
+			"name": "ripple9_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/ripple/ripple9_ddn.dds",
+				"%engine%/engineassets/textures/rain/ripple/ripple9_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/ripple/ripple9_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/ripple/ripple9_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/ripple/ripple9_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/ripple/ripple9_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/ripple/ripple9_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7d06fcd0-1f09-a5d9-bb30-0543f0b300e0",
+			"name": "surface_flow_ddn",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/rain/surface_flow_ddn.dds",
+				"%engine%/engineassets/textures/rain/surface_flow_ddn.dds.1",
+				"%engine%/engineassets/textures/rain/surface_flow_ddn.dds.2",
+				"%engine%/engineassets/textures/rain/surface_flow_ddn.dds.3",
+				"%engine%/engineassets/textures/rain/surface_flow_ddn.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/rain/surface_flow_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/rain/surface_flow_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "5d276396-4db3-e733-9480-a5985bee87ee",
+			"name": "rotrandom",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/rotrandom.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/rotrandom.dds.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c5ea6e20-5843-c79f-19b1-af508441f058",
+			"name": "rotrandomcm",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/rotrandomcm.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/rotrandomcm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "ab848e5a-ce05-3ae8-fcdb-ea39b56774a7",
+			"name": "scratch",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/scratch.dds",
+				"%engine%/engineassets/textures/scratch.dds.1",
+				"%engine%/engineassets/textures/scratch.dds.2",
+				"%engine%/engineassets/textures/scratch.dds.3",
+				"%engine%/engineassets/textures/scratch.dds.4",
+				"%engine%/engineassets/textures/scratch.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/scratch.tif",
+			"metadata": "%engine%/engineassets/textures/scratch.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "d7796476-db33-ee88-35dc-37a92fce5f40",
+			"name": "scratch_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/scratch_ddn.dds",
+				"%engine%/engineassets/textures/scratch_ddn.dds.1",
+				"%engine%/engineassets/textures/scratch_ddn.dds.2",
+				"%engine%/engineassets/textures/scratch_ddn.dds.3",
+				"%engine%/engineassets/textures/scratch_ddn.dds.4",
+				"%engine%/engineassets/textures/scratch_ddn.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/scratch_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/scratch_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2ecbacd0-67f9-2cec-ca34-54357ad31931",
+			"name": "screen_noisy_bump",
+			"timestamp": 131811793340000000,
+			"files": [ "%engine%/engineassets/textures/screen_noisy_bump.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/screen_noisy_bump.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b8e5e74d-8f1c-53c3-3848-b410ac020e91",
+			"name": "screenfrost_alpha",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/screenfrost_alpha.dds",
+				"%engine%/engineassets/textures/screenfrost_alpha.dds.1",
+				"%engine%/engineassets/textures/screenfrost_alpha.dds.2",
+				"%engine%/engineassets/textures/screenfrost_alpha.dds.3",
+				"%engine%/engineassets/textures/screenfrost_alpha.dds.4",
+				"%engine%/engineassets/textures/screenfrost_alpha.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/screenfrost_alpha.TIF",
+			"metadata": "%engine%/engineassets/textures/screenfrost_alpha.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "09888d8a-d59e-022b-bbd6-5a79a181213b",
+			"name": "screenfrost_ddn",
+			"timestamp": 131811793340000000,
+			"files": [
+				"%engine%/engineassets/textures/screenfrost_ddn.dds",
+				"%engine%/engineassets/textures/screenfrost_ddn.dds.1",
+				"%engine%/engineassets/textures/screenfrost_ddn.dds.2",
+				"%engine%/engineassets/textures/screenfrost_ddn.dds.3",
+				"%engine%/engineassets/textures/screenfrost_ddn.dds.4",
+				"%engine%/engineassets/textures/screenfrost_ddn.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/screenfrost_ddn.TIF",
+			"metadata": "%engine%/engineassets/textures/screenfrost_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "8c2ee4f2-2951-165d-2619-376105a82438",
+			"name": "half_moon",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/skys/night/half_moon.dds",
+				"%engine%/engineassets/textures/skys/night/half_moon.dds.1",
+				"%engine%/engineassets/textures/skys/night/half_moon.dds.2",
+				"%engine%/engineassets/textures/skys/night/half_moon.dds.3",
+				"%engine%/engineassets/textures/skys/night/half_moon.dds.4",
+				"%engine%/engineassets/textures/skys/night/half_moon.dds.5",
+				"%engine%/engineassets/textures/skys/night/half_moon.dds.6"
+			],
+			"source": "%engine%/engineassets/textures/skys/night/half_moon.tif",
+			"metadata": "%engine%/engineassets/textures/skys/night/half_moon.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1024" },
+				{ "key": "mipCount", "value": "9" },
+				{ "key": "width", "value": "1024" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "512967e1-19e5-b493-c651-72684523c756",
+			"name": "snowflakes",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/snowflakes.dds",
+				"%engine%/engineassets/textures/snowflakes.dds.1",
+				"%engine%/engineassets/textures/snowflakes.dds.2",
+				"%engine%/engineassets/textures/snowflakes.dds.3",
+				"%engine%/engineassets/textures/snowflakes.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/snowflakes.tif",
+			"metadata": "%engine%/engineassets/textures/snowflakes.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "942cd80d-ef4f-cfa6-3fc3-0940e75b70cb",
+			"name": "startscreen_eaas",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/startscreen_eaas.dds" ],
+			"source": "%engine%/engineassets/textures/startscreen_eaas.tif",
+			"metadata": "%engine%/engineassets/textures/startscreen_eaas.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1024" },
+				{ "key": "mipCount", "value": "12" },
+				{ "key": "width", "value": "2048" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "b08db159-2e99-6846-be5b-5e2476100df1",
+			"name": "texelspermetergrad",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/TexelsPerMeterGrad.dds" ],
+			"source": "%engine%/engineassets/textures/TexelsPerMeterGrad.tif",
+			"metadata": "%engine%/engineassets/textures/texelspermetergrad.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "1" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "6395a52b-c768-6e38-7f21-e9f8c7e651ab",
+			"name": "vector_noise",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/vector_noise.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/vector_noise.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "7f081c5f-de2a-daa9-53a7-e9d1039b21d0",
+			"name": "volumeraster",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/VolumeRaster.dds" ],
+			"source": "%engine%/engineassets/textures/VolumeRaster.tif",
+			"metadata": "%engine%/engineassets/textures/volumeraster.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "64" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "64" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "2721be75-45b6-1e9e-da89-d72ed73d0bea",
+			"name": "water_droplets",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/water_droplets.dds" ],
+			"source": "",
+			"metadata": "%engine%/engineassets/textures/water_droplets.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "9" },
+				{ "key": "width", "value": "256" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c62c6832-03e7-9514-ebf3-f226c06899ff",
+			"name": "water_gloss",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/water_gloss.dds",
+				"%engine%/engineassets/textures/water_gloss.dds.1",
+				"%engine%/engineassets/textures/water_gloss.dds.2",
+				"%engine%/engineassets/textures/water_gloss.dds.3",
+				"%engine%/engineassets/textures/water_gloss.dds.4",
+				"%engine%/engineassets/textures/water_gloss.dds.5"
+			],
+			"source": "%engine%/engineassets/textures/water_gloss.tif",
+			"metadata": "%engine%/engineassets/textures/water_gloss.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "512" },
+				{ "key": "mipCount", "value": "8" },
+				{ "key": "width", "value": "512" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "92ff511a-6fb8-932b-0920-8d2e2f898855",
+			"name": "white",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/white.dds" ],
+			"source": "%engine%/engineassets/textures/white.tif",
+			"metadata": "%engine%/engineassets/textures/white.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "f3f28767-7006-df07-4395-fb1bc4a405ef",
+			"name": "white_cm",
+			"timestamp": 131811793360000000,
+			"files": [
+				"%engine%/engineassets/textures/white_cm.dds",
+				"%engine%/engineassets/textures/white_cm.dds.1",
+				"%engine%/engineassets/textures/white_cm.dds.2",
+				"%engine%/engineassets/textures/white_cm.dds.3",
+				"%engine%/engineassets/textures/white_cm.dds.4"
+			],
+			"source": "%engine%/engineassets/textures/white_cm.tif",
+			"metadata": "%engine%/engineassets/textures/white_cm.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "256" },
+				{ "key": "mipCount", "value": "7" },
+				{ "key": "width", "value": "1536" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "990f007f-d949-cd24-f097-936fe8cb0ca2",
+			"name": "white_cm_diff",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/white_cm_diff.dds" ],
+			"source": "%engine%/engineassets/textures/white_cm.tif",
+			"metadata": "%engine%/engineassets/textures/white_cm_diff.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "32" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "192" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Texture",
+			"guid": "c5fbbd98-6263-82da-981a-ba61524fb1f9",
+			"name": "white_ddn",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/engineassets/textures/white_ddn.dds" ],
+			"source": "%engine%/engineassets/textures/white_ddn.tif",
+			"metadata": "%engine%/engineassets/textures/white_ddn.dds.cryasset",
+			"details": [
+				{ "key": "height", "value": "4" },
+				{ "key": "mipCount", "value": "1" },
+				{ "key": "width", "value": "4" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "4c5105f0-b1e8-76dc-bb73-8d71d23b55b7",
+			"name": "console",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/fonts/console.xml" ],
+			"source": "",
+			"metadata": "%engine%/fonts/console.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "fontshader" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "a72e876a-7f87-9165-94a6-0311c1bceaf7",
+			"name": "default",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/fonts/default.xml" ],
+			"source": "",
+			"metadata": "%engine%/fonts/default.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "fontshader" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "e6e88d56-8377-cf04-3c7f-e6218b1d0674",
+			"name": "hud",
+			"timestamp": 131811793360000000,
+			"files": [ "%engine%/fonts/hud.xml" ],
+			"source": "",
+			"metadata": "%engine%/fonts/hud.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "fontshader" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "CSharpScript",
+			"guid": "4cc89e27-dcb6-db8c-5e9a-a2353bc87483",
+			"name": "benchmark",
+			"timestamp": 1540994714,
+			"files": [ "Benchmark.cs" ],
+			"source": "",
+			"metadata": "benchmark.cs.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Level",
+			"guid": "3baa001b-2f38-9ea6-1d0c-b8ea8e262790",
+			"name": "main",
+			"timestamp": 1540995246,
+			"files": [ "main/main.level" ],
+			"source": "",
+			"metadata": "main.level.cryasset",
+			"details": [ ],
+			"dependencies": [
+				{ "path": "%editor%/crydesigner_timeofday.xml", "usageCount": 0 },
+				{ "path": "%editor%/default_time_of_day.xml", "usageCount": 0 },
+				{ "path": "%editor%/leveltemplates.xml", "usageCount": 0 },
+				{ "path": "%editor%/mapscreenshotsettings.xml", "usageCount": 0 },
+				{ "path": "%editor%/mbttemplates.xml", "usageCount": 0 },
+				{ "path": "%editor%/modellingpanel.xml", "usageCount": 0 },
+				{ "path": "%editor%/objecttemplates.xml", "usageCount": 0 },
+				{ "path": "%editor%/propertyenumerations.xml", "usageCount": 0 },
+				{ "path": "%editor%/soundtemplates.xml", "usageCount": 0 },
+				{ "path": "%editor%/toolbox.xml", "usageCount": 0 },
+				{ "path": "%editor%/usertools.xml", "usageCount": 0 },
+				{
+					"path": "%engine%/engineassets/icons/averagememoryusage.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/icons/highmemoryusage.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/icons/livepreview.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/icons/lowmemoryusage.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/fogvolumebox.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceaninto.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanintolowspec.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanoutof.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/material_terrain_default.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/sky/sky.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/water/ocean_default.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/water/wateroceanbottom.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/texturemsg/defaultnouvs.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/textures/defaults/16_12.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/textures/defaults/16_34.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/textures/defaults/16_5.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/textures/defaults/16_grey.dds",
+					"usageCount": 0
+				},
+				{ "path": "%engine%/engineassets/textures/grey.dds", "usageCount": 0 },
+				{
+					"path": "%engine%/engineassets/textures/skys/night/half_moon.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "c:/users/tobia/documents/github/language-benchmark/cry-c#/assets/benchmark.cs",
+					"usageCount": 0
+				}
+			]
+		},
+		{
+			"type": "CSharpScript",
+			"guid": "c13beaf6-f460-ea32-5d9e-28cf708e89ff",
+			"name": "Tests",
+			"timestamp": 1540995540,
+			"files": [ "Tests.cs" ],
+			"source": "",
+			"metadata": "Tests.cs.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		}
+	]
+}

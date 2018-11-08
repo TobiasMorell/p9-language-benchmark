@@ -13,7 +13,7 @@ void CPlayerComponent::Initialize()
 	m_pInputComponent->RegisterAction("player", "benchmark", [this](int activationMode, float value) { HandleInputFlagChange((TInputFlags)EInputFlag::MoveLeft, activationMode);  });
 	m_pInputComponent->BindAction("player", "benchmark", eAID_KeyboardMouse, EKeyId::eKI_Space);
 
-	gEnv->pLog->SetFileName("benchmark.log");
+	gEnv->pLog->SetFileName("Cry C++ (Debug).csv");
 
 	Revive();
 }
@@ -40,8 +40,8 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		// Check input to calculate local space velocity
 		if (m_inputFlags & (TInputFlags)EInputFlag::MoveLeft)
 		{
-			gEnv->pLog->LogToFile("Starting benchmark");
-			gEnv->pLog->LogToFile("Message\tMean\tDeviation\tCount");
+			CryLogAlways("Starting benchmark");
+			gEnv->pLog->LogToFile("Message,Mean,Deviation,Count\n");
 
 			Benchmark8("Scale2D", scaleVector2D, 5, 250.0);
 			Benchmark8("Scale3D", scaleVector3D, 5, 250.0);
@@ -59,7 +59,7 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 			Benchmark8("Memory", memTest, 5, 250.0);
 			Benchmark8("Sestoft", sestoft, 5, 250.0);
 
-			gEnv->pLog->LogToFile("Benchmark done");
+			CryLogAlways("Benchmark done");
 		}
 	}
 	break;

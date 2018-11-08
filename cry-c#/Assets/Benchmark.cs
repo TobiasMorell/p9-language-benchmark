@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using CryEngine;
 
 namespace CryEngine.Game
@@ -24,6 +25,29 @@ namespace CryEngine.Game
             {
                 _started = DateTime.UtcNow;
             }
+        }
+
+        private static StreamWriter LogFile;
+
+        public static void OpenLogFile(string filename)
+        {
+            var curDir = Directory.GetCurrentDirectory();
+            string fullPath = $"{curDir}/{filename}";
+
+            if (File.Exists(fullPath))
+            {
+                File.Delete(fullPath);
+            }
+
+            LogFile = new StreamWriter(fullPath);
+
+            LogFile.WriteLine("Test,Mean,Deviation,Count");
+        }
+
+        public static void CloseLogFile()
+        {
+            LogFile.Flush();
+            LogFile.Close();
         }
 
         public static double Mark8(string msg, Func<int, double> fun,
@@ -53,7 +77,7 @@ namespace CryEngine.Game
 
             double mean = deltaTime / iterations,
                 standardDeviation = Math.Sqrt((deltaTimeSquared - mean * mean * iterations) / (iterations - 1));
-            CryEngine.Log.ToFile<Benchmark>($"{msg},{mean},{standardDeviation},{count}");
+            LogFile.WriteLine($"{msg},{mean},{standardDeviation},{count}");
             return dummy / totalCount;
         }
 
@@ -62,7 +86,7 @@ namespace CryEngine.Game
         /// </summary>
         protected override void OnGameplayStart()
 		{
-			
+            OpenLogFile($"Cry C# ({mode}).csv");
 		}
 
         private bool IsTestsStarted = false;
@@ -82,8 +106,6 @@ namespace CryEngine.Game
 			if(Input.KeyDown(KeyId.Space) && !IsTestsStarted)
             {
                 IsTestsStarted = true;
-                CryEngine.Log.FileName = "Cry C# .csv";
-                CryEngine.Log.ToFile<Benchmark>($"Test,Mean,Deviation,Count");
 
                 Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
                 Benchmark.Mark8("ScaleVector3D", Tests.ScaleVector3D, 5, MsToNs(250));
@@ -101,8 +123,7 @@ namespace CryEngine.Game
                 Benchmark.Mark8("Prime", Tests.Primes, 5, MsToNs(250));
                 Benchmark.Mark8("Sestoft", Tests.Sestoft, 5, MsToNs(250));
 
-                CryEngine.Log.ToFile<Benchmark>("Done! Press 'Enter' to exit");
-                Console.ReadLine();
+                CloseLogFile();
             }
 		}
 
