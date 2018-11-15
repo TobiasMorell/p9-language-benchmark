@@ -60,11 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Agent.cs" />
     <Compile Include="Assets\Scripts\Benchmark.cs" />
     <Compile Include="Assets\Scripts\Test2D.cs" />
     <Compile Include="Assets\Scripts\Test3D.cs" />
     <Compile Include="Assets\Scripts\TestMath.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\WorldGenerator.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/tobia/Documents/GitHub/language-benchmark/unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
