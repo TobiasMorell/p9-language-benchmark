@@ -18,26 +18,26 @@ namespace benchmark_csv_merger
             var scores = files.Select(ParseBenchmarkScore).OrderBy(t => t.Item1);
             
             string[] testNames = {
-                "ScaleVector2D",
-                "ScaleVector3D",
-                "MultiplyVector2D",
-                "MultiplyVector3D",
-                "TranslateVector2D",
-                "TranslateVector3D",
-                "SubstractVector2D",
-                "SubstractVector3D",
-                "LengthVector2D",
-                "LengthVector3D",
-                "Dotproduct2D",
-                "Dotproduct3D",
-                "MemTest",
+                "Scale Vector 2D",
+                "Scale Vector 3D",
+                "Multiply Vector 2D",
+                "Multiply Vector 3D",
+                "Translate Vector 2D",
+                "Translate Vector 3D",
+                "Subtract Vector 2D",
+                "Subtract Vector 3D",
+                "Length Vector 2D",
+                "Length Vector 3D",
+                "Dot Product 2D",
+                "Dot Product 3D",
+                "Array Allocation",
                 "Prime",
                 "Sestoft"
             };
             
             var numberOfTests = testNames.Length;
             var sb = new StringBuilder(",");
-            sb.AppendLine(string.Join(", ", scores.Select(s => s.Item1)));
+            sb.AppendLine(string.Join(", ", scores.Select(s => s.Item1.Replace("#", "Sharp"))));
 
             for (var i = 0; i < numberOfTests; i++)
             {
