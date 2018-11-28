@@ -50,10 +50,12 @@
 
 (def createOutput
     (File/WriteAllText "out.txt" "Msg, Mean, Deviation, Count\n"))
+  
+(defn msToNs [input]
+	(* input 1000000))
 
 (def testDuration
-  0.250)
-
+	(msToNs 250))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Mark 8 function
@@ -84,15 +86,17 @@
                   (stateAddUpdate ttime :deltaTime)
                   (stateAddUpdate (* ttime ttime) :deltaTimeSquared)
                   (stateAddUpdate (state tar :sCount) :totalCount)
-                  (let [mean (/ (state tar :deltaTime) iterations)]
-                    (let [stddev (Mathf/Sqrt (/  (- (state tar :deltaTimeSquared) (* mean (* iterations mean))) (- iterations 1) ))]
-                      (resultOutput msg mean stddev (stateGet :sCount))
-                      ;;(log "test")
-                      )
-                    )
-
-                  )
-                ))))))))
+				))
+			)
+		  )	
+	  ))
+	  (let [mean (/ (state tar :deltaTime) iterations)]
+		(let [stddev (Mathf/Sqrt (/  (- (state tar :deltaTimeSquared) (* mean (* iterations mean))) (- iterations 1) ))]
+		  (resultOutput msg mean stddev (stateGet :sCount))
+		  ;;(log "test")
+		  )
+		)
+)))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
