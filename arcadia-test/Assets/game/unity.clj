@@ -6,7 +6,8 @@
        as well as some helper methods that interact with the coroutiner to 
        make it easier to execute coroutines, invocations, ect from Clojure!"
       (:use arcadia.core
-                    arcadia.linear))
+                    arcadia.linear)
+      (:import Coroutiner arcadia.core.server))
 
 (def epsilon (. System.Single Epsilon))
 
