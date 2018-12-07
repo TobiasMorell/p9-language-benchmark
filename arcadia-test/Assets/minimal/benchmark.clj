@@ -2,7 +2,8 @@
 (ns minimal.benchmark
   (:import [System.IO File]
            [UnityEngine Input KeyCode Camera Physics Time Resources GameObject Vector2 Vector3 Transform Quaternion Rigidbody2D Physics2D Mathf])
-  (:use arcadia.core arcadia.linear))
+  (:use arcadia.core arcadia.linear)
+  (:require arcadia.core.server))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

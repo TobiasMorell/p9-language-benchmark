@@ -7,7 +7,7 @@
        make it easier to execute coroutines, invocations, ect from Clojure!"
       (:use arcadia.core
                     arcadia.linear)
-      (:import Coroutiner arcadia.core.server))
+      (:import Coroutiner arcadia.core.server clojure.core.server))
 
 (def epsilon (. System.Single Epsilon))
 
@@ -45,26 +45,4 @@
 
 (defn any-key []
     (. UnityEngine.Input anyKey))
-
-(defn coroutine
-    "Function for running Unity Coroutines from Arcadia
-       The given gameobject and value will be passed to the function f
-       on every loop of the coroutine, waiting the given wait time returned by the
-       given function f(0 for no wait time). This function requires that a single Corouiner component
-       is added somewhere in the scene.  The given function f should return a -1
-       when the coroutine should stop."
-      [gameobject f value]
-        (.. Coroutiner instance (runCoroutine gameobject f value)))
-
-(defn invoke
-    "Runs a Unity like Invoke on the function once with the given gameobject ref 
-       and value after the specified wait-time.  Use this when you need to call a function
-       once after a set delay."
-      [gameobject f wait-time value]
-        (.. Coroutiner instance (runInvoke gameobject f wait-time value)))
-
-(defn sceneLoadedHook+
-    "Adds a sceneLoaded event listener to the SceneManager"
-      [gameobject f]
-        (.. Coroutiner instance (sceneLoadedHook gameobject f)))
 
