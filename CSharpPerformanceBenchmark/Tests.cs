@@ -32,16 +32,19 @@ namespace CSharpPerformanceBenchmark
             return v1.Length();
         }
 
-        public static double TranslateVector2D(int i){
+        public static double TranslateVector2D(int i)
+        {
             var v1 = new Vector2(1);
-            v1.X += i;
-            return v1.Length();
+            var v2 = new Vector2(i);
+            var v3 = v1 + v2;
+            return v3.Length();
         }
 
         public static double TranslateVector3D(int i){
             var v1 = new Vector3(1);
-            v1.X += i;
-            return v1.Length();
+            var v2 = new Vector3(i);
+            var v3 = v1 + v2;
+            return v3.Length();
         }
 
         public static double SubstractVector2D(int i){
