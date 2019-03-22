@@ -24,7 +24,7 @@ public class icon : Sprite
         if (Input.IsKeyPressed((int) KeyList.Space))
         {
             Console.WriteLine("TEST STARTED");
-            Benchmark.OpenLogFile("Godot C# (release).csv");
+            Benchmark.OpenLogFile("Godot C# (debug).csv");
             
             Benchmark.Mark8("ScaleVector2D", Tests.ScaleVector2D, 5, MsToNs(250));
             Benchmark.Mark8("ScaleVector3D", Tests.ScaleVector3D, 5, MsToNs(250));
@@ -53,15 +53,15 @@ public class icon : Sprite
 	
 	    public static void OpenLogFile(string filename)
 	    {
-	
-	        var curDir = System.IO.Directory.GetCurrentDirectory();
-	        var fullPath = $"{curDir}/../../results/{filename}";
+			var path = System.IO.Path.GetFullPath("results");
+			System.IO.Directory.CreateDirectory(path);
+	        var fullPath = System.IO.Path.Combine(path, filename);
 	
 	        if(System.IO.File.Exists(fullPath))
 	        {
 	            System.IO.File.Delete(fullPath);
 	        }
-	
+		
 	        LogFile = new StreamWriter(fullPath);
 	
 	        LogFile.WriteLine("Test,Message,Mean,Deviation,Count");
