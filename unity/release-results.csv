@@ -1,0 +1,20 @@
+Test,Mean,Deviation,Count
+Sestoft Multiply,48.536,0.648,8388608
+Primes,3785.395,30.906,131072
+RandomizeArray,3061.107,58.782,131072
+GameOfLife,123396.484,3416.722,2048
+InvasionPercolation,56027.239,1034.200,8192
+FibonacciRecursive,676.783,7.516,524288
+FibonacciIterative,87.546,0.780,4194304
+ScaleVector2D,73.230,0.595,4194304
+ScaleVector3D,104.495,0.657,4194304
+MultiplyVector2D,73.668,1.097,4194304
+MultiplyVector3D,100.150,0.879,4194304
+TranslateVector2D,73.439,1.412,4194304
+TranslateVector3D,97.005,1.153,4194304
+SubtractVector2D,81.806,0.705,4194304
+SubtractVector3D,81.525,0.179,4194304
+LengthVector2D,54.961,0.243,8388608
+LengthVector3D,58.403,1.096,8388608
+DotProductVector2D,35.504,0.223,8388608
+DotProductVector3D,47.485,0.187,8388608
