@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Numerics;
 
 namespace CSharpPerformanceBenchmark
@@ -129,5 +130,9 @@ namespace CSharpPerformanceBenchmark
             var x = 1.1 * (input & 0xFF);
             return x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x;
         }
+
+        
+        
+       
     }
 }

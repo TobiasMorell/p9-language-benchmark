@@ -2,11 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
+using UnityEngine;
+using Random = System.Random;
 
 namespace CSharp_Microbenches
 {
-    static class Tests
+    static partial class Tests
     {
         
         public static float RunInvasionPercolation(int dummy)
@@ -25,7 +26,7 @@ namespace CSharp_Microbenches
             for (var j=0;j<m;++j)
                 array[i, j] = random.Next();
 
-            return array[n - 1, m - 1];
+            return dummy + array[n - 1, m - 1];
         }
 
         public static float FibonacciRecursive(int dummy) => FibonacciRecursive(0, 1, 150);
@@ -63,7 +64,7 @@ namespace CSharp_Microbenches
                 grid = IterateGrid(grid);
             }
 
-            return 0;
+            return dummy + 0.0f;
         }
         
         static string IterateGrid(string grid)
@@ -122,79 +123,79 @@ namespace CSharp_Microbenches
 
     
         public static float ScaleVector2D(int scalar){
-            var v = new Vector2(1);
+            var v = new Vector2(1, 1);
             v *= scalar;
-            return v.Length();
+            return v.magnitude;
         }
 
         public static float ScaleVector3D(int scalar){
-            var v = new Vector3(1);
+            var v = new Vector3(1, 1, 1);
             v *= scalar;
-            return v.Length();
+            return v.magnitude;
         }
 
         public static float MultiplyVector2D(int i){
-            var v1 = new Vector2(1);
-            var v2 = new Vector2(i);
-            v1 *= v2;
-            return v1.Length();
+            var v1 = new Vector2(1, 1);
+            var v2 = new Vector2(i, i);
+            v1.Scale(v2);
+            return v1.magnitude;
         }
 
         public static float MultiplyVector3D(int i){
-            var v1 = new Vector3(1);
-            var v2 = new Vector3(i);
-            v1 *= v2;
-            return v1.Length();
+            var v1 = new Vector3(1, 1, 1);
+            var v2 = new Vector3(i, i);
+            v1.Scale(v2);
+            return v1.magnitude;
         }
 
         public static float TranslateVector2D(int i)
         {
-            var v1 = new Vector2(1);
-            var v2 = new Vector2(i);
+            var v1 = new Vector2(1, 1);
+            var v2 = new Vector2(i, i);
             var v3 = v1 + v2;
-            return v3.Length();
+            return v3.magnitude;
         }
 
         public static float TranslateVector3D(int i){
-            var v1 = new Vector3(1);
-            var v2 = new Vector3(i);
+            var v1 = new Vector3(1, 1, 1);
+            var v2 = new Vector3(i, i, i);
             var v3 = v1 + v2;
-            return v3.Length();
+            return v3.magnitude;
         }
 
         public static float SubtractVector2D(int i){
-            var v1 = new Vector2(i);
-            var v2 = new Vector2(1);
+            var v1 = new Vector2(i, i);
+            var v2 = new Vector2(1, 1);
             v1 -= v2;
-            return v1.Length();
+            return v1.magnitude;
         }
 
         public static float SubtractVector3D(int i){
-            var v1 = new Vector2(i);
-            var v2 = new Vector2(1);
+            var v1 = new Vector2(i, i);
+            var v2 = new Vector2(1, 1);
             v1 -= v2;
-            return v1.Length();
+            return v1.magnitude;
         }
 
         public static float LengthVector2D(int i){
-            var v1 = new Vector2(i);
-            return v1.Length();
+            var v1 = new Vector2(i, i);
+            return v1.magnitude;
         }
 
         public static float LengthVector3D(int i){
-            var v1 = new Vector3(i);
-            return v1.Length();
+            var v1 = new Vector3(i, i, i);
+            return v1.magnitude;
         }
 
         public static float DotProduct2D(int i){
-            var v1 = new Vector2(1);
-            var v2 = new Vector2(i);
+            var v1 = new Vector2(1, 1);
+            var v2 = new Vector2(i, i);
             return Vector2.Dot(v1, v2);
         }
 
         public static float DotProduct3D(int i){
-            var v1 = new Vector3(1);
-            var v2 = new Vector3(i);
+            var v1 = new Vector3(1, 1, 1);
+            var v2 = new Vector3(i, i, i);
             return Vector3.Dot(v1, v2);
         }
         
